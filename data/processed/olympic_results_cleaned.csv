@@ -1,0 +1,1870 @@
+event,gender,athlete_name,team_code,year,location,swim_time_s,rank
+100m Backstroke,Men,Evgeny Rylov,ROC,2020,Tokyo,51.98,1
+100m Backstroke,Men,Kliment Kolesnikov,ROC,2020,Tokyo,52.0,2
+100m Backstroke,Men,Ryan Murphy,USA,2020,Tokyo,52.19,3
+100m Backstroke,Men,Thomas Ceccon,ITA,2020,Tokyo,52.3,4
+100m Backstroke,Men,Jiayu Xu,CHN,2020,Tokyo,52.51,4
+100m Backstroke,Men,Hugo Gonzalez De Oliveira,ESP,2020,Tokyo,52.78,4
+100m Backstroke,Men,Mitchell Larkin,AUS,2020,Tokyo,52.79,4
+100m Backstroke,Men,Robert Glinta,ROU,2020,Tokyo,52.95,4
+100m Breaststroke,Men,Adam Peaty,GBR,2020,Tokyo,57.37,1
+100m Breaststroke,Men,Arno Kamminga,NED,2020,Tokyo,58.0,2
+100m Breaststroke,Men,Nicolo Martinenghi,ITA,2020,Tokyo,58.33,3
+100m Breaststroke,Men,Michael Andrew,USA,2020,Tokyo,58.84,4
+100m Breaststroke,Men,James Wilby,GBR,2020,Tokyo,58.96,4
+100m Breaststroke,Men,Zibei Yan,CHN,2020,Tokyo,58.99,4
+100m Breaststroke,Men,Andrew Wilson,USA,2020,Tokyo,58.99,4
+100m Breaststroke,Men,Ilya Shymanovich,BLR,2020,Tokyo,59.36,4
+100m Butterfly,Men,Caeleb Dressel,USA,2020,Tokyo,49.45,1
+100m Butterfly,Men,Kristof Kristof Milak,HUN,2020,Tokyo,49.68,2
+100m Butterfly,Men,Noe Ponti,SUI,2020,Tokyo,50.74,3
+100m Butterfly,Men,Andrei Minakov,ROC,2020,Tokyo,50.88,4
+100m Butterfly,Men,Jakub Majerski,POL,2020,Tokyo,50.92,4
+100m Butterfly,Men,Matthew Temple,AUS,2020,Tokyo,50.92,4
+100m Butterfly,Men,Luis Martinez,GUA,2020,Tokyo,51.09,4
+100m Butterfly,Men,Josif Miladinov,BUL,2020,Tokyo,51.49,4
+100m Freestyle,Men,Caeleb Dressel,USA,2020,Tokyo,47.02,1
+100m Freestyle,Men,Kyle Chalmers,AUS,2020,Tokyo,47.08,2
+100m Freestyle,Men,Kliment Kolesnikov,ROC,2020,Tokyo,47.44,3
+100m Freestyle,Men,Maxime Grousset,FRA,2020,Tokyo,47.72,4
+100m Freestyle,Men,Sunwoo Hwang,KOR,2020,Tokyo,47.82,4
+100m Freestyle,Men,Alessandro Miressi,ITA,2020,Tokyo,47.86,4
+100m Freestyle,Men,David Popovici,ROU,2020,Tokyo,48.04,4
+100m Freestyle,Men,Nandor Nemeth,HUN,2020,Tokyo,48.1,4
+1500m Freestyle,Men,Robert Finke,USA,2020,Tokyo,879.65,1
+1500m Freestyle,Men,Mykhailo Romanchuk,UKR,2020,Tokyo,880.66,2
+1500m Freestyle,Men,Florian Wellbrock,GER,2020,Tokyo,880.91,3
+1500m Freestyle,Men,Gregorio Paltrinieri,ITA,2020,Tokyo,885.01,4
+1500m Freestyle,Men,Daniel Jervis,GBR,2020,Tokyo,895.48,4
+1500m Freestyle,Men,Kirill Martynychev,ROC,2020,Tokyo,895.85,4
+1500m Freestyle,Men,Felix Auboeck,AUT,2020,Tokyo,903.47,4
+1500m Freestyle,Men,Serhii Frolov,UKR,2020,Tokyo,904.26,4
+200m Backstroke,Men,Evgeny Rylov,ROC,2020,Tokyo,113.27,1
+200m Backstroke,Men,Ryan Murphy,USA,2020,Tokyo,114.15,2
+200m Backstroke,Men,Luke Greenbank,GBR,2020,Tokyo,114.72,3
+200m Backstroke,Men,Bryce Mefford,USA,2020,Tokyo,115.49,4
+200m Backstroke,Men,Adam Telegdy,HUN,2020,Tokyo,116.15,4
+200m Backstroke,Men,Radoslaw Kawecki,POL,2020,Tokyo,116.39,4
+200m Backstroke,Men,Ryosuke Irie,JPN,2020,Tokyo,117.32,4
+200m Backstroke,Men,Nicolas Garcia Saiz,ESP,2020,Tokyo,119.06,4
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,2020,Tokyo,126.38,1
+200m Breaststroke,Men,Arno Kamminga,NED,2020,Tokyo,127.01,2
+200m Breaststroke,Men,Matti Mattsson,FIN,2020,Tokyo,127.13,3
+200m Breaststroke,Men,Anton Chupkov,ROC,2020,Tokyo,127.24,4
+200m Breaststroke,Men,Nic Fink,USA,2020,Tokyo,127.93,4
+200m Breaststroke,Men,James Wilby,GBR,2020,Tokyo,128.19,4
+200m Breaststroke,Men,Ryuya Mura,JPN,2020,Tokyo,128.42,4
+200m Breaststroke,Men,Erik Persson,SWE,2020,Tokyo,128.88,4
+200m Butterfly,Men,Kristof Kristof Milak,HUN,2020,Tokyo,111.25,1
+200m Butterfly,Men,Tomoru Honda,JPN,2020,Tokyo,113.73,2
+200m Butterfly,Men,Federico Burdisso,ITA,2020,Tokyo,114.45,3
+200m Butterfly,Men,Tamas Kenderesi,HUN,2020,Tokyo,114.52,4
+200m Butterfly,Men,Chad Le Clos,RSA,2020,Tokyo,114.93,4
+200m Butterfly,Men,Leonardo De Deus,BRA,2020,Tokyo,115.19,4
+200m Butterfly,Men,Gunnar Bentz,USA,2020,Tokyo,115.46,4
+200m Butterfly,Men,Krzysztof Chmielewski,POL,2020,Tokyo,115.88,4
+200m Freestyle,Men,Tom Dean,GBR,2020,Tokyo,104.22,1
+200m Freestyle,Men,Duncan Scott,GBR,2020,Tokyo,104.26,2
+200m Freestyle,Men,Fernando Scheffer,BRA,2020,Tokyo,104.66,3
+200m Freestyle,Men,David Popovici,ROU,2020,Tokyo,104.68,4
+200m Freestyle,Men,Martin Malyutin,ROC,2020,Tokyo,105.01,4
+200m Freestyle,Men,Kieran Smith,USA,2020,Tokyo,105.12,4
+200m Freestyle,Men,Sunwoo Hwang,KOR,2020,Tokyo,105.26,4
+200m Freestyle,Men,Danas Rapsys,LTU,2020,Tokyo,105.78,4
+200m Individual Medley,Men,Shun Wang,CHN,2020,Tokyo,115.0,1
+200m Individual Medley,Men,Duncan Scott,GBR,2020,Tokyo,115.28,2
+200m Individual Medley,Men,Jeremy Desplanches,SUI,2020,Tokyo,116.17,3
+200m Individual Medley,Men,Daiya Seto,JPN,2020,Tokyo,116.22,4
+200m Individual Medley,Men,Michael Andrew,USA,2020,Tokyo,117.31,4
+200m Individual Medley,Men,Kosuke Hagino,JPN,2020,Tokyo,117.49,4
+200m Individual Medley,Men,Laszlo Cseh,HUN,2020,Tokyo,117.68,4
+200m Individual Medley,Men,Lewis Clareburt,NZL,2020,Tokyo,117.7,4
+400m Freestyle,Men,Ahmed Hafnaoui,TUN,2020,Tokyo,223.36,1
+400m Freestyle,Men,Jack Mcloughlin,AUS,2020,Tokyo,223.52,2
+400m Freestyle,Men,Kieran Smith,USA,2020,Tokyo,223.94,3
+400m Freestyle,Men,Henning Bennet Muhlleitner,GER,2020,Tokyo,224.07,4
+400m Freestyle,Men,Felix Auboeck,AUT,2020,Tokyo,224.07,4
+400m Freestyle,Men,Gabriele Detti,ITA,2020,Tokyo,224.88,4
+400m Freestyle,Men,Elijah Winnington,AUS,2020,Tokyo,225.2,4
+400m Freestyle,Men,Jake Mitchell,USA,2020,Tokyo,225.39,4
+400m Individual Medley,Men,Chase Kalisz,USA,2020,Tokyo,249.42,1
+400m Individual Medley,Men,Jay Litherland,USA,2020,Tokyo,250.28,2
+400m Individual Medley,Men,Brendon Smith,AUS,2020,Tokyo,250.38,3
+400m Individual Medley,Men,David Verraszto,HUN,2020,Tokyo,250.59,4
+400m Individual Medley,Men,Max Litchfield,GBR,2020,Tokyo,250.59,4
+400m Individual Medley,Men,Leon Marchand,FRA,2020,Tokyo,251.16,4
+400m Individual Medley,Men,Lewis Clareburt,NZL,2020,Tokyo,251.22,4
+400m Individual Medley,Men,Alberto Razzetti,ITA,2020,Tokyo,251.32,4
+50m Freestyle,Men,Caeleb Dressel,USA,2020,Tokyo,21.07,1
+50m Freestyle,Men,Florent Manaudou,FRA,2020,Tokyo,21.55,2
+50m Freestyle,Men,Bruno Fratus,BRA,2020,Tokyo,21.57,3
+50m Freestyle,Men,Michael Andrew,USA,2020,Tokyo,21.6,4
+50m Freestyle,Men,Ben Proud,GBR,2020,Tokyo,21.72,4
+50m Freestyle,Men,Kristian Gkolomeev,GRE,2020,Tokyo,21.72,4
+50m Freestyle,Men,Lorenzo Zazzeri,ITA,2020,Tokyo,21.78,4
+50m Freestyle,Men,Thom De Boer,NED,2020,Tokyo,21.79,4
+800m Freestyle,Men,Robert Finke,USA,2020,Tokyo,461.87,1
+800m Freestyle,Men,Gregorio Paltrinieri,ITA,2020,Tokyo,462.11,2
+800m Freestyle,Men,Mykhailo Romanchuk,UKR,2020,Tokyo,462.33,3
+800m Freestyle,Men,Florian Wellbrock,GER,2020,Tokyo,462.68,4
+800m Freestyle,Men,Jack Mcloughlin,AUS,2020,Tokyo,465.0,4
+800m Freestyle,Men,Serhii Frolov,UKR,2020,Tokyo,465.11,4
+800m Freestyle,Men,Felix Auboeck,AUT,2020,Tokyo,469.14,4
+800m Freestyle,Men,Guilherme Costa,BRA,2020,Tokyo,473.31,4
+100m Backstroke,Women,Kaylee Mckeown,AUS,2020,Tokyo,57.47,1
+100m Backstroke,Women,Kylie Masse,CAN,2020,Tokyo,57.72,2
+100m Backstroke,Women,Regan Smith,USA,2020,Tokyo,58.05,3
+100m Backstroke,Women,Rhyan Elizabeth White,USA,2020,Tokyo,58.43,4
+100m Backstroke,Women,Emily Seebohm,AUS,2020,Tokyo,58.45,4
+100m Backstroke,Women,Kathleen Dawson,GBR,2020,Tokyo,58.7,4
+100m Backstroke,Women,Kira Toussaint,NED,2020,Tokyo,59.11,4
+100m Backstroke,Women,Anastasya Gorbenko,ISR,2020,Tokyo,59.53,4
+100m Breaststroke,Women,Lydia Jacoby,USA,2020,Tokyo,64.95,1
+100m Breaststroke,Women,Tatjana Schoenmaker,RSA,2020,Tokyo,65.22,2
+100m Breaststroke,Women,Lilly King,USA,2020,Tokyo,65.54,3
+100m Breaststroke,Women,Evgeniia Chikunova,ROC,2020,Tokyo,65.9,4
+100m Breaststroke,Women,Yuliya Efimova,ROC,2020,Tokyo,66.02,4
+100m Breaststroke,Women,Sophie Hansson,SWE,2020,Tokyo,66.07,4
+100m Breaststroke,Women,Martina Carraro,ITA,2020,Tokyo,66.19,4
+100m Breaststroke,Women,Mona Mc Sharry,IRL,2020,Tokyo,66.94,4
+100m Butterfly,Women,Margaret Mac Neil,CAN,2020,Tokyo,55.59,1
+100m Butterfly,Women,Yufei Zhang,CHN,2020,Tokyo,55.64,2
+100m Butterfly,Women,Emma Mckeon,AUS,2020,Tokyo,55.72,3
+100m Butterfly,Women,Torri Huske,USA,2020,Tokyo,55.73,4
+100m Butterfly,Women,Louise Hansson,SWE,2020,Tokyo,56.22,4
+100m Butterfly,Women,Marie Wattel,FRA,2020,Tokyo,56.27,4
+100m Butterfly,Women,Sarah Sjoestroem,SWE,2020,Tokyo,56.91,4
+100m Butterfly,Women,Anastasiya Shkurdai,BLR,2020,Tokyo,57.05,4
+100m Freestyle,Women,Emma Mckeon,AUS,2020,Tokyo,51.96,1
+100m Freestyle,Women,Siobhan Bernadette Haughey,HKG,2020,Tokyo,52.27,2
+100m Freestyle,Women,Cate Campbell,AUS,2020,Tokyo,52.52,3
+100m Freestyle,Women,Penny Oleksiak,CAN,2020,Tokyo,52.59,4
+100m Freestyle,Women,Sarah Sjoestroem,SWE,2020,Tokyo,52.68,4
+100m Freestyle,Women,Femke Heemskerk,NED,2020,Tokyo,52.79,4
+100m Freestyle,Women,Anna Hopkin,GBR,2020,Tokyo,52.83,4
+100m Freestyle,Women,Abbey Weitzeil,USA,2020,Tokyo,53.23,4
+1500m Freestyle,Women,Katie Ledecky,USA,2020,Tokyo,937.34,1
+1500m Freestyle,Women,Erica Sullivan,USA,2020,Tokyo,941.41,2
+1500m Freestyle,Women,Sarah Kohler,GER,2020,Tokyo,942.91,3
+1500m Freestyle,Women,Jianjiahe Wang,CHN,2020,Tokyo,946.37,4
+1500m Freestyle,Women,Simona Quadarella,ITA,2020,Tokyo,953.97,4
+1500m Freestyle,Women,Kiah Melverton,AUS,2020,Tokyo,960.36,4
+1500m Freestyle,Women,Anastasiia Kirpichnikova,ROC,2020,Tokyo,960.38,4
+1500m Freestyle,Women,Maddy Gough,AUS,2020,Tokyo,965.81,4
+200m Backstroke,Women,Kaylee Mckeown,AUS,2020,Tokyo,124.68,1
+200m Backstroke,Women,Kylie Masse,CAN,2020,Tokyo,125.42,2
+200m Backstroke,Women,Emily Seebohm,AUS,2020,Tokyo,126.17,3
+200m Backstroke,Women,Rhyan Elizabeth White,USA,2020,Tokyo,126.39,4
+200m Backstroke,Women,Phoebe Bacon,USA,2020,Tokyo,126.4,4
+200m Backstroke,Women,Taylor Madison Ruck,CAN,2020,Tokyo,128.24,4
+200m Backstroke,Women,Xuwei Peng,CHN,2020,Tokyo,128.26,4
+200m Backstroke,Women,Yaxin Liu,CHN,2020,Tokyo,128.48,4
+200m Breaststroke,Women,Tatjana Schoenmaker,RSA,2020,Tokyo,138.95,1
+200m Breaststroke,Women,Lilly King,USA,2020,Tokyo,139.92,2
+200m Breaststroke,Women,Annie Lazor,USA,2020,Tokyo,140.84,3
+200m Breaststroke,Women,Evgeniia Chikunova,ROC,2020,Tokyo,140.88,4
+200m Breaststroke,Women,Kaylene Corbett,RSA,2020,Tokyo,142.06,4
+200m Breaststroke,Women,Molly Renshaw,GBR,2020,Tokyo,142.65,4
+200m Breaststroke,Women,Abbie Wood,GBR,2020,Tokyo,143.72,4
+200m Breaststroke,Women,Fanny Lecluyse,BEL,2020,Tokyo,144.57,4
+200m Butterfly,Women,Yufei Zhang,CHN,2020,Tokyo,123.86,1
+200m Butterfly,Women,Regan Smith,USA,2020,Tokyo,125.3,2
+200m Butterfly,Women,Hali Flickinger,USA,2020,Tokyo,125.65,3
+200m Butterfly,Women,Boglarka Kapas,HUN,2020,Tokyo,126.53,4
+200m Butterfly,Women,Svetlana Chimrova,ROC,2020,Tokyo,127.7,4
+200m Butterfly,Women,Liyan Yu,CHN,2020,Tokyo,127.85,4
+200m Butterfly,Women,Alys Margaret Thomas,GBR,2020,Tokyo,127.9,4
+200m Butterfly,Women,Brianna Throssell,AUS,2020,Tokyo,129.48,4
+200m Freestyle,Women,Ariarne Titmus,AUS,2020,Tokyo,113.5,1
+200m Freestyle,Women,Siobhan Bernadette Haughey,HKG,2020,Tokyo,113.92,2
+200m Freestyle,Women,Penny Oleksiak,CAN,2020,Tokyo,114.7,3
+200m Freestyle,Women,Junxuan Yang,CHN,2020,Tokyo,115.01,4
+200m Freestyle,Women,Katie Ledecky,USA,2020,Tokyo,115.21,4
+200m Freestyle,Women,Barbora Seemanova,CZE,2020,Tokyo,115.45,4
+200m Freestyle,Women,Federica Pellegrini,ITA,2020,Tokyo,115.91,4
+200m Freestyle,Women,Madison Wilson,AUS,2020,Tokyo,116.39,4
+200m Individual Medley,Women,Yui Ohashi,JPN,2020,Tokyo,128.52,1
+200m Individual Medley,Women,Alex Walsh,USA,2020,Tokyo,128.65,2
+200m Individual Medley,Women,Kate Douglass,USA,2020,Tokyo,129.04,3
+200m Individual Medley,Women,Abbie Wood,GBR,2020,Tokyo,129.15,4
+200m Individual Medley,Women,Yiting Yu,CHN,2020,Tokyo,129.57,4
+200m Individual Medley,Women,Sydney Pickrem,CAN,2020,Tokyo,130.05,4
+200m Individual Medley,Women,Katinka Hosszu,HUN,2020,Tokyo,132.38,4
+200m Individual Medley,Women,Alicia Wilson,GBR,2020,Tokyo,132.86,4
+400m Freestyle,Women,Ariarne Titmus,AUS,2020,Tokyo,236.69,1
+400m Freestyle,Women,Katie Ledecky,USA,2020,Tokyo,237.36,2
+400m Freestyle,Women,Bingjie Li,CHN,2020,Tokyo,241.08,3
+400m Freestyle,Women,Summer Mcintosh,CAN,2020,Tokyo,242.42,4
+400m Freestyle,Women,Muhan Tang,CHN,2020,Tokyo,244.1,4
+400m Freestyle,Women,Isabel Gose,GER,2020,Tokyo,244.98,4
+400m Freestyle,Women,Paige Madden,USA,2020,Tokyo,246.81,4
+400m Freestyle,Women,Erika Fairweather,NZL,2020,Tokyo,248.01,4
+50m Freestyle,Women,Emma Mckeon,AUS,2020,Tokyo,23.81,1
+50m Freestyle,Women,Sarah Sjoestroem,SWE,2020,Tokyo,24.07,2
+50m Freestyle,Women,Pernille Blume,DEN,2020,Tokyo,24.21,3
+50m Freestyle,Women,Ranomi Kromowidjojo,NED,2020,Tokyo,24.3,4
+50m Freestyle,Women,Katarzyna Wasick,POL,2020,Tokyo,24.32,4
+50m Freestyle,Women,Qingfeng Wu,CHN,2020,Tokyo,24.32,4
+50m Freestyle,Women,Cate Campbell,AUS,2020,Tokyo,24.36,4
+50m Freestyle,Women,Abbey Weitzeil,USA,2020,Tokyo,24.41,4
+800m Freestyle,Women,Katie Ledecky,USA,2020,Tokyo,492.57,1
+800m Freestyle,Women,Ariarne Titmus,AUS,2020,Tokyo,493.83,2
+800m Freestyle,Women,Simona Quadarella,ITA,2020,Tokyo,498.35,3
+800m Freestyle,Women,Katie Grimes,USA,2020,Tokyo,499.38,4
+800m Freestyle,Women,Jianjiahe Wang,CHN,2020,Tokyo,501.93,4
+800m Freestyle,Women,Kiah Melverton,AUS,2020,Tokyo,502.25,4
+800m Freestyle,Women,Sarah Kohler,GER,2020,Tokyo,504.56,4
+800m Freestyle,Women,Anastasiia Kirpichnikova,ROC,2020,Tokyo,506.3,4
+100m Backstroke,Men,Ryan Murphy,USA,2016,Rio,51.97,1
+100m Backstroke,Men,Jiayu Xu,CHN,2016,Rio,52.31,2
+100m Backstroke,Men,David Plummer,USA,2016,Rio,52.4,3
+100m Backstroke,Men,Mitchell Larkin,AUS,2016,Rio,52.43,4
+100m Backstroke,Men,Camille Lacourt,FRA,2016,Rio,52.7,4
+100m Backstroke,Men,Evgeny Rylov,RUS,2016,Rio,52.74,4
+100m Backstroke,Men,Ryosuke Irie,JPN,2016,Rio,53.42,4
+100m Backstroke,Men,Robert Glinta,ROU,2016,Rio,53.5,4
+100m Backstroke,Women,Katinka Hosszu,HUN,2016,Rio,58.45,1
+100m Backstroke,Women,Kathleen Baker,USA,2016,Rio,58.75,2
+100m Backstroke,Women,Kylie Masse,CAN,2016,Rio,58.76,3
+100m Backstroke,Women,Yuanhui Fu,CHN,2016,Rio,58.76,3
+100m Backstroke,Women,Mie Nielsen,DEN,2016,Rio,58.8,4
+100m Backstroke,Women,Olivia Smoliga,USA,2016,Rio,58.95,4
+100m Backstroke,Women,Emily Seebohm,AUS,2016,Rio,59.19,4
+100m Backstroke,Women,Madison Wilson,AUS,2016,Rio,59.23,4
+100m Breaststroke,Men,Adam Peaty,GBR,2016,Rio,57.13,1
+100m Breaststroke,Men,Cameron Van Der Burgh,RSA,2016,Rio,58.69,2
+100m Breaststroke,Men,Cody Miller,USA,2016,Rio,58.87,3
+100m Breaststroke,Men,Kevin Cordes,USA,2016,Rio,59.22,4
+100m Breaststroke,Men,Joao Gomes,BRA,2016,Rio,59.31,4
+100m Breaststroke,Men,Yasuhiro Koseki,JPN,2016,Rio,59.37,4
+100m Breaststroke,Men,Felipe Franca,BRA,2016,Rio,59.38,4
+100m Breaststroke,Men,Dmitriy Balandin,KAZ,2016,Rio,59.95,4
+100m Breaststroke,Women,Lilly King,USA,2016,Rio,64.93,1
+100m Breaststroke,Women,Yuliya Efimova,RUS,2016,Rio,65.5,2
+100m Breaststroke,Women,Katie Meili,USA,2016,Rio,65.69,3
+100m Breaststroke,Women,Jinglin Shi,CHN,2016,Rio,66.37,4
+100m Breaststroke,Women,Rachel Nicol,CAN,2016,Rio,66.68,4
+100m Breaststroke,Women,Hrafnhildur Luthersdottir,ISL,2016,Rio,67.18,4
+100m Breaststroke,Women,Ruta Meilutyte,LTU,2016,Rio,67.32,4
+100m Breaststroke,Women,Alia Atkinson,JAM,2016,Rio,68.1,4
+100m Butterfly,Men,Joseph Schooling,SGP,2016,Rio,50.39,1
+100m Butterfly,Men,Michael Phelps,USA,2016,Rio,51.14,2
+100m Butterfly,Men,Chad Le Clos,RSA,2016,Rio,51.14,2
+100m Butterfly,Men,Laszlo Cseh,HUN,2016,Rio,51.14,2
+100m Butterfly,Men,Zhuhao Li,CHN,2016,Rio,51.26,4
+100m Butterfly,Men,Mehdy Metella,FRA,2016,Rio,51.58,4
+100m Butterfly,Men,Tom Shields,USA,2016,Rio,51.73,4
+100m Butterfly,Men,Aleksandr Sadovnikov,RUS,2016,Rio,51.84,4
+100m Butterfly,Women,Sarah Sjostrom,SWE,2016,Rio,55.48,2
+100m Butterfly,Women,Penny Oleksiak,CAN,2016,Rio,56.46,3
+100m Butterfly,Women,Dana Vollmer,USA,2016,Rio,56.63,4
+100m Butterfly,Women,Ying Lu,CHN,2016,Rio,56.76,4
+100m Butterfly,Women,Rikako Ikee,JPN,2016,Rio,56.86,4
+100m Butterfly,Women,Emma Mckeon,AUS,2016,Rio,57.05,4
+100m Butterfly,Women,Jeanette Ottesen,DEN,2016,Rio,57.17,4
+100m Freestyle,Men,Kyle Chalmers,AUS,2016,Rio,47.58,1
+100m Freestyle,Men,Pieter Timmers,BEL,2016,Rio,47.8,2
+100m Freestyle,Men,Nathan Adrian,USA,2016,Rio,47.85,3
+100m Freestyle,Men,Santo Condorelli,CAN,2016,Rio,47.88,4
+100m Freestyle,Men,Duncan Scott,GBR,2016,Rio,48.01,4
+100m Freestyle,Men,Caeleb Dressel,USA,2016,Rio,48.02,4
+100m Freestyle,Men,Cameron Mcevoy,AUS,2016,Rio,48.12,4
+100m Freestyle,Men,Marcelo Chierighini,BRA,2016,Rio,48.41,4
+100m Freestyle,Women,Simone Manuel,USA,2016,Rio,52.7,1
+100m Freestyle,Women,Penny Oleksiak,CAN,2016,Rio,52.7,1
+100m Freestyle,Women,Sarah Sjostrom,SWE,2016,Rio,52.99,3
+100m Freestyle,Women,Bronte Campbell,AUS,2016,Rio,53.04,4
+100m Freestyle,Women,Ranomi Kromowidjojo,NED,2016,Rio,53.08,4
+100m Freestyle,Women,Cate Campbell,AUS,2016,Rio,53.24,4
+100m Freestyle,Women,Abbey Weitzeil,USA,2016,Rio,53.3,4
+100m Freestyle,Women,Jeanette Ottesen,DEN,2016,Rio,53.36,4
+1500m Freestyle,Men,Gregorio Paltrinieri,ITA,2016,Rio,874.57,1
+1500m Freestyle,Men,Connor Jaeger,USA,2016,Rio,879.48,2
+1500m Freestyle,Men,Gabriele Detti,ITA,2016,Rio,880.86,3
+1500m Freestyle,Men,Jordan Wilimovsky,USA,2016,Rio,885.03,4
+1500m Freestyle,Men,Mack Horton,AUS,2016,Rio,889.54,4
+1500m Freestyle,Men,Ryan Cochrane,CAN,2016,Rio,889.61,4
+1500m Freestyle,Men,Damien Joly,FRA,2016,Rio,892.73,4
+1500m Freestyle,Men,Henrik Christiansen,NOR,2016,Rio,902.66,4
+200m Backstroke,Men,Ryan Murphy,USA,2016,Rio,113.62,1
+200m Backstroke,Men,Mitchell Larkin,AUS,2016,Rio,113.96,2
+200m Backstroke,Men,Evgeny Rylov,RUS,2016,Rio,113.97,3
+200m Backstroke,Men,Jiayu Xu,CHN,2016,Rio,115.16,4
+200m Backstroke,Men,Jacob Pebley,USA,2016,Rio,115.52,4
+200m Backstroke,Men,Guangyuan Li,CHN,2016,Rio,115.89,4
+200m Backstroke,Men,Christian Diener,GER,2016,Rio,116.27,4
+200m Backstroke,Men,Ryosuke Irie,JPN,2016,Rio,116.36,4
+200m Backstroke,Women,Madeline Dirado,USA,2016,Rio,125.99,1
+200m Backstroke,Women,Katinka Hosszu,HUN,2016,Rio,126.05,2
+200m Backstroke,Women,Hilary Caldwell,CAN,2016,Rio,127.54,3
+200m Backstroke,Women,Daria Ustinova,RUS,2016,Rio,127.89,4
+200m Backstroke,Women,Belinda Hocking,AUS,2016,Rio,128.02,4
+200m Backstroke,Women,Kirsty Leigh Coventry,ZIM,2016,Rio,128.8,4
+200m Backstroke,Women,Yaxin Liu,CHN,2016,Rio,129.03,4
+200m Backstroke,Women,Eyglo Gustafsdottir,ISL,2016,Rio,129.44,4
+200m Breaststroke,Men,Dmitriy Balandin,KAZ,2016,Rio,127.46,1
+200m Breaststroke,Men,Josh Prenot,USA,2016,Rio,127.53,2
+200m Breaststroke,Men,Anton Chupkov,RUS,2016,Rio,127.7,3
+200m Breaststroke,Men,Andrew Willis,GBR,2016,Rio,127.78,4
+200m Breaststroke,Men,Yasuhiro Koseki,JPN,2016,Rio,127.8,4
+200m Breaststroke,Men,Ippei Watanabe,JPN,2016,Rio,127.87,4
+200m Breaststroke,Men,Marco Koch,GER,2016,Rio,128.0,4
+200m Breaststroke,Men,Kevin Cordes,USA,2016,Rio,128.34,4
+200m Butterfly,Men,Michael Phelps,USA,2016,Rio,113.36,1
+200m Butterfly,Men,Masato Sakai,JPN,2016,Rio,113.4,2
+200m Butterfly,Men,Tamas Kenderesi,HUN,2016,Rio,113.62,3
+200m Butterfly,Men,Chad Le Clos,RSA,2016,Rio,114.06,4
+200m Butterfly,Men,Daiya Seto,JPN,2016,Rio,114.82,4
+200m Butterfly,Men,Viktor Bromer,DEN,2016,Rio,115.64,4
+200m Butterfly,Men,Laszlo Cseh,HUN,2016,Rio,116.24,4
+200m Butterfly,Men,Louis Croenen,BEL,2016,Rio,117.04,4
+200m Butterfly,Women,Mireia Belmonte,ESP,2016,Rio,124.85,1
+200m Butterfly,Women,Madeline Groves,AUS,2016,Rio,124.88,2
+200m Butterfly,Women,Natsumi Hoshi,JPN,2016,Rio,125.2,3
+200m Butterfly,Women,Cammile Adams,USA,2016,Rio,125.9,4
+200m Butterfly,Women,Yilin Zhou,CHN,2016,Rio,127.37,4
+200m Butterfly,Women,Yufei Zhang,CHN,2016,Rio,127.4,4
+200m Butterfly,Women,Hali Flickinger,USA,2016,Rio,127.71,4
+200m Butterfly,Women,Brianna Throssell,AUS,2016,Rio,127.87,4
+200m Freestyle,Men,Yang Sun,CHN,2016,Rio,104.65,1
+200m Freestyle,Men,Chad Le Clos,RSA,2016,Rio,105.2,2
+200m Freestyle,Men,Conor Dwyer,USA,2016,Rio,105.23,3
+200m Freestyle,Men,James Guy,GBR,2016,Rio,105.49,4
+200m Freestyle,Men,Townley Haas,USA,2016,Rio,105.58,4
+200m Freestyle,Men,Paul Biedermann,GER,2016,Rio,105.84,4
+200m Freestyle,Men,Kosuke Hagino,JPN,2016,Rio,105.9,4
+200m Freestyle,Men,Aleksandr Krasnykh,RUS,2016,Rio,105.91,4
+200m Freestyle,Women,Katie Ledecky,USA,2016,Rio,113.73,1
+200m Freestyle,Women,Sarah Sjostrom,SWE,2016,Rio,114.08,2
+200m Freestyle,Women,Emma Mckeon,AUS,2016,Rio,114.92,3
+200m Freestyle,Women,Federica Pellegrini,ITA,2016,Rio,115.18,4
+200m Freestyle,Women,Duo Shen,CHN,2016,Rio,115.25,4
+200m Freestyle,Women,Bronte Barratt,AUS,2016,Rio,115.25,4
+200m Freestyle,Women,Michelle Coleman,SWE,2016,Rio,116.27,4
+200m Freestyle,Women,Charlotte Bonnet,FRA,2016,Rio,116.29,4
+200m Individual Medley,Men,Michael Phelps,USA,2016,Rio,114.66,1
+200m Individual Medley,Men,Kosuke Hagino,JPN,2016,Rio,116.61,2
+200m Individual Medley,Men,Shun Wang,CHN,2016,Rio,117.05,3
+200m Individual Medley,Men,Hiromasa Fujimori,JPN,2016,Rio,117.21,4
+200m Individual Medley,Men,Ryan Lochte,USA,2016,Rio,117.47,4
+200m Individual Medley,Men,Philip Heintz,GER,2016,Rio,117.48,4
+200m Individual Medley,Men,Thiago Pereira,BRA,2016,Rio,118.02,4
+200m Individual Medley,Men,Dan Wallace,GBR,2016,Rio,118.54,4
+200m Individual Medley,Women,Katinka Hosszu,HUN,2016,Rio,126.58,1
+200m Individual Medley,Women,Siobhan-Marie Oconnor,GBR,2016,Rio,126.88,2
+200m Individual Medley,Women,Madeline Dirado,USA,2016,Rio,128.79,3
+200m Individual Medley,Women,Melanie Margalis,USA,2016,Rio,129.21,4
+200m Individual Medley,Women,Alicia Coutts,AUS,2016,Rio,130.88,4
+200m Individual Medley,Women,Sydney Pickrem,CAN,2016,Rio,131.22,4
+200m Individual Medley,Women,Viktoriya Andreyeva,RUS,2016,Rio,132.28,4
+200m Individual Medley,Women,Shiwen Ye,CHN,2016,Rio,133.56,4
+400m Freestyle,Men,Mack Horton,AUS,2016,Rio,221.55,1
+400m Freestyle,Men,Yang Sun,CHN,2016,Rio,221.68,2
+400m Freestyle,Men,Gabriele Detti,ITA,2016,Rio,223.49,3
+400m Freestyle,Men,Conor Dwyer,USA,2016,Rio,224.01,4
+400m Freestyle,Men,Connor Jaeger,USA,2016,Rio,224.16,4
+400m Freestyle,Men,James Guy,GBR,2016,Rio,224.68,4
+400m Freestyle,Men,David Mckeon,AUS,2016,Rio,225.28,4
+400m Freestyle,Men,Jordan Pothain,FRA,2016,Rio,229.07,4
+400m Freestyle,Women,Katie Ledecky,USA,2016,Rio,236.46,1
+400m Freestyle,Women,Jazz Carlin,GBR,2016,Rio,241.23,2
+400m Freestyle,Women,Leah Smith,USA,2016,Rio,241.92,3
+400m Freestyle,Women,Boglarka Kapas,HUN,2016,Rio,242.37,4
+400m Freestyle,Women,Brittany Maclean,CAN,2016,Rio,244.69,4
+400m Freestyle,Women,Tamsin Cook,AUS,2016,Rio,245.3,4
+400m Freestyle,Women,Jessica Ashwood,AUS,2016,Rio,245.68,4
+400m Freestyle,Women,Coralie Balmy,FRA,2016,Rio,246.98,4
+400m Individual Medley,Men,Kosuke Hagino,JPN,2016,Rio,246.05,1
+400m Individual Medley,Men,Chase Kalisz,USA,2016,Rio,246.75,2
+400m Individual Medley,Men,Daiya Seto,JPN,2016,Rio,249.71,3
+400m Individual Medley,Men,Max Litchfield,GBR,2016,Rio,251.62,4
+400m Individual Medley,Men,Jay Litherland,USA,2016,Rio,251.68,4
+400m Individual Medley,Men,Thomas Fraser-Holmes,AUS,2016,Rio,251.9,4
+400m Individual Medley,Men,Travis Mahoney,AUS,2016,Rio,255.48,4
+400m Individual Medley,Men,Joan Lluis Pons Ramon,ESP,2016,Rio,256.58,4
+400m Individual Medley,Women,Katinka Hosszu,HUN,2016,Rio,266.36,1
+400m Individual Medley,Women,Madeline Dirado,USA,2016,Rio,271.15,2
+400m Individual Medley,Women,Mireia Belmonte,ESP,2016,Rio,272.39,3
+400m Individual Medley,Women,Hannah Miley,GBR,2016,Rio,272.54,4
+400m Individual Medley,Women,Emily Overholt,CAN,2016,Rio,274.7,4
+400m Individual Medley,Women,Elizabeth Beisel,USA,2016,Rio,274.98,4
+400m Individual Medley,Women,Aimee Willmott,GBR,2016,Rio,275.04,4
+400m Individual Medley,Women,Sakiko Shimizu,JPN,2016,Rio,278.06,4
+50m Freestyle,Men,Anthony Ervin,USA,2016,Rio,21.4,1
+50m Freestyle,Men,Florent Manaudou,FRA,2016,Rio,21.41,2
+50m Freestyle,Men,Nathan Adrian,USA,2016,Rio,21.49,3
+50m Freestyle,Men,Ben Proud,GBR,2016,Rio,21.68,4
+50m Freestyle,Men,Andriy Hovorov,UKR,2016,Rio,21.74,4
+50m Freestyle,Men,Bruno Fratus,BRA,2016,Rio,21.79,4
+50m Freestyle,Men,Bradley Edward Tandy,RSA,2016,Rio,21.79,4
+50m Freestyle,Men,Simonas Bilis,LTU,2016,Rio,22.08,4
+50m Freestyle,Women,Pernille Blume,DEN,2016,Rio,24.07,1
+50m Freestyle,Women,Simone Manuel,USA,2016,Rio,24.09,2
+50m Freestyle,Women,Aliaksandra Herasimenia,BLR,2016,Rio,24.11,3
+50m Freestyle,Women,Francesca Halsall,GBR,2016,Rio,24.13,4
+50m Freestyle,Women,Cate Campbell,AUS,2016,Rio,24.15,4
+50m Freestyle,Women,Ranomi Kromowidjojo,NED,2016,Rio,24.19,4
+50m Freestyle,Women,Bronte Campbell,AUS,2016,Rio,24.42,4
+50m Freestyle,Women,Etiene Medeiros,BRA,2016,Rio,24.69,4
+800m Freestyle,Women,Katie Ledecky,USA,2016,Rio,484.79,1
+800m Freestyle,Women,Jazz Carlin,GBR,2016,Rio,496.17,2
+800m Freestyle,Women,Boglarka Kapas,HUN,2016,Rio,496.37,3
+800m Freestyle,Women,Mireia Belmonte,ESP,2016,Rio,498.55,4
+800m Freestyle,Women,Jessica Ashwood,AUS,2016,Rio,500.32,4
+800m Freestyle,Women,Leah Smith,USA,2016,Rio,500.95,4
+800m Freestyle,Women,Lotte Friis,DEN,2016,Rio,504.5,4
+800m Freestyle,Women,Sarah Kohler,GER,2016,Rio,507.75,4
+100m Backstroke,Men,Matt Grevers,USA,2012,London,52.16,1
+100m Backstroke,Men,Nick Thoman,USA,2012,London,52.92,2
+100m Backstroke,Men,Ryosuke Irie,JPN,2012,London,52.97,3
+100m Backstroke,Men,Camille Lacourt,FRA,2012,London,53.08,4
+100m Backstroke,Men,Liam Tancock,GBR,2012,London,53.35,4
+100m Backstroke,Men,Helge Meeuw,GER,2012,London,53.48,4
+100m Backstroke,Men,Hayden Stoeckel,AUS,2012,London,53.55,4
+100m Backstroke,Men,Feiyi Cheng,CHN,2012,London,53.77,4
+100m Backstroke,Women,Missy Franklin,USA,2012,London,58.33,2
+100m Backstroke,Women,Emily Seebohm,AUS,2012,London,58.68,3
+100m Backstroke,Women,Aya Terakawa,JPN,2012,London,58.83,4
+100m Backstroke,Women,Anastasia Zueva,RUS,2012,London,59.0,4
+100m Backstroke,Women,Gemma Spofforth,GBR,2012,London,59.2,4
+100m Backstroke,Women,Jing Zhao,CHN,2012,London,59.23,4
+100m Backstroke,Women,Belinda Hocking,AUS,2012,London,59.29,4
+100m Backstroke,Women,Yuanhui Fu,CHN,2012,London,60.5,1
+100m Breaststroke,Men,Cameron Van Der Burgh,RSA,2012,London,58.46,2
+100m Breaststroke,Men,Christian Sprenger,AUS,2012,London,58.93,3
+100m Breaststroke,Men,Brendan Hansen,USA,2012,London,59.49,4
+100m Breaststroke,Men,Daniel Gyurta,HUN,2012,London,59.53,4
+100m Breaststroke,Men,Kosuke Kitajima,JPN,2012,London,59.79,4
+100m Breaststroke,Men,Brenton Rickard,AUS,2012,London,59.87,4
+100m Breaststroke,Men,Fabio Scozzoli,ITA,2012,London,59.97,4
+100m Breaststroke,Men,Giedrius Titenis,LTU,2012,London,60.84,1
+100m Breaststroke,Women,Ruta Meilutyte,LTU,2012,London,65.47,1
+100m Breaststroke,Women,Rebecca Soni,USA,2012,London,65.55,2
+100m Breaststroke,Women,Satomi Suzuki,JPN,2012,London,66.46,3
+100m Breaststroke,Women,Alia Atkinson,JAM,2012,London,66.93,4
+100m Breaststroke,Women,Leisel Jones,AUS,2012,London,66.95,4
+100m Breaststroke,Women,Breeja Larson,USA,2012,London,66.96,4
+100m Breaststroke,Women,Yuliya Efimova,RUS,2012,London,66.98,4
+100m Breaststroke,Women,Rikke Moller Pedersen,DEN,2012,London,67.55,4
+100m Butterfly,Men,Michael Phelps,USA,2012,London,51.21,1
+100m Butterfly,Men,Chad Le Clos,RSA,2012,London,51.44,2
+100m Butterfly,Men,Evgeny Korotyshkin,RUS,2012,London,51.44,2
+100m Butterfly,Men,Milorad Cavic,SRB,2012,London,51.81,4
+100m Butterfly,Men,Steffen Deibler,GER,2012,London,51.81,4
+100m Butterfly,Men,Joeri Verlinden,NED,2012,London,51.82,4
+100m Butterfly,Men,Tyler Mcgill,USA,2012,London,51.88,4
+100m Butterfly,Men,Konrad Czerniak,POL,2012,London,52.05,4
+100m Butterfly,Women,Dana Vollmer,USA,2012,London,55.98,1
+100m Butterfly,Women,Ying Lu,CHN,2012,London,56.87,2
+100m Butterfly,Women,Alicia Coutts,AUS,2012,London,56.94,3
+100m Butterfly,Women,Sarah Sjostrom,SWE,2012,London,57.17,4
+100m Butterfly,Women,Ilaria Bianchi,ITA,2012,London,57.27,4
+100m Butterfly,Women,Jeanette Ottesen,DEN,2012,London,57.35,4
+100m Butterfly,Women,Claire Donahue,USA,2012,London,57.48,4
+100m Butterfly,Women,Ellen Gandy,GBR,2012,London,57.76,4
+100m Freestyle,Men,Nathan Adrian,USA,2012,London,47.52,1
+100m Freestyle,Men,James Magnussen,AUS,2012,London,47.53,2
+100m Freestyle,Men,Brent Hayden,CAN,2012,London,47.8,3
+100m Freestyle,Men,Yannick Agnel,FRA,2012,London,47.84,4
+100m Freestyle,Men,Sebastiaan Verschuren,NED,2012,London,47.88,4
+100m Freestyle,Men,Cesar Cielo Filho,BRA,2012,London,47.92,4
+100m Freestyle,Men,Hanser Garcia,CUB,2012,London,48.04,4
+100m Freestyle,Men,Nikita Lobintsev,RUS,2012,London,48.44,4
+100m Freestyle,Women,Ranomi Kromowidjojo,NED,2012,London,53.0,1
+100m Freestyle,Women,Aliaksandra Herasimenia,BLR,2012,London,53.38,2
+100m Freestyle,Women,Yi Tang,CHN,2012,London,53.44,3
+100m Freestyle,Women,Melanie Schlanger,AUS,2012,London,53.47,4
+100m Freestyle,Women,Missy Franklin,USA,2012,London,53.64,4
+100m Freestyle,Women,Francesca Halsall,GBR,2012,London,53.66,4
+100m Freestyle,Women,Jeanette Ottesen,DEN,2012,London,53.75,4
+100m Freestyle,Women,Jessica Hardy,USA,2012,London,54.02,4
+1500m Freestyle,Men,Yang Sun,CHN,2012,London,871.02,1
+1500m Freestyle,Men,Ryan Cochrane,CAN,2012,London,879.63,2
+1500m Freestyle,Men,Oussama Mellouli,TUN,2012,London,880.31,3
+1500m Freestyle,Men,Tae-Hwan Park,KOR,2012,London,890.61,4
+1500m Freestyle,Men,Gregorio Paltrinieri,ITA,2012,London,891.92,4
+1500m Freestyle,Men,Connor Jaeger,USA,2012,London,892.99,4
+1500m Freestyle,Men,Mateusz Sawrymowicz,POL,2012,London,894.32,4
+1500m Freestyle,Men,Daniel Fogg,GBR,2012,London,900.76,4
+200m Backstroke,Men,Tyler Clary,USA,2012,London,113.41,1
+200m Backstroke,Men,Ryosuke Irie,JPN,2012,London,113.78,2
+200m Backstroke,Men,Ryan Lochte,USA,2012,London,113.94,3
+200m Backstroke,Men,Radoslaw Kawecki,POL,2012,London,115.59,4
+200m Backstroke,Men,Fenglin Zhang,CHN,2012,London,115.59,4
+200m Backstroke,Men,Kazuki Watanabe,JPN,2012,London,117.03,4
+200m Backstroke,Men,Yakov Toumarkin,ISR,2012,London,117.62,4
+200m Backstroke,Men,Mitchell Larkin,AUS,2012,London,118.02,4
+200m Backstroke,Women,Missy Franklin,USA,2012,London,124.06,1
+200m Backstroke,Women,Anastasia Zueva,RUS,2012,London,125.92,2
+200m Backstroke,Women,Elizabeth Beisel,USA,2012,London,126.55,3
+200m Backstroke,Women,Elizabeth Simmonds,GBR,2012,London,127.26,4
+200m Backstroke,Women,Meagen Nay,AUS,2012,London,127.43,4
+200m Backstroke,Women,Kirsty Leigh Coventry,ZIM,2012,London,128.18,4
+200m Backstroke,Women,Alexianne Castel,FRA,2012,London,128.43,4
+200m Backstroke,Women,Sinead Russell,CAN,2012,London,129.86,4
+200m Breaststroke,Men,Daniel Gyurta,HUN,2012,London,127.28,1
+200m Breaststroke,Men,Michael Jamieson,GBR,2012,London,127.43,2
+200m Breaststroke,Men,Ryo Tateishi,JPN,2012,London,128.29,3
+200m Breaststroke,Men,Kosuke Kitajima,JPN,2012,London,128.35,4
+200m Breaststroke,Men,Scott Weltz,USA,2012,London,129.02,4
+200m Breaststroke,Men,Clark Burckle,USA,2012,London,129.25,4
+200m Breaststroke,Men,Brenton Rickard,AUS,2012,London,129.28,4
+200m Breaststroke,Men,Andrew Willis,GBR,2012,London,129.44,4
+200m Breaststroke,Women,Rebecca Soni,USA,2012,London,139.59,1
+200m Breaststroke,Women,Satomi Suzuki,JPN,2012,London,140.72,2
+200m Breaststroke,Women,Yuliya Efimova,RUS,2012,London,140.92,3
+200m Breaststroke,Women,Rikke Moller Pedersen,DEN,2012,London,141.65,4
+200m Breaststroke,Women,Martha Mccabe,CAN,2012,London,143.16,4
+200m Breaststroke,Women,Micah Lawrence,USA,2012,London,143.27,4
+200m Breaststroke,Women,Suzaan Van Biljon,RSA,2012,London,143.72,4
+200m Breaststroke,Women,Sally Foster,AUS,2012,London,146.0,4
+200m Butterfly,Men,Chad Le Clos,RSA,2012,London,112.96,1
+200m Butterfly,Men,Michael Phelps,USA,2012,London,113.01,2
+200m Butterfly,Men,Takeshi Matsuda,JPN,2012,London,113.21,3
+200m Butterfly,Men,Dinko Jukic,AUT,2012,London,114.35,4
+200m Butterfly,Men,Tyler Clary,USA,2012,London,115.06,4
+200m Butterfly,Men,Velimir Stjepanovic,SRB,2012,London,115.07,4
+200m Butterfly,Men,Pawel Korzeniowski,POL,2012,London,115.08,4
+200m Butterfly,Men,Yin Chen,CHN,2012,London,115.18,4
+200m Butterfly,Women,Liuyang Jiao,CHN,2012,London,124.06,1
+200m Butterfly,Women,Mireia Belmonte,ESP,2012,London,125.25,2
+200m Butterfly,Women,Natsumi Hoshi,JPN,2012,London,125.48,3
+200m Butterfly,Women,Kathleen Hersey,USA,2012,London,125.78,4
+200m Butterfly,Women,Cammile Adams,USA,2012,London,126.78,4
+200m Butterfly,Women,Jemma Lowe,GBR,2012,London,126.8,4
+200m Butterfly,Women,Zsuzsanna Jakabos,HUN,2012,London,127.33,4
+200m Butterfly,Women,Zige Liu,CHN,2012,London,127.77,4
+200m Freestyle,Men,Yannick Agnel,FRA,2012,London,103.14,1
+200m Freestyle,Men,Tae-Hwan Park,KOR,2012,London,104.93,2
+200m Freestyle,Men,Yang Sun,CHN,2012,London,104.93,2
+200m Freestyle,Men,Ryan Lochte,USA,2012,London,105.04,4
+200m Freestyle,Men,Paul Biedermann,GER,2012,London,105.53,4
+200m Freestyle,Men,Robbie Renwick,GBR,2012,London,106.53,4
+200m Freestyle,Men,Thomas Fraser-Holmes,AUS,2012,London,106.93,4
+200m Freestyle,Men,Danila Izotov,RUS,2012,London,107.75,4
+200m Freestyle,Women,Allison Schmitt,USA,2012,London,113.61,1
+200m Freestyle,Women,Camille Muffat,FRA,2012,London,115.58,2
+200m Freestyle,Women,Bronte Barratt,AUS,2012,London,115.81,3
+200m Freestyle,Women,Missy Franklin,USA,2012,London,115.82,4
+200m Freestyle,Women,Federica Pellegrini,ITA,2012,London,116.73,4
+200m Freestyle,Women,Veronika Popova,RUS,2012,London,117.25,4
+200m Freestyle,Women,Caitlin Mcclatchey,GBR,2012,London,117.6,4
+200m Freestyle,Women,Kylie Palmer,AUS,2012,London,117.68,4
+200m Individual Medley,Men,Michael Phelps,USA,2012,London,114.27,1
+200m Individual Medley,Men,Ryan Lochte,USA,2012,London,114.9,2
+200m Individual Medley,Men,Laszlo Cseh,HUN,2012,London,116.22,3
+200m Individual Medley,Men,Thiago Pereira,BRA,2012,London,116.74,4
+200m Individual Medley,Men,Kosuke Hagino,JPN,2012,London,117.35,4
+200m Individual Medley,Men,Ken Takakuwa,JPN,2012,London,118.53,4
+200m Individual Medley,Men,James Goddard,GBR,2012,London,119.05,4
+200m Individual Medley,Men,Markus Deibler,GER,2012,London,119.1,4
+200m Individual Medley,Women,Shiwen Ye,CHN,2012,London,127.57,1
+200m Individual Medley,Women,Alicia Coutts,AUS,2012,London,128.15,2
+200m Individual Medley,Women,Caitlin Leverenz,USA,2012,London,128.95,3
+200m Individual Medley,Women,Stephanie Rice,AUS,2012,London,129.55,4
+200m Individual Medley,Women,Ariana Kukors,USA,2012,London,129.83,4
+200m Individual Medley,Women,Kirsty Leigh Coventry,ZIM,2012,London,131.13,4
+200m Individual Medley,Women,Hannah Miley,GBR,2012,London,131.29,4
+200m Individual Medley,Women,Katinka Hosszu,HUN,2012,London,134.19,4
+400m Freestyle,Men,Yang Sun,CHN,2012,London,220.14,1
+400m Freestyle,Men,Tae-Hwan Park,KOR,2012,London,222.06,2
+400m Freestyle,Men,Peter Vanderkaay,USA,2012,London,224.69,3
+400m Freestyle,Men,Yun Hao,CHN,2012,London,226.02,4
+400m Freestyle,Men,Conor Dwyer,USA,2012,London,226.39,4
+400m Freestyle,Men,Gergo Kis,HUN,2012,London,227.03,4
+400m Freestyle,Men,David Carry,GBR,2012,London,228.62,4
+400m Freestyle,Men,Ryan Napoleon,AUS,2012,London,229.25,4
+400m Freestyle,Women,Camille Muffat,FRA,2012,London,241.45,1
+400m Freestyle,Women,Allison Schmitt,USA,2012,London,241.77,2
+400m Freestyle,Women,Rebecca Adlington,GBR,2012,London,243.01,3
+400m Freestyle,Women,Lotte Friis,DEN,2012,London,243.98,4
+400m Freestyle,Women,Federica Pellegrini,ITA,2012,London,244.5,4
+400m Freestyle,Women,Coralie Balmy,FRA,2012,London,245.95,4
+400m Freestyle,Women,Brittany Maclean,CAN,2012,London,246.24,4
+400m Freestyle,Women,Lauren Boyle,NZL,2012,London,246.25,4
+400m Individual Medley,Men,Ryan Lochte,USA,2012,London,245.18,1
+400m Individual Medley,Men,Thiago Pereira,BRA,2012,London,248.86,2
+400m Individual Medley,Men,Kosuke Hagino,JPN,2012,London,248.94,3
+400m Individual Medley,Men,Michael Phelps,USA,2012,London,249.28,4
+400m Individual Medley,Men,Chad Le Clos,RSA,2012,London,252.42,4
+400m Individual Medley,Men,Yuya Horihata,JPN,2012,London,253.3,4
+400m Individual Medley,Men,Thomas Fraser-Holmes,AUS,2012,London,253.49,4
+400m Individual Medley,Men,Luca Marin,ITA,2012,London,254.89,4
+400m Individual Medley,Women,Shiwen Ye,CHN,2012,London,268.43,1
+400m Individual Medley,Women,Elizabeth Beisel,USA,2012,London,271.27,2
+400m Individual Medley,Women,Xuanxu Li,CHN,2012,London,272.91,3
+400m Individual Medley,Women,Katinka Hosszu,HUN,2012,London,273.49,4
+400m Individual Medley,Women,Hannah Miley,GBR,2012,London,274.17,4
+400m Individual Medley,Women,Stephanie Rice,AUS,2012,London,275.49,4
+400m Individual Medley,Women,Caitlin Leverenz,USA,2012,London,275.49,4
+400m Individual Medley,Women,Mireia Belmonte,ESP,2012,London,275.62,4
+50m Freestyle,Men,Florent Manaudou,FRA,2012,London,21.34,1
+50m Freestyle,Men,Cullen Jones,USA,2012,London,21.54,2
+50m Freestyle,Men,Cesar Cielo Filho,BRA,2012,London,21.59,3
+50m Freestyle,Men,Bruno Fratus,BRA,2012,London,21.61,4
+50m Freestyle,Men,Anthony Ervin,USA,2012,London,21.78,4
+50m Freestyle,Men,Roland Schoeman,RSA,2012,London,21.8,4
+50m Freestyle,Men,George Bovell,TTO,2012,London,21.82,4
+50m Freestyle,Men,Eamon Sullivan,AUS,2012,London,21.98,4
+50m Freestyle,Women,Ranomi Kromowidjojo,NED,2012,London,24.05,1
+50m Freestyle,Women,Aliaksandra Herasimenia,BLR,2012,London,24.28,2
+50m Freestyle,Women,Marleen Veldhuis,NED,2012,London,24.39,3
+50m Freestyle,Women,Britta Steffen,GER,2012,London,24.46,4
+50m Freestyle,Women,Francesca Halsall,GBR,2012,London,24.47,4
+50m Freestyle,Women,Therese Alshammar,SWE,2012,London,24.61,4
+50m Freestyle,Women,Jessica Hardy,USA,2012,London,24.62,4
+50m Freestyle,Women,Arianna Vanderpool-Wallace,BAH,2012,London,24.69,4
+800m Freestyle,Women,Katie Ledecky,USA,2012,London,494.63,1
+800m Freestyle,Women,Mireia Belmonte,ESP,2012,London,498.76,2
+800m Freestyle,Women,Rebecca Adlington,GBR,2012,London,500.32,3
+800m Freestyle,Women,Lauren Boyle,NZL,2012,London,502.72,4
+800m Freestyle,Women,Lotte Friis,DEN,2012,London,503.86,4
+800m Freestyle,Women,Boglarka Kapas,HUN,2012,London,503.89,4
+800m Freestyle,Women,Coralie Balmy,FRA,2012,London,509.26,4
+800m Freestyle,Women,Andreina Pinto,VEN,2012,London,509.28,4
+100m Backstroke,Men,Aaron Peirsol,USA,2008,Beijing,52.54,1
+100m Backstroke,Men,Matt Grevers,USA,2008,Beijing,53.11,2
+100m Backstroke,Men,Arkady Vyatchanin,RUS,2008,Beijing,53.18,3
+100m Backstroke,Men,Hayden Stoeckel,AUS,2008,Beijing,53.18,3
+100m Backstroke,Men,Ashley Delaney,AUS,2008,Beijing,53.31,4
+100m Backstroke,Men,Liam Tancock,GBR,2008,Beijing,53.39,4
+100m Backstroke,Men,Aschwin Wildeboer Faber,ESP,2008,Beijing,53.51,4
+100m Backstroke,Men,Junichi Miyashita,JPN,2008,Beijing,53.99,4
+100m Backstroke,Women,Natalie Coughlin,USA,2008,Beijing,58.96,3
+100m Backstroke,Women,Kirsty Leigh Coventry,ZIM,2008,Beijing,59.19,4
+100m Backstroke,Women,Margaret Hoelzer,USA,2008,Beijing,59.34,4
+100m Backstroke,Women,Gemma Spofforth,GBR,2008,Beijing,59.38,4
+100m Backstroke,Women,Anastasia Zueva,RUS,2008,Beijing,59.4,4
+100m Backstroke,Women,Reiko Nakamura,JPN,2008,Beijing,59.72,4
+100m Backstroke,Women,Laure Manaudou,FRA,2008,Beijing,60.1,1
+100m Backstroke,Women,Hanae Ito,JPN,2008,Beijing,60.18,2
+100m Breaststroke,Men,Kosuke Kitajima,JPN,2008,Beijing,58.91,3
+100m Breaststroke,Men,Alexander Dale Oen,NOR,2008,Beijing,59.2,4
+100m Breaststroke,Men,Hugues Duboscq,FRA,2008,Beijing,59.37,4
+100m Breaststroke,Men,Brendan Hansen,USA,2008,Beijing,59.57,4
+100m Breaststroke,Men,Brenton Rickard,AUS,2008,Beijing,59.74,4
+100m Breaststroke,Men,Roman Sloudnov,RUS,2008,Beijing,59.87,4
+100m Breaststroke,Men,Ihor Borysyk,UKR,2008,Beijing,60.2,1
+100m Breaststroke,Men,Mark Gangloff,USA,2008,Beijing,60.24,2
+100m Breaststroke,Women,Leisel Jones,AUS,2008,Beijing,65.17,1
+100m Breaststroke,Women,Rebecca Soni,USA,2008,Beijing,66.73,2
+100m Breaststroke,Women,Mirna Jukic,AUT,2008,Beijing,67.34,3
+100m Breaststroke,Women,Yuliya Efimova,RUS,2008,Beijing,67.43,4
+100m Breaststroke,Women,Megan Quann,USA,2008,Beijing,67.62,4
+100m Breaststroke,Women,Tarnee White,AUS,2008,Beijing,67.63,4
+100m Breaststroke,Women,Ye Sun,CHN,2008,Beijing,68.08,4
+100m Breaststroke,Women,Asami Kitagawa,JPN,2008,Beijing,68.43,4
+100m Butterfly,Men,Michael Phelps,USA,2008,Beijing,50.58,1
+100m Butterfly,Men,Milorad Cavic,SRB,2008,Beijing,50.59,2
+100m Butterfly,Men,Andrew Lauterstein,AUS,2008,Beijing,51.12,3
+100m Butterfly,Men,Ian Crocker,USA,2008,Beijing,51.13,4
+100m Butterfly,Men,Jason Dunford,KEN,2008,Beijing,51.47,4
+100m Butterfly,Men,Takuro Fujii,JPN,2008,Beijing,51.5,4
+100m Butterfly,Men,Andriy Serdinov,UKR,2008,Beijing,51.59,4
+100m Butterfly,Men,Ryan Pini,PNG,2008,Beijing,51.86,4
+100m Butterfly,Women,Libby Trickett,AUS,2008,Beijing,56.73,1
+100m Butterfly,Women,Christine Magnuson,USA,2008,Beijing,57.1,2
+100m Butterfly,Women,Jessicah Schipper,AUS,2008,Beijing,57.25,3
+100m Butterfly,Women,Yafei Zhou,CHN,2008,Beijing,57.84,4
+100m Butterfly,Women,Li Tao,SGP,2008,Beijing,57.99,4
+100m Butterfly,Women,Jemma Lowe,GBR,2008,Beijing,58.06,4
+100m Butterfly,Women,Gabriella Silva,BRA,2008,Beijing,58.1,4
+100m Butterfly,Women,Inge Dekker,NED,2008,Beijing,58.54,4
+100m Freestyle,Men,Alain Bernard,FRA,2008,Beijing,47.21,1
+100m Freestyle,Men,Eamon Sullivan,AUS,2008,Beijing,47.32,2
+100m Freestyle,Men,Jason Lezak,USA,2008,Beijing,47.67,3
+100m Freestyle,Men,Cesar Cielo Filho,BRA,2008,Beijing,47.67,3
+100m Freestyle,Men,Pieter Van Den Hoogenband,NED,2008,Beijing,47.75,4
+100m Freestyle,Men,Lyndon Ferns,RSA,2008,Beijing,48.04,4
+100m Freestyle,Men,Matt Targett,AUS,2008,Beijing,48.2,4
+100m Freestyle,Men,Stefan Nystrand,SWE,2008,Beijing,48.33,4
+100m Freestyle,Women,Britta Steffen,GER,2008,Beijing,53.12,1
+100m Freestyle,Women,Libby Trickett,AUS,2008,Beijing,53.16,2
+100m Freestyle,Women,Natalie Coughlin,USA,2008,Beijing,53.39,3
+100m Freestyle,Women,Hanna-Maria Seppala,FIN,2008,Beijing,53.97,4
+100m Freestyle,Women,Jeanette Ottesen,DEN,2008,Beijing,54.06,4
+100m Freestyle,Women,Yingwen Zhu,CHN,2008,Beijing,54.21,4
+100m Freestyle,Women,Marleen Veldhuis,NED,2008,Beijing,54.21,4
+100m Freestyle,Women,Francesca Halsall,GBR,2008,Beijing,54.29,4
+1500m Freestyle,Men,Oussama Mellouli,TUN,2008,Beijing,880.84,1
+1500m Freestyle,Men,Grant Hackett,AUS,2008,Beijing,881.53,2
+1500m Freestyle,Men,Ryan Cochrane,CAN,2008,Beijing,882.69,3
+1500m Freestyle,Men,Yuri Prilukov,RUS,2008,Beijing,883.21,4
+1500m Freestyle,Men,Larsen Jensen,USA,2008,Beijing,888.16,4
+1500m Freestyle,Men,David Davies,GBR,2008,Beijing,892.11,4
+1500m Freestyle,Men,Lin Zhang,CHN,2008,Beijing,895.2,4
+1500m Freestyle,Men,Yang Sun,CHN,2008,Beijing,905.12,4
+200m Backstroke,Men,Ryan Lochte,USA,2008,Beijing,113.94,1
+200m Backstroke,Men,Aaron Peirsol,USA,2008,Beijing,114.33,2
+200m Backstroke,Men,Arkady Vyatchanin,RUS,2008,Beijing,114.93,3
+200m Backstroke,Men,Markus Rogan,AUT,2008,Beijing,115.49,4
+200m Backstroke,Men,Ryosuke Irie,JPN,2008,Beijing,115.72,4
+200m Backstroke,Men,Hayden Stoeckel,AUS,2008,Beijing,116.39,4
+200m Backstroke,Men,Razvan Ionut Florea,ROU,2008,Beijing,116.52,4
+200m Backstroke,Men,Gregor Tait,GBR,2008,Beijing,117.0,4
+200m Backstroke,Women,Kirsty Leigh Coventry,ZIM,2008,Beijing,125.24,1
+200m Backstroke,Women,Margaret Hoelzer,USA,2008,Beijing,126.23,2
+200m Backstroke,Women,Reiko Nakamura,JPN,2008,Beijing,127.13,3
+200m Backstroke,Women,Anastasia Zueva,RUS,2008,Beijing,127.88,4
+200m Backstroke,Women,Elizabeth Beisel,USA,2008,Beijing,128.23,4
+200m Backstroke,Women,Elizabeth Simmonds,GBR,2008,Beijing,128.51,4
+200m Backstroke,Women,Meagen Nay,AUS,2008,Beijing,128.84,4
+200m Backstroke,Women,Belinda Hocking,AUS,2008,Beijing,130.12,4
+200m Breaststroke,Men,Kosuke Kitajima,JPN,2008,Beijing,127.64,1
+200m Breaststroke,Men,Brenton Rickard,AUS,2008,Beijing,128.88,2
+200m Breaststroke,Men,Hugues Duboscq,FRA,2008,Beijing,128.94,3
+200m Breaststroke,Men,Mike Brown,CAN,2008,Beijing,129.03,4
+200m Breaststroke,Men,Daniel Gyurta,HUN,2008,Beijing,129.22,4
+200m Breaststroke,Men,Scott Spann,USA,2008,Beijing,129.76,4
+200m Breaststroke,Men,Loris Facci,ITA,2008,Beijing,130.57,4
+200m Breaststroke,Men,Paolo Bossini,ITA,2008,Beijing,131.48,4
+200m Breaststroke,Women,Rebecca Soni,USA,2008,Beijing,140.22,1
+200m Breaststroke,Women,Leisel Jones,AUS,2008,Beijing,142.05,2
+200m Breaststroke,Women,Sara Nordenstam,NOR,2008,Beijing,143.02,3
+200m Breaststroke,Women,Mirna Jukic,AUT,2008,Beijing,143.24,4
+200m Breaststroke,Women,Yuliya Efimova,RUS,2008,Beijing,143.76,4
+200m Breaststroke,Women,Annamay Pierse,CAN,2008,Beijing,143.77,4
+200m Breaststroke,Women,Rie Kaneto,JPN,2008,Beijing,145.14,4
+200m Breaststroke,Women,Megumi Taneda,JPN,2008,Beijing,145.23,4
+200m Butterfly,Men,Michael Phelps,USA,2008,Beijing,112.03,1
+200m Butterfly,Men,Laszlo Cseh,HUN,2008,Beijing,112.7,2
+200m Butterfly,Men,Takeshi Matsuda,JPN,2008,Beijing,112.97,3
+200m Butterfly,Men,Moss Burmester,NZL,2008,Beijing,114.35,4
+200m Butterfly,Men,Peng Wu,CHN,2008,Beijing,114.35,4
+200m Butterfly,Men,Pawel Korzeniowski,POL,2008,Beijing,114.6,4
+200m Butterfly,Men,Kaio Marcio,BRA,2008,Beijing,114.71,4
+200m Butterfly,Men,Nikolay Skvortsov,RUS,2008,Beijing,115.14,4
+200m Butterfly,Women,Zige Liu,CHN,2008,Beijing,124.18,1
+200m Butterfly,Women,Liuyang Jiao,CHN,2008,Beijing,124.72,2
+200m Butterfly,Women,Jessicah Schipper,AUS,2008,Beijing,126.26,3
+200m Butterfly,Women,Otylia Jedrzejczak,POL,2008,Beijing,127.02,4
+200m Butterfly,Women,Yuko Nakanishi,JPN,2008,Beijing,127.32,4
+200m Butterfly,Women,Aurore Mongel,FRA,2008,Beijing,127.36,4
+200m Butterfly,Women,Elaine Breeden,USA,2008,Beijing,127.57,4
+200m Butterfly,Women,Kathleen Hersey,USA,2008,Beijing,128.23,4
+200m Freestyle,Men,Michael Phelps,USA,2008,Beijing,102.96,1
+200m Freestyle,Men,Tae-Hwan Park,KOR,2008,Beijing,104.85,2
+200m Freestyle,Men,Peter Vanderkaay,USA,2008,Beijing,105.14,3
+200m Freestyle,Men,Jean Basson,RSA,2008,Beijing,105.97,4
+200m Freestyle,Men,Paul Biedermann,GER,2008,Beijing,106.0,4
+200m Freestyle,Men,Dominik Meichtry,SUI,2008,Beijing,106.95,4
+200m Freestyle,Men,Yoshihiro Okumura,JPN,2008,Beijing,107.14,4
+200m Freestyle,Men,Robbie Renwick,GBR,2008,Beijing,107.47,4
+200m Freestyle,Women,Federica Pellegrini,ITA,2008,Beijing,114.82,1
+200m Freestyle,Women,Sara Isakovic,SLO,2008,Beijing,114.97,2
+200m Freestyle,Women,Jiaying Pang,CHN,2008,Beijing,115.05,3
+200m Freestyle,Women,Katie Hoff,USA,2008,Beijing,115.78,4
+200m Freestyle,Women,Camelia Alina Potec,ROU,2008,Beijing,116.87,4
+200m Freestyle,Women,Caitlin Mcclatchey,GBR,2008,Beijing,117.65,4
+200m Freestyle,Women,Bronte Barratt,AUS,2008,Beijing,117.83,4
+200m Freestyle,Women,Ophelie-Cyrielle Etienne,FRA,2008,Beijing,117.83,4
+200m Individual Medley,Men,Michael Phelps,USA,2008,Beijing,114.23,1
+200m Individual Medley,Men,Laszlo Cseh,HUN,2008,Beijing,116.52,2
+200m Individual Medley,Men,Ryan Lochte,USA,2008,Beijing,116.53,3
+200m Individual Medley,Men,Thiago Pereira,BRA,2008,Beijing,118.14,4
+200m Individual Medley,Men,Ken Takakuwa,JPN,2008,Beijing,118.22,4
+200m Individual Medley,Men,James Goddard,GBR,2008,Beijing,119.24,4
+200m Individual Medley,Men,Keith Beavers,CAN,2008,Beijing,119.43,4
+200m Individual Medley,Men,Liam Tancock,GBR,2008,Beijing,120.76,4
+200m Individual Medley,Women,Stephanie Rice,AUS,2008,Beijing,128.45,1
+200m Individual Medley,Women,Kirsty Leigh Coventry,ZIM,2008,Beijing,128.59,2
+200m Individual Medley,Women,Natalie Coughlin,USA,2008,Beijing,130.34,3
+200m Individual Medley,Women,Katie Hoff,USA,2008,Beijing,130.68,4
+200m Individual Medley,Women,Alicia Coutts,AUS,2008,Beijing,131.43,4
+200m Individual Medley,Women,Asami Kitagawa,JPN,2008,Beijing,131.56,4
+200m Individual Medley,Women,Julia Wilkinson,CAN,2008,Beijing,132.43,4
+200m Individual Medley,Women,Katarzyna Baranowska,POL,2008,Beijing,133.36,4
+400m Freestyle,Men,Tae-Hwan Park,KOR,2008,Beijing,221.86,1
+400m Freestyle,Men,Lin Zhang,CHN,2008,Beijing,222.44,2
+400m Freestyle,Men,Larsen Jensen,USA,2008,Beijing,222.78,3
+400m Freestyle,Men,Peter Vanderkaay,USA,2008,Beijing,223.11,4
+400m Freestyle,Men,Oussama Mellouli,TUN,2008,Beijing,223.45,4
+400m Freestyle,Men,Grant Hackett,AUS,2008,Beijing,223.84,4
+400m Freestyle,Men,Yuri Prilukov,RUS,2008,Beijing,223.97,4
+400m Freestyle,Men,Nikita Lobintsev,RUS,2008,Beijing,228.29,4
+400m Freestyle,Women,Rebecca Adlington,GBR,2008,Beijing,243.22,1
+400m Freestyle,Women,Katie Hoff,USA,2008,Beijing,243.29,2
+400m Freestyle,Women,Joanne Jackson,GBR,2008,Beijing,243.52,3
+400m Freestyle,Women,Coralie Balmy,FRA,2008,Beijing,243.6,4
+400m Freestyle,Women,Federica Pellegrini,ITA,2008,Beijing,244.56,4
+400m Freestyle,Women,Camelia Alina Potec,ROU,2008,Beijing,244.66,4
+400m Freestyle,Women,Bronte Barratt,AUS,2008,Beijing,245.05,4
+400m Freestyle,Women,Laure Manaudou,FRA,2008,Beijing,251.26,4
+400m Individual Medley,Men,Michael Phelps,USA,2008,Beijing,243.84,1
+400m Individual Medley,Men,Laszlo Cseh,HUN,2008,Beijing,246.16,2
+400m Individual Medley,Men,Ryan Lochte,USA,2008,Beijing,248.09,3
+400m Individual Medley,Men,Alessio Boggiatto,ITA,2008,Beijing,252.16,4
+400m Individual Medley,Men,Luca Marin,ITA,2008,Beijing,252.47,4
+400m Individual Medley,Men,Gergo Kis,HUN,2008,Beijing,252.84,4
+400m Individual Medley,Men,Brian Johns,CAN,2008,Beijing,253.38,4
+400m Individual Medley,Men,Thiago Pereira,BRA,2008,Beijing,255.4,4
+400m Individual Medley,Women,Stephanie Rice,AUS,2008,Beijing,269.45,1
+400m Individual Medley,Women,Kirsty Leigh Coventry,ZIM,2008,Beijing,269.89,2
+400m Individual Medley,Women,Katie Hoff,USA,2008,Beijing,271.71,3
+400m Individual Medley,Women,Elizabeth Beisel,USA,2008,Beijing,274.24,4
+400m Individual Medley,Women,Alessia Filippi,ITA,2008,Beijing,274.34,4
+400m Individual Medley,Women,Hannah Miley,GBR,2008,Beijing,279.44,4
+400m Individual Medley,Women,Yana Martynova,RUS,2008,Beijing,280.04,4
+400m Individual Medley,Women,Xuanxu Li,CHN,2008,Beijing,282.13,4
+50m Freestyle,Men,Cesar Cielo Filho,BRA,2008,Beijing,21.3,1
+50m Freestyle,Men,Amaury Leveaux,FRA,2008,Beijing,21.45,2
+50m Freestyle,Men,Alain Bernard,FRA,2008,Beijing,21.49,3
+50m Freestyle,Men,Ashley Callus,AUS,2008,Beijing,21.62,4
+50m Freestyle,Men,Ben Wildman-Tobriner,USA,2008,Beijing,21.64,4
+50m Freestyle,Men,Eamon Sullivan,AUS,2008,Beijing,21.65,4
+50m Freestyle,Men,Roland Schoeman,RSA,2008,Beijing,21.67,4
+50m Freestyle,Men,Stefan Nystrand,SWE,2008,Beijing,21.72,4
+50m Freestyle,Women,Britta Steffen,GER,2008,Beijing,24.06,1
+50m Freestyle,Women,Dara Torres,USA,2008,Beijing,24.07,2
+50m Freestyle,Women,Cate Campbell,AUS,2008,Beijing,24.17,3
+50m Freestyle,Women,Libby Trickett,AUS,2008,Beijing,24.25,4
+50m Freestyle,Women,Marleen Veldhuis,NED,2008,Beijing,24.26,4
+50m Freestyle,Women,Kara Lynn Joyce,USA,2008,Beijing,24.63,4
+50m Freestyle,Women,Hinkelien Schreuder,NED,2008,Beijing,24.65,4
+50m Freestyle,Women,Aliaksandra Herasimenia,BLR,2008,Beijing,24.77,4
+800m Freestyle,Women,Rebecca Adlington,GBR,2008,Beijing,494.1,1
+800m Freestyle,Women,Alessia Filippi,ITA,2008,Beijing,500.23,2
+800m Freestyle,Women,Lotte Friis,DEN,2008,Beijing,503.03,3
+800m Freestyle,Women,Camelia Alina Potec,ROU,2008,Beijing,503.11,4
+800m Freestyle,Women,Xuanxu Li,CHN,2008,Beijing,506.34,4
+800m Freestyle,Women,Kylie Palmer,AUS,2008,Beijing,506.39,4
+800m Freestyle,Women,Elena Sokolova,RUS,2008,Beijing,509.79,4
+800m Freestyle,Women,Cassandra Patten,GBR,2008,Beijing,512.35,4
+100m Backstroke,Men,Aaron Peirsol,USA,2004,Athens,54.06,1
+100m Backstroke,Men,Markus Rogan,AUT,2004,Athens,54.35,2
+100m Backstroke,Men,Tomomi Morita,JPN,2004,Athens,54.36,3
+100m Backstroke,Men,Lenny Krayzelburg,USA,2004,Athens,54.38,4
+100m Backstroke,Men,Matthew Welsh,AUS,2004,Athens,54.52,4
+100m Backstroke,Men,Laszlo Cseh,HUN,2004,Athens,54.61,4
+100m Backstroke,Men,Steffen Driesen,GER,2004,Athens,54.63,4
+100m Backstroke,Men,Marco Di Carli,GER,2004,Athens,55.27,4
+100m Backstroke,Women,Natalie Coughlin,USA,2004,Athens,60.37,1
+100m Backstroke,Women,Kirsty Leigh Coventry,ZIM,2004,Athens,60.5,2
+100m Backstroke,Women,Laure Manaudou,FRA,2004,Athens,60.88,3
+100m Backstroke,Women,Reiko Nakamura,JPN,2004,Athens,61.05,4
+100m Backstroke,Women,Nina Alexandrovna Zhivanevskaya,ESP,2004,Athens,61.12,4
+100m Backstroke,Women,Antje Buschschulte,GER,2004,Athens,61.39,4
+100m Backstroke,Women,Louise Ornstedt,DEN,2004,Athens,61.51,4
+100m Backstroke,Women,Haley Cope,USA,2004,Athens,61.76,4
+100m Breaststroke,Men,Kosuke Kitajima,JPN,2004,Athens,60.08,1
+100m Breaststroke,Men,Brendan Hansen,USA,2004,Athens,60.25,2
+100m Breaststroke,Men,Hugues Duboscq,FRA,2004,Athens,60.88,3
+100m Breaststroke,Men,Mark Gangloff,USA,2004,Athens,61.17,4
+100m Breaststroke,Men,Vladislav Polyakov,KAZ,2004,Athens,61.34,4
+100m Breaststroke,Men,James Gibson,GBR,2004,Athens,61.36,4
+100m Breaststroke,Men,Darren Mew,GBR,2004,Athens,61.66,4
+100m Breaststroke,Men,Oleh Lisohor,UKR,2004,Athens,62.42,4
+100m Breaststroke,Women,Xuejuan Luo,CHN,2004,Athens,66.64,2
+100m Breaststroke,Women,Brooke Hanson,AUS,2004,Athens,67.15,3
+100m Breaststroke,Women,Leisel Jones,AUS,2004,Athens,67.16,4
+100m Breaststroke,Women,Amanda Beard,USA,2004,Athens,67.44,4
+100m Breaststroke,Women,Sarah Poewe,GER,2004,Athens,67.53,4
+100m Breaststroke,Women,Tara Kirk,USA,2004,Athens,67.59,4
+100m Breaststroke,Women,Svitlana Bondarenko,UKR,2004,Athens,68.19,4
+100m Butterfly,Men,Michael Phelps,USA,2004,Athens,51.25,1
+100m Butterfly,Men,Ian Crocker,USA,2004,Athens,51.29,2
+100m Butterfly,Men,Andriy Serdinov,UKR,2004,Athens,51.36,3
+100m Butterfly,Men,Thomas Rupprath,GER,2004,Athens,52.27,4
+100m Butterfly,Men,Igor Marchenko,RUS,2004,Athens,52.32,4
+100m Butterfly,Men,Gabriel Mangabeira,BRA,2004,Athens,52.34,4
+100m Butterfly,Men,Duje Draganja,CRO,2004,Athens,52.46,4
+100m Butterfly,Men,Geoffrey Huegill,AUS,2004,Athens,52.56,4
+100m Butterfly,Women,Petria Thomas,AUS,2004,Athens,57.72,1
+100m Butterfly,Women,Otylia Jedrzejczak,POL,2004,Athens,57.84,2
+100m Butterfly,Women,Inge De Bruijn,NED,2004,Athens,57.99,3
+100m Butterfly,Women,Jessicah Schipper,AUS,2004,Athens,58.22,4
+100m Butterfly,Women,Jenny Thompson,USA,2004,Athens,58.72,4
+100m Butterfly,Women,Martina Moravcova,SVK,2004,Athens,58.96,4
+100m Butterfly,Women,Alena Popchanka,BLR,2004,Athens,59.06,4
+100m Butterfly,Women,Junko Onishi,JPN,2004,Athens,59.83,4
+100m Freestyle,Men,Pieter Van Den Hoogenband,NED,2004,Athens,48.17,1
+100m Freestyle,Men,Roland Schoeman,RSA,2004,Athens,48.23,2
+100m Freestyle,Men,Ian Thorpe,AUS,2004,Athens,48.56,3
+100m Freestyle,Men,Ryk Neethling,RSA,2004,Athens,48.63,4
+100m Freestyle,Men,Filippo Magnini,ITA,2004,Athens,48.99,4
+100m Freestyle,Men,Duje Draganja,CRO,2004,Athens,49.23,4
+100m Freestyle,Men,Salim Iles,ALG,2004,Athens,49.3,4
+100m Freestyle,Men,Andrey Kapralov,RUS,2004,Athens,49.3,4
+100m Freestyle,Women,Jodie Henry,AUS,2004,Athens,53.84,1
+100m Freestyle,Women,Inge De Bruijn,NED,2004,Athens,54.16,2
+100m Freestyle,Women,Natalie Coughlin,USA,2004,Athens,54.4,3
+100m Freestyle,Women,Malia Metella,FRA,2004,Athens,54.5,4
+100m Freestyle,Women,Kara Lynn Joyce,USA,2004,Athens,54.54,4
+100m Freestyle,Women,Nery Mantey Niangkouara,GRE,2004,Athens,54.81,4
+100m Freestyle,Women,Martina Moravcova,SVK,2004,Athens,55.12,4
+100m Freestyle,Women,Alena Popchanka,BLR,2004,Athens,55.24,4
+1500m Freestyle,Men,Grant Hackett,AUS,2004,Athens,883.4,1
+1500m Freestyle,Men,Larsen Jensen,USA,2004,Athens,885.29,2
+1500m Freestyle,Men,David Davies,GBR,2004,Athens,885.95,3
+1500m Freestyle,Men,Yuri Prilukov,RUS,2004,Athens,892.48,4
+1500m Freestyle,Men,Spyridon Gianniotis,GRE,2004,Athens,903.69,4
+1500m Freestyle,Men,Graeme Smith,GBR,2004,Athens,909.71,4
+1500m Freestyle,Men,Dragos Cristian Coman,ROU,2004,Athens,910.21,4
+1500m Freestyle,Men,Craig Stevens,AUS,2004,Athens,913.66,4
+200m Backstroke,Men,Aaron Peirsol,USA,2004,Athens,114.95,1
+200m Backstroke,Men,Markus Rogan,AUT,2004,Athens,117.35,2
+200m Backstroke,Men,Razvan Ionut Florea,ROU,2004,Athens,117.56,3
+200m Backstroke,Men,James Goddard,GBR,2004,Athens,117.76,4
+200m Backstroke,Men,Tomomi Morita,JPN,2004,Athens,118.4,4
+200m Backstroke,Men,Simon Dufour,FRA,2004,Athens,118.49,4
+200m Backstroke,Men,Gregor Tait,GBR,2004,Athens,119.28,4
+200m Backstroke,Men,Blaz Medvesek,SLO,2004,Athens,120.06,4
+200m Backstroke,Women,Kirsty Leigh Coventry,ZIM,2004,Athens,129.19,1
+200m Backstroke,Women,Stanislava Komarova,RUS,2004,Athens,129.72,2
+200m Backstroke,Women,Reiko Nakamura,JPN,2004,Athens,129.88,3
+200m Backstroke,Women,Antje Buschschulte,GER,2004,Athens,129.88,3
+200m Backstroke,Women,Margaret Hoelzer,USA,2004,Athens,130.7,4
+200m Backstroke,Women,Louise Ornstedt,DEN,2004,Athens,131.15,4
+200m Backstroke,Women,Katy Sexton,GBR,2004,Athens,132.11,4
+200m Backstroke,Women,Aya Terakawa,JPN,2004,Athens,132.9,4
+200m Breaststroke,Men,Kosuke Kitajima,JPN,2004,Athens,129.44,2
+200m Breaststroke,Men,Daniel Gyurta,HUN,2004,Athens,130.8,3
+200m Breaststroke,Men,Brendan Hansen,USA,2004,Athens,130.87,4
+200m Breaststroke,Men,Paolo Bossini,ITA,2004,Athens,131.2,4
+200m Breaststroke,Men,Vladislav Polyakov,KAZ,2004,Athens,131.76,4
+200m Breaststroke,Men,Mike Brown,CAN,2004,Athens,131.94,4
+200m Breaststroke,Men,Scott Usher,USA,2004,Athens,131.95,4
+200m Breaststroke,Women,Amanda Beard,USA,2004,Athens,143.37,1
+200m Breaststroke,Women,Leisel Jones,AUS,2004,Athens,143.6,2
+200m Breaststroke,Women,Anne Poleska,GER,2004,Athens,145.82,3
+200m Breaststroke,Women,Masami Tanaka,JPN,2004,Athens,145.87,4
+200m Breaststroke,Women,Agnes Kovacs,HUN,2004,Athens,146.12,4
+200m Breaststroke,Women,Hui Qi,CHN,2004,Athens,146.35,4
+200m Breaststroke,Women,Mirna Jukic,AUT,2004,Athens,146.36,4
+200m Breaststroke,Women,Brooke Hanson,AUS,2004,Athens,146.39,4
+200m Butterfly,Men,Michael Phelps,USA,2004,Athens,114.04,1
+200m Butterfly,Men,Takashi Yamamoto,JPN,2004,Athens,114.56,2
+200m Butterfly,Men,Steve Parry,GBR,2004,Athens,115.52,3
+200m Butterfly,Men,Pawel Korzeniowski,POL,2004,Athens,116.0,4
+200m Butterfly,Men,Ioan Stefan Gherghel,ROU,2004,Athens,116.1,4
+200m Butterfly,Men,Peng Wu,CHN,2004,Athens,116.28,4
+200m Butterfly,Men,Nikolay Skvortsov,RUS,2004,Athens,117.14,4
+200m Butterfly,Men,Tom Malchow,USA,2004,Athens,117.48,4
+200m Butterfly,Women,Otylia Jedrzejczak,POL,2004,Athens,126.05,1
+200m Butterfly,Women,Petria Thomas,AUS,2004,Athens,126.36,2
+200m Butterfly,Women,Yuko Nakanishi,JPN,2004,Athens,128.04,3
+200m Butterfly,Women,Kaitlin Sandeno,USA,2004,Athens,128.18,4
+200m Butterfly,Women,Felicity Galvez,AUS,2004,Athens,129.28,4
+200m Butterfly,Women,Mette Jacobsen,DEN,2004,Athens,130.01,4
+200m Butterfly,Women,Paola Cavallino,ITA,2004,Athens,130.14,4
+200m Butterfly,Women,Eva Risztov,HUN,2004,Athens,130.58,4
+200m Freestyle,Men,Ian Thorpe,AUS,2004,Athens,104.71,1
+200m Freestyle,Men,Pieter Van Den Hoogenband,NED,2004,Athens,105.23,2
+200m Freestyle,Men,Michael Phelps,USA,2004,Athens,105.32,3
+200m Freestyle,Men,Klete Keller,USA,2004,Athens,106.13,4
+200m Freestyle,Men,Grant Hackett,AUS,2004,Athens,106.56,4
+200m Freestyle,Men,Rick Say,CAN,2004,Athens,107.55,4
+200m Freestyle,Men,Simon Burnett,GBR,2004,Athens,108.02,4
+200m Freestyle,Men,Emiliano Brembilla,ITA,2004,Athens,108.4,4
+200m Freestyle,Women,Camelia Alina Potec,ROU,2004,Athens,118.03,1
+200m Freestyle,Women,Federica Pellegrini,ITA,2004,Athens,118.22,2
+200m Freestyle,Women,Solenne Figues,FRA,2004,Athens,118.45,3
+200m Freestyle,Women,Paulina Barzycka,POL,2004,Athens,118.62,4
+200m Freestyle,Women,Franziska Van Almsick,GER,2004,Athens,118.88,4
+200m Freestyle,Women,Dana Vollmer,USA,2004,Athens,118.98,4
+200m Freestyle,Women,Jiaying Pang,CHN,2004,Athens,119.16,4
+200m Freestyle,Women,Josefin Lillhage,SWE,2004,Athens,119.2,4
+200m Individual Medley,Men,Michael Phelps,USA,2004,Athens,117.14,1
+200m Individual Medley,Men,Ryan Lochte,USA,2004,Athens,118.78,2
+200m Individual Medley,Men,George Bovell,TTO,2004,Athens,118.8,3
+200m Individual Medley,Men,Laszlo Cseh,HUN,2004,Athens,118.84,4
+200m Individual Medley,Men,Thiago Pereira,BRA,2004,Athens,120.11,4
+200m Individual Medley,Men,Takahiro Mori,JPN,2004,Athens,120.6,4
+200m Individual Medley,Men,Vytautas Janusaitis,LTU,2004,Athens,121.28,4
+200m Individual Medley,Men,Jiro Miki,JPN,2004,Athens,122.16,4
+200m Individual Medley,Women,Yana Klochkova,UKR,2004,Athens,131.14,1
+200m Individual Medley,Women,Amanda Beard,USA,2004,Athens,131.7,2
+200m Individual Medley,Women,Kirsty Leigh Coventry,ZIM,2004,Athens,132.72,3
+200m Individual Medley,Women,Agnes Kovacs,HUN,2004,Athens,133.58,4
+200m Individual Medley,Women,Teresa Rohmann,GER,2004,Athens,133.7,4
+200m Individual Medley,Women,Lara Carroll,AUS,2004,Athens,133.74,4
+200m Individual Medley,Women,Katie Hoff,USA,2004,Athens,133.97,4
+200m Individual Medley,Women,Beatrice Caslaru,ROU,2004,Athens,135.4,4
+400m Freestyle,Men,Ian Thorpe,AUS,2004,Athens,223.1,1
+400m Freestyle,Men,Grant Hackett,AUS,2004,Athens,223.36,2
+400m Freestyle,Men,Klete Keller,USA,2004,Athens,224.11,3
+400m Freestyle,Men,Larsen Jensen,USA,2004,Athens,226.08,4
+400m Freestyle,Men,Massimiliano Rosolino,ITA,2004,Athens,226.25,4
+400m Freestyle,Men,Yuri Prilukov,RUS,2004,Athens,226.69,4
+400m Freestyle,Men,Spyridon Gianniotis,GRE,2004,Athens,228.77,4
+400m Freestyle,Men,Takeshi Matsuda,JPN,2004,Athens,228.96,4
+400m Freestyle,Women,Laure Manaudou,FRA,2004,Athens,245.34,1
+400m Freestyle,Women,Otylia Jedrzejczak,POL,2004,Athens,245.84,2
+400m Freestyle,Women,Kaitlin Sandeno,USA,2004,Athens,246.19,3
+400m Freestyle,Women,Camelia Alina Potec,ROU,2004,Athens,246.34,4
+400m Freestyle,Women,Ai Shibata,JPN,2004,Athens,247.51,4
+400m Freestyle,Women,Sachiko Yamada,JPN,2004,Athens,250.91,4
+400m Freestyle,Women,Linda Mackenzie,AUS,2004,Athens,250.92,4
+400m Freestyle,Women,Rebecca Cooke,GBR,2004,Athens,251.35,4
+400m Individual Medley,Men,Michael Phelps,USA,2004,Athens,248.26,1
+400m Individual Medley,Men,Erik Vendt,USA,2004,Athens,251.81,2
+400m Individual Medley,Men,Laszlo Cseh,HUN,2004,Athens,252.15,3
+400m Individual Medley,Men,Alessio Boggiatto,ITA,2004,Athens,252.28,4
+400m Individual Medley,Men,Oussama Mellouli,TUN,2004,Athens,254.49,4
+400m Individual Medley,Men,Ioannis Kokkodis,GRE,2004,Athens,258.6,4
+400m Individual Medley,Men,Jiro Miki,JPN,2004,Athens,259.97,4
+400m Individual Medley,Men,Travis Nederpelt,AUS,2004,Athens,260.08,4
+400m Individual Medley,Women,Yana Klochkova,UKR,2004,Athens,274.83,1
+400m Individual Medley,Women,Kaitlin Sandeno,USA,2004,Athens,274.95,2
+400m Individual Medley,Women,Georgina Bardach,ARG,2004,Athens,277.51,3
+400m Individual Medley,Women,Eva Risztov,HUN,2004,Athens,279.29,4
+400m Individual Medley,Women,Joanna Maranhao,BRA,2004,Athens,280.0,4
+400m Individual Medley,Women,Nicole Hetzer,GER,2004,Athens,280.2,4
+400m Individual Medley,Women,Yoosun Nam,KOR,2004,Athens,290.35,4
+400m Individual Medley,Women,Vasiliki Angelopoulou,GRE,2004,Athens,290.85,4
+50m Freestyle,Men,Jr. Gary Hall,USA,2004,Athens,21.93,1
+50m Freestyle,Men,Duje Draganja,CRO,2004,Athens,21.94,2
+50m Freestyle,Men,Roland Schoeman,RSA,2004,Athens,22.02,3
+50m Freestyle,Men,Stefan Nystrand,SWE,2004,Athens,22.08,4
+50m Freestyle,Men,Jason Lezak,USA,2004,Athens,22.11,4
+50m Freestyle,Men,Brett Hawke,AUS,2004,Athens,22.18,4
+50m Freestyle,Men,Oleksandr Volynets,UKR,2004,Athens,22.26,4
+50m Freestyle,Men,Salim Iles,ALG,2004,Athens,22.37,4
+50m Freestyle,Women,Inge De Bruijn,NED,2004,Athens,24.58,1
+50m Freestyle,Women,Malia Metella,FRA,2004,Athens,24.89,2
+50m Freestyle,Women,Libby Trickett,AUS,2004,Athens,24.91,3
+50m Freestyle,Women,Therese Alshammar,SWE,2004,Athens,24.93,4
+50m Freestyle,Women,Kara Lynn Joyce,USA,2004,Athens,25.0,4
+50m Freestyle,Women,Michelle Engelsman,AUS,2004,Athens,25.06,4
+50m Freestyle,Women,Jenny Thompson,USA,2004,Athens,25.11,4
+50m Freestyle,Women,Flavia Cazziolato,BRA,2004,Athens,25.2,4
+800m Freestyle,Women,Ai Shibata,JPN,2004,Athens,504.54,1
+800m Freestyle,Women,Laure Manaudou,FRA,2004,Athens,504.96,2
+800m Freestyle,Women,Diana Munz,USA,2004,Athens,506.61,3
+800m Freestyle,Women,Kalyn Keller,USA,2004,Athens,506.97,4
+800m Freestyle,Women,Erika Villaecija,ESP,2004,Athens,509.04,4
+800m Freestyle,Women,Rebecca Cooke,GBR,2004,Athens,509.37,4
+800m Freestyle,Women,Jana Henke,GER,2004,Athens,513.95,4
+800m Freestyle,Women,Simona Paduraru,ROU,2004,Athens,517.02,4
+100m Backstroke,Men,Lenny Krayzelburg,USA,2000,Sydney,53.72,1
+100m Backstroke,Men,Matthew Welsh,AUS,2000,Sydney,54.07,2
+100m Backstroke,Men,Stev Theloke,GER,2000,Sydney,54.82,3
+100m Backstroke,Men,Josh Watson,AUS,2000,Sydney,55.01,4
+100m Backstroke,Men,Bartosz Kizierowski,POL,2000,Sydney,55.04,4
+100m Backstroke,Men,Neil Walker,USA,2000,Sydney,55.14,4
+100m Backstroke,Men,Steffen Driesen,GER,2000,Sydney,55.27,4
+100m Backstroke,Men,Eithan Urbach,ISR,2000,Sydney,55.74,4
+100m Backstroke,Women,Diana Mocanu,ROU,2000,Sydney,60.21,1
+100m Backstroke,Women,Mai Nakamura,JPN,2000,Sydney,60.55,2
+100m Backstroke,Women,Nina Alexandrovna Zhivanevskaya,ESP,2000,Sydney,60.89,3
+100m Backstroke,Women,Roxana Maracineanu,FRA,2000,Sydney,61.1,4
+100m Backstroke,Women,Noriko Inada,JPN,2000,Sydney,61.14,4
+100m Backstroke,Women,B J Bedford,USA,2000,Sydney,61.47,4
+100m Backstroke,Women,Dyana Calub,AUS,2000,Sydney,61.61,4
+100m Backstroke,Women,Louise Ornstedt,DEN,2000,Sydney,62.02,4
+100m Breaststroke,Men,Domenico Fioravanti,ITA,2000,Sydney,60.46,1
+100m Breaststroke,Men,Ed Moses,USA,2000,Sydney,60.73,2
+100m Breaststroke,Men,Roman Sloudnov,RUS,2000,Sydney,60.91,3
+100m Breaststroke,Men,Kosuke Kitajima,JPN,2000,Sydney,61.34,4
+100m Breaststroke,Men,Daniel Malek,CZE,2000,Sydney,61.5,4
+100m Breaststroke,Men,Morgan Knabe,CAN,2000,Sydney,61.58,4
+100m Breaststroke,Men,Brett Petersen,RSA,2000,Sydney,61.63,4
+100m Breaststroke,Men,Remo Luetolf,SUI,2000,Sydney,61.88,4
+100m Breaststroke,Women,Megan Quann,USA,2000,Sydney,67.05,1
+100m Breaststroke,Women,Leisel Jones,AUS,2000,Sydney,67.49,2
+100m Breaststroke,Women,Penelope Heyns,RSA,2000,Sydney,67.55,3
+100m Breaststroke,Women,Sarah Poewe,RSA,2000,Sydney,67.85,4
+100m Breaststroke,Women,Agnes Kovacs,HUN,2000,Sydney,68.09,4
+100m Breaststroke,Women,Masami Tanaka,JPN,2000,Sydney,68.37,4
+100m Breaststroke,Women,Tarnee White,AUS,2000,Sydney,69.09,4
+100m Breaststroke,Women,Sylvia Gerasch,GER,2000,Sydney,69.86,4
+100m Butterfly,Men,Lars Frolander,SWE,2000,Sydney,52.0,1
+100m Butterfly,Men,Michael Klim,AUS,2000,Sydney,52.18,2
+100m Butterfly,Men,Geoffrey Huegill,AUS,2000,Sydney,52.22,3
+100m Butterfly,Men,Ian Crocker,USA,2000,Sydney,52.44,4
+100m Butterfly,Men,Takashi Yamamoto,JPN,2000,Sydney,52.58,4
+100m Butterfly,Men,Michael Mintenko,CAN,2000,Sydney,52.58,4
+100m Butterfly,Men,Thomas Rupprath,GER,2000,Sydney,53.13,4
+100m Butterfly,Men,Anatoly Polyakov,RUS,2000,Sydney,53.13,4
+100m Butterfly,Women,Inge De Bruijn,NED,2000,Sydney,56.61,1
+100m Butterfly,Women,Martina Moravcova,SVK,2000,Sydney,57.97,2
+100m Butterfly,Women,Dara Torres,USA,2000,Sydney,58.2,3
+100m Butterfly,Women,Petria Thomas,AUS,2000,Sydney,58.49,4
+100m Butterfly,Women,Jenny Thompson,USA,2000,Sydney,58.73,4
+100m Butterfly,Women,Junko Onishi,JPN,2000,Sydney,59.13,4
+100m Butterfly,Women,Susan O'Neill,AUS,2000,Sydney,59.27,4
+100m Butterfly,Women,Diana Mocanu,ROU,2000,Sydney,59.43,4
+100m Freestyle,Men,Pieter Van Den Hoogenband,NED,2000,Sydney,48.3,1
+100m Freestyle,Men,Alexander Popov,RUS,2000,Sydney,48.69,2
+100m Freestyle,Men,Jr. Gary Hall,USA,2000,Sydney,48.73,3
+100m Freestyle,Men,Michael Klim,AUS,2000,Sydney,48.74,4
+100m Freestyle,Men,Neil Walker,USA,2000,Sydney,49.09,4
+100m Freestyle,Men,Lars Frolander,SWE,2000,Sydney,49.22,4
+100m Freestyle,Men,Denis Pimankov,RUS,2000,Sydney,49.36,4
+100m Freestyle,Men,Christopher John Fydler,AUS,2000,Sydney,49.44,4
+100m Freestyle,Women,Inge De Bruijn,NED,2000,Sydney,53.83,1
+100m Freestyle,Women,Therese Alshammar,SWE,2000,Sydney,54.33,2
+100m Freestyle,Women,Jenny Thompson,USA,2000,Sydney,54.43,3
+100m Freestyle,Women,Dara Torres,USA,2000,Sydney,54.43,3
+100m Freestyle,Women,Martina Moravcova,SVK,2000,Sydney,54.72,4
+100m Freestyle,Women,Helene Muller,RSA,2000,Sydney,55.19,4
+100m Freestyle,Women,Sumika Minamoto,JPN,2000,Sydney,55.53,4
+100m Freestyle,Women,Wilma Van Rijn,NED,2000,Sydney,55.58,4
+1500m Freestyle,Men,Grant Hackett,AUS,2000,Sydney,888.33,1
+1500m Freestyle,Men,Kieren John Perkins,AUS,2000,Sydney,893.59,2
+1500m Freestyle,Men,Chris Thompson,USA,2000,Sydney,896.81,3
+1500m Freestyle,Men,Alexei Filipets,RUS,2000,Sydney,896.88,4
+1500m Freestyle,Men,Ryk Neethling,RSA,2000,Sydney,900.48,4
+1500m Freestyle,Men,Erik Vendt,USA,2000,Sydney,908.61,4
+1500m Freestyle,Men,Igor Chervynskiy,UKR,2000,Sydney,908.8,4
+1500m Freestyle,Men,Heiko Hell,GER,2000,Sydney,919.87,4
+200m Backstroke,Men,Lenny Krayzelburg,USA,2000,Sydney,116.76,1
+200m Backstroke,Men,Aaron Peirsol,USA,2000,Sydney,117.35,2
+200m Backstroke,Men,Matthew Welsh,AUS,2000,Sydney,117.59,3
+200m Backstroke,Men,Orn Arnarson,ISL,2000,Sydney,119.0,4
+200m Backstroke,Men,Emanuele Merisi,ITA,2000,Sydney,119.01,4
+200m Backstroke,Men,Razvan Ionut Florea,ROU,2000,Sydney,119.05,4
+200m Backstroke,Men,Rogerio Romero,BRA,2000,Sydney,119.27,4
+200m Backstroke,Men,Gordan Kozulj,CRO,2000,Sydney,119.38,4
+200m Backstroke,Women,Diana Mocanu,ROU,2000,Sydney,128.16,1
+200m Backstroke,Women,Roxana Maracineanu,FRA,2000,Sydney,130.25,2
+200m Backstroke,Women,Miki Nakao,JPN,2000,Sydney,131.05,3
+200m Backstroke,Women,Tomoko Hagiwara,JPN,2000,Sydney,131.21,4
+200m Backstroke,Women,Amanda Adkins,USA,2000,Sydney,132.35,4
+200m Backstroke,Women,Nina Alexandrovna Zhivanevskaya,ESP,2000,Sydney,132.75,4
+200m Backstroke,Women,Antje Buschschulte,GER,2000,Sydney,133.31,4
+200m Backstroke,Women,Kelly Stefanyshyn,CAN,2000,Sydney,134.57,4
+200m Breaststroke,Men,Domenico Fioravanti,ITA,2000,Sydney,130.87,1
+200m Breaststroke,Men,Terence Parkin,RSA,2000,Sydney,132.5,2
+200m Breaststroke,Men,Davide Rummolo,ITA,2000,Sydney,132.73,3
+200m Breaststroke,Men,Regan Harrison,AUS,2000,Sydney,132.88,4
+200m Breaststroke,Men,Daniel Malek,CZE,2000,Sydney,133.2,4
+200m Breaststroke,Men,Kyle Salyards,USA,2000,Sydney,133.27,4
+200m Breaststroke,Men,Johan Bernard,FRA,2000,Sydney,133.31,4
+200m Breaststroke,Men,Ryan Mitchell,AUS,2000,Sydney,134.0,4
+200m Breaststroke,Women,Agnes Kovacs,HUN,2000,Sydney,144.35,1
+200m Breaststroke,Women,Kristy Kowal,USA,2000,Sydney,144.56,2
+200m Breaststroke,Women,Amanda Beard,USA,2000,Sydney,145.35,3
+200m Breaststroke,Women,Hui Qi,CHN,2000,Sydney,145.36,4
+200m Breaststroke,Women,Olga Bakaldina,RUS,2000,Sydney,145.47,4
+200m Breaststroke,Women,Sarah Poewe,RSA,2000,Sydney,145.72,4
+200m Breaststroke,Women,Masami Tanaka,JPN,2000,Sydney,146.98,4
+200m Breaststroke,Women,Xuejuan Luo,CHN,2000,Sydney,147.33,4
+200m Butterfly,Men,Tom Malchow,USA,2000,Sydney,115.35,1
+200m Butterfly,Men,Denys Sylantiev,UKR,2000,Sydney,115.76,2
+200m Butterfly,Men,Justin Norris,AUS,2000,Sydney,116.17,3
+200m Butterfly,Men,Anatoly Polyakov,RUS,2000,Sydney,116.34,4
+200m Butterfly,Men,Michael Phelps,USA,2000,Sydney,116.5,4
+200m Butterfly,Men,Steve Parry,GBR,2000,Sydney,117.01,4
+200m Butterfly,Men,Denis Pankratov,RUS,2000,Sydney,117.97,4
+200m Butterfly,Men,Franck Esposito,FRA,2000,Sydney,118.39,4
+200m Butterfly,Women,Misty Hyman,USA,2000,Sydney,125.88,1
+200m Butterfly,Women,Susan O'Neill,AUS,2000,Sydney,126.58,2
+200m Butterfly,Women,Petria Thomas,AUS,2000,Sydney,127.12,3
+200m Butterfly,Women,Mette Jacobsen,DEN,2000,Sydney,128.24,4
+200m Butterfly,Women,Otylia Jedrzejczak,POL,2000,Sydney,128.48,4
+200m Butterfly,Women,Kaitlin Sandeno,USA,2000,Sydney,128.81,4
+200m Butterfly,Women,Yuko Nakanishi,JPN,2000,Sydney,129.66,4
+200m Butterfly,Women,Maki Mita,JPN,2000,Sydney,130.72,4
+200m Freestyle,Men,Pieter Van Den Hoogenband,NED,2000,Sydney,105.35,1
+200m Freestyle,Men,Ian Thorpe,AUS,2000,Sydney,105.83,2
+200m Freestyle,Men,Massimiliano Rosolino,ITA,2000,Sydney,106.65,3
+200m Freestyle,Men,Josh Davis,USA,2000,Sydney,106.73,4
+200m Freestyle,Men,Paul Rory Palmer,GBR,2000,Sydney,107.95,4
+200m Freestyle,Men,James Salter,GBR,2000,Sydney,108.74,4
+200m Freestyle,Men,Rick Say,CAN,2000,Sydney,108.76,4
+200m Freestyle,Men,Grant Hackett,AUS,2000,Sydney,109.46,4
+200m Freestyle,Women,Susan O'Neill,AUS,2000,Sydney,118.24,1
+200m Freestyle,Women,Martina Moravcova,SVK,2000,Sydney,118.32,2
+200m Freestyle,Women,Claudia Poll Ahrens,CRC,2000,Sydney,118.81,3
+200m Freestyle,Women,Kerstin Kielgass,GER,2000,Sydney,118.86,4
+200m Freestyle,Women,Nadezhda Chemezova,RUS,2000,Sydney,118.86,4
+200m Freestyle,Women,Natalia Baranovskaya-Khatziloizou,BLR,2000,Sydney,119.28,4
+200m Freestyle,Women,Camelia Alina Potec,ROU,2000,Sydney,119.46,4
+200m Freestyle,Women,Luna Wang,CHN,2000,Sydney,119.55,4
+200m Individual Medley,Men,Massimiliano Rosolino,ITA,2000,Sydney,118.98,1
+200m Individual Medley,Men,Tom Dolan,USA,2000,Sydney,119.77,2
+200m Individual Medley,Men,Tom Wilkens,USA,2000,Sydney,120.87,3
+200m Individual Medley,Men,Attila Czene,HUN,2000,Sydney,121.16,4
+200m Individual Medley,Men,Marcel Wouda,NED,2000,Sydney,121.48,4
+200m Individual Medley,Men,Christian Keller,GER,2000,Sydney,122.02,4
+200m Individual Medley,Men,Xavier Marchand,FRA,2000,Sydney,122.23,4
+200m Individual Medley,Men,Jani Sievinen,FIN,2000,Sydney,122.49,4
+200m Individual Medley,Women,Yana Klochkova,UKR,2000,Sydney,130.68,1
+200m Individual Medley,Women,Beatrice Caslaru,ROU,2000,Sydney,132.57,2
+200m Individual Medley,Women,Cristina Teuscher,USA,2000,Sydney,133.32,3
+200m Individual Medley,Women,Marianne Luise Limpert,CAN,2000,Sydney,133.44,4
+200m Individual Medley,Women,Joanne Susan Malar,CAN,2000,Sydney,133.7,4
+200m Individual Medley,Women,Oxana Verevka,RUS,2000,Sydney,133.88,4
+200m Individual Medley,Women,Gabrielle Rose,USA,2000,Sydney,134.82,4
+200m Individual Medley,Women,Tomoko Hagiwara,JPN,2000,Sydney,135.64,4
+400m Freestyle,Men,Ian Thorpe,AUS,2000,Sydney,220.59,1
+400m Freestyle,Men,Massimiliano Rosolino,ITA,2000,Sydney,223.4,2
+400m Freestyle,Men,Klete Keller,USA,2000,Sydney,227.0,3
+400m Freestyle,Men,Emiliano Brembilla,ITA,2000,Sydney,227.01,4
+400m Freestyle,Men,Dragos Cristian Coman,ROU,2000,Sydney,227.38,4
+400m Freestyle,Men,Chad Carvin,USA,2000,Sydney,227.58,4
+400m Freestyle,Men,Grant Hackett,AUS,2000,Sydney,228.22,4
+400m Freestyle,Men,Ryk Neethling,RSA,2000,Sydney,228.52,4
+400m Freestyle,Women,Brooke Bennett,USA,2000,Sydney,245.8,1
+400m Freestyle,Women,Diana Munz,USA,2000,Sydney,247.07,2
+400m Freestyle,Women,Claudia Poll Ahrens,CRC,2000,Sydney,247.83,3
+400m Freestyle,Women,Janelle Atkinson,JAM,2000,Sydney,248.79,4
+400m Freestyle,Women,Nadezhda Chemezova,RUS,2000,Sydney,250.37,4
+400m Freestyle,Women,Hannah Stockbauer,GER,2000,Sydney,250.38,4
+400m Freestyle,Women,Carla Louise Geurts,NED,2000,Sydney,252.36,4
+400m Freestyle,Women,Hua Chen,CHN,2000,Sydney,253.11,4
+400m Individual Medley,Men,Tom Dolan,USA,2000,Sydney,251.76,1
+400m Individual Medley,Men,Erik Vendt,USA,2000,Sydney,254.23,2
+400m Individual Medley,Men,Curtis Allen Myden,CAN,2000,Sydney,255.33,3
+400m Individual Medley,Men,Alessio Boggiatto,ITA,2000,Sydney,255.93,4
+400m Individual Medley,Men,Terence Parkin,RSA,2000,Sydney,256.92,4
+400m Individual Medley,Men,Justin Norris,AUS,2000,Sydney,257.87,4
+400m Individual Medley,Men,Cezar Alexandru Badita,ROU,2000,Sydney,260.91,4
+400m Individual Medley,Men,Shinya Taniguchi,JPN,2000,Sydney,260.93,4
+400m Individual Medley,Women,Yana Klochkova,UKR,2000,Sydney,273.59,1
+400m Individual Medley,Women,Yasuko Tajima,JPN,2000,Sydney,275.96,2
+400m Individual Medley,Women,Beatrice Caslaru,ROU,2000,Sydney,277.18,3
+400m Individual Medley,Women,Kaitlin Sandeno,USA,2000,Sydney,281.03,4
+400m Individual Medley,Women,Nicole Hetzer,GER,2000,Sydney,283.56,4
+400m Individual Medley,Women,Maddy Crippen,USA,2000,Sydney,284.63,4
+400m Individual Medley,Women,Joanne Susan Malar,CAN,2000,Sydney,285.17,4
+400m Individual Medley,Women,Jennifer Reilly,AUS,2000,Sydney,285.99,4
+50m Freestyle,Men,Jr. Gary Hall,USA,2000,Sydney,21.98,1
+50m Freestyle,Men,Anthony Ervin,USA,2000,Sydney,21.98,1
+50m Freestyle,Men,Pieter Van Den Hoogenband,NED,2000,Sydney,22.03,3
+50m Freestyle,Men,Lorenzo Vismara,ITA,2000,Sydney,22.11,4
+50m Freestyle,Men,Bartosz Kizierowski,POL,2000,Sydney,22.22,4
+50m Freestyle,Men,Alexander Popov,RUS,2000,Sydney,22.24,4
+50m Freestyle,Men,Mark Andrew Foster,GBR,2000,Sydney,22.41,4
+50m Freestyle,Men,Oleksandr Volynets,UKR,2000,Sydney,22.51,4
+50m Freestyle,Women,Inge De Bruijn,NED,2000,Sydney,24.32,1
+50m Freestyle,Women,Therese Alshammar,SWE,2000,Sydney,24.51,2
+50m Freestyle,Women,Dara Torres,USA,2000,Sydney,24.63,3
+50m Freestyle,Women,Amy Van Dyken,USA,2000,Sydney,25.04,4
+50m Freestyle,Women,Martina Moravcova,SVK,2000,Sydney,25.24,4
+50m Freestyle,Women,Sandra Voelker,GER,2000,Sydney,25.27,4
+50m Freestyle,Women,Alison Sheppard,GBR,2000,Sydney,25.45,4
+50m Freestyle,Women,Sumika Minamoto,JPN,2000,Sydney,25.65,4
+800m Freestyle,Women,Brooke Bennett,USA,2000,Sydney,499.67,1
+800m Freestyle,Women,Yana Klochkova,UKR,2000,Sydney,502.66,2
+800m Freestyle,Women,Kaitlin Sandeno,USA,2000,Sydney,504.29,3
+800m Freestyle,Women,Flavia Rigamonti,SUI,2000,Sydney,505.91,4
+800m Freestyle,Women,Hannah Stockbauer,GER,2000,Sydney,510.11,4
+800m Freestyle,Women,Hua Chen,CHN,2000,Sydney,510.58,4
+800m Freestyle,Women,Jana Henke,GER,2000,Sydney,511.97,4
+800m Freestyle,Women,Sachiko Yamada,JPN,2000,Sydney,517.39,4
+100m Backstroke,Men,Jeff Norman Rouse,USA,1996,Atlanta,54.1,1
+100m Backstroke,Men,Rodolfo Falcon Cabrera,CUB,1996,Atlanta,54.98,2
+100m Backstroke,Men,Neisser Bent,CUB,1996,Atlanta,55.02,3
+100m Backstroke,Men,Martin Lopez Zubero,ESP,1996,Atlanta,55.22,4
+100m Backstroke,Men,Tripp Schwenk,USA,1996,Atlanta,55.3,4
+100m Backstroke,Men,Emanuele Merisi,ITA,1996,Atlanta,55.53,4
+100m Backstroke,Men,Ralf Braun,GER,1996,Atlanta,55.56,4
+100m Backstroke,Men,Franck Schott,FRA,1996,Atlanta,55.76,4
+100m Backstroke,Women,Beth Botsford,USA,1996,Atlanta,61.19,1
+100m Backstroke,Women,Whitney L. Hedgepeth,USA,1996,Atlanta,61.47,2
+100m Backstroke,Women,Marianne Kriel,RSA,1996,Atlanta,62.12,3
+100m Backstroke,Women,Mai Nakamura,JPN,1996,Atlanta,62.33,4
+100m Backstroke,Women,Yan Chen,CHN,1996,Atlanta,62.5,4
+100m Backstroke,Women,Antje Buschschulte,GER,1996,Atlanta,62.52,4
+100m Backstroke,Women,Nicole Livingstone,AUS,1996,Atlanta,62.7,4
+100m Backstroke,Women,Miki Nakao,JPN,1996,Atlanta,62.78,4
+100m Breaststroke,Men,Frederik Deburghgraeve,BEL,1996,Atlanta,60.65,1
+100m Breaststroke,Men,Jeremy Linn,USA,1996,Atlanta,60.77,2
+100m Breaststroke,Men,Mark Warnecke,GER,1996,Atlanta,61.33,3
+100m Breaststroke,Men,Karoly Guttler,HUN,1996,Atlanta,61.49,4
+100m Breaststroke,Men,Philip John Rogers,AUS,1996,Atlanta,61.64,4
+100m Breaststroke,Men,Kurt Grote,USA,1996,Atlanta,61.69,4
+100m Breaststroke,Men,Qiliang Zeng,CHN,1996,Atlanta,62.01,4
+100m Breaststroke,Men,Stanislav Lopukhov,RUS,1996,Atlanta,62.13,4
+100m Breaststroke,Women,Penelope Heyns,RSA,1996,Atlanta,67.73,1
+100m Breaststroke,Women,Amanda Beard,USA,1996,Atlanta,68.09,2
+100m Breaststroke,Women,Samantha Linette Riley,AUS,1996,Atlanta,69.18,3
+100m Breaststroke,Women,Svitlana Bondarenko,UKR,1996,Atlanta,69.21,4
+100m Breaststroke,Women,Vera Lischka,AUT,1996,Atlanta,69.24,4
+100m Breaststroke,Women,Guylaine Cloutier,CAN,1996,Atlanta,69.4,4
+100m Breaststroke,Women,Agnes Kovacs,HUN,1996,Atlanta,69.55,4
+100m Breaststroke,Women,Brigitte Becue,BEL,1996,Atlanta,69.79,4
+100m Butterfly,Men,Denis Pankratov,RUS,1996,Atlanta,52.27,1
+100m Butterfly,Men,Scott Miller,AUS,1996,Atlanta,52.53,2
+100m Butterfly,Men,Vladislav Kulikov,RUS,1996,Atlanta,53.13,3
+100m Butterfly,Men,Chengji Jiang,CHN,1996,Atlanta,53.2,4
+100m Butterfly,Men,Rafal Szukala,POL,1996,Atlanta,53.29,4
+100m Butterfly,Men,Michael Klim,AUS,1996,Atlanta,53.3,4
+100m Butterfly,Men,Stephen Clarke,CAN,1996,Atlanta,53.33,4
+100m Butterfly,Men,Pavlo Khnykin,UKR,1996,Atlanta,53.58,4
+100m Butterfly,Women,Amy Van Dyken,USA,1996,Atlanta,59.13,4
+100m Butterfly,Women,Limin Liu,CHN,1996,Atlanta,59.14,4
+100m Butterfly,Women,Angel Martino,USA,1996,Atlanta,59.23,4
+100m Butterfly,Women,Hitomi Kashima,JPN,1996,Atlanta,60.11,1
+100m Butterfly,Women,Susan O'Neill,AUS,1996,Atlanta,60.17,2
+100m Butterfly,Women,Ayari Aoyama,JPN,1996,Atlanta,60.18,3
+100m Butterfly,Women,Huijue Cai,CHN,1996,Atlanta,60.46,4
+100m Butterfly,Women,Mette Jacobsen,DEN,1996,Atlanta,60.76,4
+100m Freestyle,Men,Alexander Popov,RUS,1996,Atlanta,48.74,1
+100m Freestyle,Men,Jr. Gary Hall,USA,1996,Atlanta,48.81,2
+100m Freestyle,Men,Gustavo Borges,BRA,1996,Atlanta,49.02,3
+100m Freestyle,Men,Pieter Van Den Hoogenband,NED,1996,Atlanta,49.13,4
+100m Freestyle,Men,Fernando Scherer,BRA,1996,Atlanta,49.57,4
+100m Freestyle,Men,Pavlo Khnykin,UKR,1996,Atlanta,49.65,4
+100m Freestyle,Men,Ricardo Busquets Healy,PUR,1996,Atlanta,49.68,4
+100m Freestyle,Men,Francisco Sanchez,VEN,1996,Atlanta,49.84,4
+100m Freestyle,Women,Jingyi Le,CHN,1996,Atlanta,54.5,1
+100m Freestyle,Women,Sandra Voelker,GER,1996,Atlanta,54.88,2
+100m Freestyle,Women,Angel Martino,USA,1996,Atlanta,54.93,3
+100m Freestyle,Women,Amy Van Dyken,USA,1996,Atlanta,55.11,4
+100m Freestyle,Women,Franziska Van Almsick,GER,1996,Atlanta,55.59,4
+100m Freestyle,Women,Sarah Ryan,AUS,1996,Atlanta,55.85,4
+100m Freestyle,Women,Mette Jacobsen,DEN,1996,Atlanta,56.01,4
+100m Freestyle,Women,Karin Brienesse,NED,1996,Atlanta,56.12,4
+1500m Freestyle,Men,Kieren John Perkins,AUS,1996,Atlanta,896.4,1
+1500m Freestyle,Men,Daniel Kowalski,AUS,1996,Atlanta,902.43,2
+1500m Freestyle,Men,Graeme Smith,GBR,1996,Atlanta,902.48,3
+1500m Freestyle,Men,Emiliano Brembilla,ITA,1996,Atlanta,908.58,4
+1500m Freestyle,Men,Ryk Neethling,RSA,1996,Atlanta,914.63,4
+1500m Freestyle,Men,Masato Hirano,JPN,1996,Atlanta,917.28,4
+1500m Freestyle,Men,Jörg Hoffmann,GER,1996,Atlanta,918.86,4
+1500m Freestyle,Men,Aleksey Akatyev,RUS,1996,Atlanta,921.68,4
+200m Backstroke,Men,Brad Bridgewater,USA,1996,Atlanta,118.54,1
+200m Backstroke,Men,Tripp Schwenk,USA,1996,Atlanta,118.99,2
+200m Backstroke,Men,Emanuele Merisi,ITA,1996,Atlanta,119.18,3
+200m Backstroke,Men,Bartosz Sikora,POL,1996,Atlanta,120.05,4
+200m Backstroke,Men,Hajime Itoi,JPN,1996,Atlanta,120.1,4
+200m Backstroke,Men,Martin Lopez Zubero,ESP,1996,Atlanta,120.74,4
+200m Backstroke,Men,Mirko Mazzari,ITA,1996,Atlanta,121.27,4
+200m Backstroke,Men,Rodolfo Falcon Cabrera,CUB,1996,Atlanta,128.14,4
+200m Backstroke,Women,Krisztina Egerszegi,HUN,1996,Atlanta,127.83,1
+200m Backstroke,Women,Whitney L. Hedgepeth,USA,1996,Atlanta,131.98,2
+200m Backstroke,Women,Cathleen Rund,GER,1996,Atlanta,132.06,3
+200m Backstroke,Women,Anke Scholz,GER,1996,Atlanta,132.9,4
+200m Backstroke,Women,Miki Nakao,JPN,1996,Atlanta,133.57,4
+200m Backstroke,Women,Anna Katrina Simcic,NZL,1996,Atlanta,134.04,4
+200m Backstroke,Women,Lorenza Vigarani,ITA,1996,Atlanta,134.56,4
+200m Backstroke,Women,Nina Alexandrovna Zhivanevskaya,RUS,1996,Atlanta,134.59,4
+200m Breaststroke,Men,Norbert Rozsa,HUN,1996,Atlanta,132.57,1
+200m Breaststroke,Men,Karoly Guttler,HUN,1996,Atlanta,133.03,2
+200m Breaststroke,Men,Andrey Korneyev,RUS,1996,Atlanta,133.17,3
+200m Breaststroke,Men,Nick Gillingham,GBR,1996,Atlanta,134.37,4
+200m Breaststroke,Men,Philip John Rogers,AUS,1996,Atlanta,134.79,4
+200m Breaststroke,Men,Marek Krawczyk,POL,1996,Atlanta,134.84,4
+200m Breaststroke,Men,Eric Wunderlich,USA,1996,Atlanta,135.69,4
+200m Breaststroke,Men,Kurt Grote,USA,1996,Atlanta,136.05,4
+200m Breaststroke,Women,Penelope Heyns,RSA,1996,Atlanta,145.41,1
+200m Breaststroke,Women,Amanda Beard,USA,1996,Atlanta,145.75,2
+200m Breaststroke,Women,Agnes Kovacs,HUN,1996,Atlanta,146.57,3
+200m Breaststroke,Women,Samantha Linette Riley,AUS,1996,Atlanta,147.91,4
+200m Breaststroke,Women,Masami Tanaka,JPN,1996,Atlanta,148.05,4
+200m Breaststroke,Women,Nadine Neumann,AUS,1996,Atlanta,148.34,4
+200m Breaststroke,Women,Brigitte Becue,BEL,1996,Atlanta,148.36,4
+200m Breaststroke,Women,Christin Petelski,CAN,1996,Atlanta,151.45,4
+200m Butterfly,Men,Denis Pankratov,RUS,1996,Atlanta,116.51,1
+200m Butterfly,Men,Tom Malchow,USA,1996,Atlanta,117.44,2
+200m Butterfly,Men,Scott Goodman,AUS,1996,Atlanta,117.48,3
+200m Butterfly,Men,Franck Esposito,FRA,1996,Atlanta,118.1,4
+200m Butterfly,Men,Scott Miller,AUS,1996,Atlanta,118.28,4
+200m Butterfly,Men,Denys Sylantiev,UKR,1996,Atlanta,118.37,4
+200m Butterfly,Men,James Hickman,GBR,1996,Atlanta,118.47,4
+200m Butterfly,Men,Peter Horvath,HUN,1996,Atlanta,119.12,4
+200m Butterfly,Women,Susan O'Neill,AUS,1996,Atlanta,127.76,1
+200m Butterfly,Women,Petria Thomas,AUS,1996,Atlanta,129.82,2
+200m Butterfly,Women,Michelle Marie Smith,IRL,1996,Atlanta,129.91,3
+200m Butterfly,Women,Yun Qu,CHN,1996,Atlanta,130.26,4
+200m Butterfly,Women,Limin Liu,CHN,1996,Atlanta,130.7,4
+200m Butterfly,Women,Jessica Deglau,CAN,1996,Atlanta,131.4,4
+200m Butterfly,Women,Mika Haruna,JPN,1996,Atlanta,131.93,4
+200m Butterfly,Women,Trina Jackson,USA,1996,Atlanta,131.96,4
+200m Freestyle,Men,Danyon Joseph Loader,NZL,1996,Atlanta,107.63,1
+200m Freestyle,Men,Gustavo Borges,BRA,1996,Atlanta,108.08,2
+200m Freestyle,Men,Daniel Kowalski,AUS,1996,Atlanta,108.25,3
+200m Freestyle,Men,Pieter Van Den Hoogenband,NED,1996,Atlanta,108.36,4
+200m Freestyle,Men,Anders Holmertz,SWE,1996,Atlanta,108.42,4
+200m Freestyle,Men,Massimiliano Rosolino,ITA,1996,Atlanta,108.5,4
+200m Freestyle,Men,Josh Davis,USA,1996,Atlanta,108.54,4
+200m Freestyle,Men,Paul Rory Palmer,GBR,1996,Atlanta,109.39,4
+200m Freestyle,Women,Claudia Poll Ahrens,CRC,1996,Atlanta,118.16,1
+200m Freestyle,Women,Franziska Van Almsick,GER,1996,Atlanta,118.57,2
+200m Freestyle,Women,Dagmar Hase,GER,1996,Atlanta,119.56,3
+200m Freestyle,Women,Trina Jackson,USA,1996,Atlanta,119.57,4
+200m Freestyle,Women,Susan O'Neill,AUS,1996,Atlanta,119.87,4
+200m Freestyle,Women,Cristina Teuscher,USA,1996,Atlanta,120.79,4
+200m Freestyle,Women,Julia Greville,AUS,1996,Atlanta,121.46,4
+200m Freestyle,Women,Liliana Luminita Dobrescu,ROU,1996,Atlanta,121.63,4
+200m Individual Medley,Men,Attila Czene,HUN,1996,Atlanta,119.91,1
+200m Individual Medley,Men,Jani Sievinen,FIN,1996,Atlanta,120.13,2
+200m Individual Medley,Men,Curtis Allen Myden,CAN,1996,Atlanta,121.13,3
+200m Individual Medley,Men,Marcel Wouda,NED,1996,Atlanta,121.45,4
+200m Individual Medley,Men,Matthew Stephen Dunn,AUS,1996,Atlanta,121.57,4
+200m Individual Medley,Men,Gregory Burgess,USA,1996,Atlanta,122.56,4
+200m Individual Medley,Men,Tom Dolan,USA,1996,Atlanta,123.89,4
+200m Individual Medley,Men,Xavier Marchand,FRA,1996,Atlanta,124.29,4
+200m Individual Medley,Women,Michelle Marie Smith,IRL,1996,Atlanta,133.93,1
+200m Individual Medley,Women,Marianne Luise Limpert,CAN,1996,Atlanta,134.35,2
+200m Individual Medley,Women,Li Lin,CHN,1996,Atlanta,134.74,3
+200m Individual Medley,Women,Joanne Susan Malar,CAN,1996,Atlanta,135.3,4
+200m Individual Medley,Women,Elli Overton,AUS,1996,Atlanta,136.04,4
+200m Individual Medley,Women,Allison Wagner,USA,1996,Atlanta,136.43,4
+200m Individual Medley,Women,Minouche Smit,NED,1996,Atlanta,136.73,4
+200m Individual Medley,Women,Louise Karlsson,SWE,1996,Atlanta,137.25,4
+400m Freestyle,Men,Danyon Joseph Loader,NZL,1996,Atlanta,227.97,1
+400m Freestyle,Men,Paul Rory Palmer,GBR,1996,Atlanta,229.0,2
+400m Freestyle,Men,Daniel Kowalski,AUS,1996,Atlanta,229.39,3
+400m Freestyle,Men,Emiliano Brembilla,ITA,1996,Atlanta,229.87,4
+400m Freestyle,Men,Anders Holmertz,SWE,1996,Atlanta,230.68,4
+400m Freestyle,Men,Massimiliano Rosolino,ITA,1996,Atlanta,231.04,4
+400m Freestyle,Men,Jörg Hoffmann,GER,1996,Atlanta,232.15,4
+400m Freestyle,Men,Jacob Carstensen,DEN,1996,Atlanta,234.45,4
+400m Freestyle,Women,Michelle Marie Smith,IRL,1996,Atlanta,247.25,1
+400m Freestyle,Women,Dagmar Hase,GER,1996,Atlanta,248.3,2
+400m Freestyle,Women,Kirsten Vlieghuis,NED,1996,Atlanta,248.7,3
+400m Freestyle,Women,Kerstin Kielgass,GER,1996,Atlanta,249.83,4
+400m Freestyle,Women,Claudia Poll Ahrens,CRC,1996,Atlanta,250.0,4
+400m Freestyle,Women,Carla Louise Geurts,NED,1996,Atlanta,250.06,4
+400m Freestyle,Women,Eri Yamanoi,JPN,1996,Atlanta,251.68,4
+400m Freestyle,Women,Cristina Teuscher,USA,1996,Atlanta,254.21,4
+400m Individual Medley,Men,Tom Dolan,USA,1996,Atlanta,254.9,1
+400m Individual Medley,Men,Eric Namesnik,USA,1996,Atlanta,255.25,2
+400m Individual Medley,Men,Curtis Allen Myden,CAN,1996,Atlanta,256.28,3
+400m Individual Medley,Men,Matthew Stephen Dunn,AUS,1996,Atlanta,256.66,4
+400m Individual Medley,Men,Marcel Wouda,NED,1996,Atlanta,257.71,4
+400m Individual Medley,Men,Luca Sacchi,ITA,1996,Atlanta,258.31,4
+400m Individual Medley,Men,Marcin Malinski,POL,1996,Atlanta,260.5,4
+400m Individual Medley,Men,Serghei Mariniuc,MDA,1996,Atlanta,261.15,4
+400m Individual Medley,Women,Michelle Marie Smith,IRL,1996,Atlanta,279.18,1
+400m Individual Medley,Women,Allison Wagner,USA,1996,Atlanta,282.03,2
+400m Individual Medley,Women,Krisztina Egerszegi,HUN,1996,Atlanta,282.53,3
+400m Individual Medley,Women,Sabine Herbst,GER,1996,Atlanta,283.78,4
+400m Individual Medley,Women,Emma Johnson,AUS,1996,Atlanta,284.02,4
+400m Individual Medley,Women,Beatrice Caslaru,ROU,1996,Atlanta,284.91,4
+400m Individual Medley,Women,Lourdes Becerra,ESP,1996,Atlanta,285.17,4
+400m Individual Medley,Women,Whitney Metzler,USA,1996,Atlanta,286.2,4
+50m Freestyle,Men,Alexander Popov,RUS,1996,Atlanta,22.13,1
+50m Freestyle,Men,Jr. Gary Hall,USA,1996,Atlanta,22.26,2
+50m Freestyle,Men,Fernando Scherer,BRA,1996,Atlanta,22.29,3
+50m Freestyle,Men,Chengji Jiang,CHN,1996,Atlanta,22.33,4
+50m Freestyle,Men,Brendon Dedekind,RSA,1996,Atlanta,22.59,4
+50m Freestyle,Men,David Fox,USA,1996,Atlanta,22.68,4
+50m Freestyle,Men,Francisco Sanchez,VEN,1996,Atlanta,22.72,4
+50m Freestyle,Men,Ricardo Busquets Healy,PUR,1996,Atlanta,22.73,4
+50m Freestyle,Women,Amy Van Dyken,USA,1996,Atlanta,24.87,1
+50m Freestyle,Women,Jingyi Le,CHN,1996,Atlanta,24.9,2
+50m Freestyle,Women,Sandra Voelker,GER,1996,Atlanta,25.14,3
+50m Freestyle,Women,Angel Martino,USA,1996,Atlanta,25.31,4
+50m Freestyle,Women,Leah Martindale,BAR,1996,Atlanta,25.49,4
+50m Freestyle,Women,Linda Olofsson,SWE,1996,Atlanta,25.63,4
+50m Freestyle,Women,Ying Shan,CHN,1996,Atlanta,25.7,4
+50m Freestyle,Women,Natalia Meshcheryakova,RUS,1996,Atlanta,25.88,4
+800m Freestyle,Women,Brooke Bennett,USA,1996,Atlanta,507.89,1
+800m Freestyle,Women,Dagmar Hase,GER,1996,Atlanta,509.91,2
+800m Freestyle,Women,Kirsten Vlieghuis,NED,1996,Atlanta,510.84,3
+800m Freestyle,Women,Kerstin Kielgass,GER,1996,Atlanta,511.06,4
+800m Freestyle,Women,Irene Dalby,NOR,1996,Atlanta,518.34,4
+800m Freestyle,Women,Janet Evans,USA,1996,Atlanta,518.91,4
+800m Freestyle,Women,Carla Louise Geurts,NED,1996,Atlanta,520.43,4
+800m Freestyle,Women,Sarah Hardcastle,GBR,1996,Atlanta,521.75,4
+100m Backstroke,Men,Mark Tewksbury,CAN,1992,Barcelona,53.98,1
+100m Backstroke,Men,Jeff Norman Rouse,USA,1992,Barcelona,54.04,2
+100m Backstroke,Men,David Charles Berkoff,USA,1992,Barcelona,54.78,3
+100m Backstroke,Men,Martin Lopez Zubero,ESP,1992,Barcelona,54.96,4
+100m Backstroke,Men,Vladimir Selkov,EUN,1992,Barcelona,55.49,4
+100m Backstroke,Men,Franck Schott,FRA,1992,Barcelona,55.72,4
+100m Backstroke,Men,Rodolfo Falcon Cabrera,CUB,1992,Barcelona,55.76,4
+100m Backstroke,Men,Dirk Richter,GER,1992,Barcelona,56.26,4
+100m Backstroke,Women,Krisztina Egerszegi,HUN,1992,Barcelona,60.68,1
+100m Backstroke,Women,Tunde Szabo,HUN,1992,Barcelona,61.14,2
+100m Backstroke,Women,Lea Loveless,USA,1992,Barcelona,61.43,3
+100m Backstroke,Women,Nicole Livingstone,AUS,1992,Barcelona,61.78,4
+100m Backstroke,Women,Elizabeth Wagstaff,USA,1992,Barcelona,61.81,4
+100m Backstroke,Women,Joanne Marie Meehan,AUS,1992,Barcelona,62.07,4
+100m Backstroke,Women,Nina Alexandrovna Zhivanevskaya,EUN,1992,Barcelona,62.36,4
+100m Backstroke,Women,Yoko Koikawa,JPN,1992,Barcelona,63.23,4
+100m Breaststroke,Men,Nelson Diebel,USA,1992,Barcelona,61.5,1
+100m Breaststroke,Men,Norbert Rozsa,HUN,1992,Barcelona,61.68,2
+100m Breaststroke,Men,Philip John Rogers,AUS,1992,Barcelona,61.76,3
+100m Breaststroke,Men,Akira Hayashi,JPN,1992,Barcelona,61.86,4
+100m Breaststroke,Men,Vassili Ivanov,EUN,1992,Barcelona,61.87,4
+100m Breaststroke,Men,Dmitri Volkov,EUN,1992,Barcelona,62.07,4
+100m Breaststroke,Men,Nick Gillingham,GBR,1992,Barcelona,62.32,4
+100m Breaststroke,Men,Adrian David Moorhouse,GBR,1992,Barcelona,62.33,4
+100m Breaststroke,Women,Elena Rudkovskaya,EUN,1992,Barcelona,68.0,1
+100m Breaststroke,Women,Anita Nall,USA,1992,Barcelona,68.17,2
+100m Breaststroke,Women,Samantha Linette Riley,AUS,1992,Barcelona,69.25,3
+100m Breaststroke,Women,Guylaine Cloutier,CAN,1992,Barcelona,69.71,4
+100m Breaststroke,Women,Jana Dörris,GER,1992,Barcelona,69.77,4
+100m Breaststroke,Women,Gabriella Csepe,HUN,1992,Barcelona,70.19,4
+100m Breaststroke,Women,Manuela Dalla Valle,ITA,1992,Barcelona,70.39,4
+100m Breaststroke,Women,Daniela Brendel,GER,1992,Barcelona,71.05,4
+100m Butterfly,Men,Pablo Morales,USA,1992,Barcelona,53.32,1
+100m Butterfly,Men,Rafal Szukala,POL,1992,Barcelona,53.35,2
+100m Butterfly,Men,Anthony Conrad Nesty,SUR,1992,Barcelona,53.41,3
+100m Butterfly,Men,Pavlo Khnykin,EUN,1992,Barcelona,53.81,4
+100m Butterfly,Men,Melvin Stewart,USA,1992,Barcelona,54.04,4
+100m Butterfly,Men,Marcel Gery,CAN,1992,Barcelona,54.18,4
+100m Butterfly,Men,Martin Lopez Zubero,ESP,1992,Barcelona,54.19,4
+100m Butterfly,Men,Vladislav Kulikov,EUN,1992,Barcelona,54.26,4
+100m Butterfly,Women,Hong Qian,CHN,1992,Barcelona,58.62,3
+100m Butterfly,Women,Christine Ahmann-Leighton,USA,1992,Barcelona,58.74,4
+100m Butterfly,Women,Catherine Plewinski,FRA,1992,Barcelona,59.01,4
+100m Butterfly,Women,Xiaohong Wang,CHN,1992,Barcelona,59.1,4
+100m Butterfly,Women,Susan O'Neill,AUS,1992,Barcelona,59.69,4
+100m Butterfly,Women,Summer Sanders,USA,1992,Barcelona,59.82,4
+100m Butterfly,Women,Franziska Van Almsick,GER,1992,Barcelona,60.7,1
+100m Butterfly,Women,Rie Shito,JPN,1992,Barcelona,61.16,2
+100m Freestyle,Men,Alexander Popov,EUN,1992,Barcelona,49.02,1
+100m Freestyle,Men,Gustavo Borges,BRA,1992,Barcelona,49.43,2
+100m Freestyle,Men,Stephan Caron,FRA,1992,Barcelona,49.5,3
+100m Freestyle,Men,Jon Olsen,USA,1992,Barcelona,49.51,4
+100m Freestyle,Men,Matthew Biondi,USA,1992,Barcelona,49.53,4
+100m Freestyle,Men,Tommy Werner,SWE,1992,Barcelona,49.63,4
+100m Freestyle,Men,Christian Tröger,GER,1992,Barcelona,49.84,4
+100m Freestyle,Men,Gennady Prigoda,EUN,1992,Barcelona,50.25,4
+100m Freestyle,Women,Yong Zhuang,CHN,1992,Barcelona,54.64,1
+100m Freestyle,Women,Jenny Thompson,USA,1992,Barcelona,54.84,2
+100m Freestyle,Women,Franziska Van Almsick,GER,1992,Barcelona,54.94,3
+100m Freestyle,Women,Nicole Lee Haislett,USA,1992,Barcelona,55.19,4
+100m Freestyle,Women,Catherine Plewinski,FRA,1992,Barcelona,55.72,4
+100m Freestyle,Women,Jingyi Le,CHN,1992,Barcelona,55.89,4
+100m Freestyle,Women,Simone Osygus,GER,1992,Barcelona,55.93,4
+100m Freestyle,Women,Karin Brienesse,NED,1992,Barcelona,56.59,4
+1500m Freestyle,Men,Kieren John Perkins,AUS,1992,Barcelona,883.48,1
+1500m Freestyle,Men,Glen Clifford Housman,AUS,1992,Barcelona,895.29,2
+1500m Freestyle,Men,Jörg Hoffmann,GER,1992,Barcelona,902.29,3
+1500m Freestyle,Men,Stefan Pfeiffer,GER,1992,Barcelona,904.28,4
+1500m Freestyle,Men,Ian Wilson,GBR,1992,Barcelona,913.35,4
+1500m Freestyle,Men,Igor Majcen,SLO,1992,Barcelona,919.12,4
+1500m Freestyle,Men,Lawrence Frostad,USA,1992,Barcelona,919.41,4
+1500m Freestyle,Men,Viktor Andreev,EUN,1992,Barcelona,933.94,4
+200m Backstroke,Men,Martin Lopez Zubero,ESP,1992,Barcelona,118.47,1
+200m Backstroke,Men,Vladimir Selkov,EUN,1992,Barcelona,118.87,2
+200m Backstroke,Men,Stefano Battistelli,ITA,1992,Barcelona,119.4,3
+200m Backstroke,Men,Hajime Itoi,JPN,1992,Barcelona,119.52,4
+200m Backstroke,Men,Tripp Schwenk,USA,1992,Barcelona,119.73,4
+200m Backstroke,Men,Tino Weber,GER,1992,Barcelona,119.78,4
+200m Backstroke,Men,Tamas Deutsch,HUN,1992,Barcelona,120.06,4
+200m Backstroke,Men,Stefaan Maene,BEL,1992,Barcelona,120.91,4
+200m Backstroke,Women,Krisztina Egerszegi,HUN,1992,Barcelona,127.06,1
+200m Backstroke,Women,Dagmar Hase,GER,1992,Barcelona,129.46,2
+200m Backstroke,Women,Nicole Livingstone,AUS,1992,Barcelona,130.2,3
+200m Backstroke,Women,Lea Loveless,USA,1992,Barcelona,131.54,4
+200m Backstroke,Women,Anna Katrina Simcic,NZL,1992,Barcelona,131.99,4
+200m Backstroke,Women,Tunde Szabo,HUN,1992,Barcelona,132.94,4
+200m Backstroke,Women,Silvia Poll Ahrens,CRC,1992,Barcelona,132.97,4
+200m Backstroke,Women,Leigh Christine Habler,AUS,1992,Barcelona,133.68,4
+200m Breaststroke,Men,Mike Barrowman,USA,1992,Barcelona,130.16,1
+200m Breaststroke,Men,Norbert Rozsa,HUN,1992,Barcelona,131.23,2
+200m Breaststroke,Men,Nick Gillingham,GBR,1992,Barcelona,131.29,3
+200m Breaststroke,Men,Sergio Lopez Miro,ESP,1992,Barcelona,133.29,4
+200m Breaststroke,Men,Karoly Guttler,HUN,1992,Barcelona,133.32,4
+200m Breaststroke,Men,Philip John Rogers,AUS,1992,Barcelona,133.59,4
+200m Breaststroke,Men,Kenji Watanabe,JPN,1992,Barcelona,134.7,4
+200m Breaststroke,Men,Akira Hayashi,JPN,1992,Barcelona,135.11,4
+200m Breaststroke,Women,Kyoko Iwasaki,JPN,1992,Barcelona,146.65,1
+200m Breaststroke,Women,Li Lin,CHN,1992,Barcelona,146.85,2
+200m Breaststroke,Women,Anita Nall,USA,1992,Barcelona,146.88,3
+200m Breaststroke,Women,Elena Rudkovskaya,EUN,1992,Barcelona,148.47,4
+200m Breaststroke,Women,Guylaine Cloutier,CAN,1992,Barcelona,149.88,4
+200m Breaststroke,Women,Nathalie Giguere,CAN,1992,Barcelona,150.11,4
+200m Breaststroke,Women,Manuela Dalla Valle,ITA,1992,Barcelona,151.21,4
+200m Breaststroke,Women,Alicja Peczak,POL,1992,Barcelona,151.76,4
+200m Butterfly,Men,Melvin Stewart,USA,1992,Barcelona,116.26,1
+200m Butterfly,Men,Danyon Joseph Loader,NZL,1992,Barcelona,117.93,2
+200m Butterfly,Men,Franck Esposito,FRA,1992,Barcelona,118.51,3
+200m Butterfly,Men,Rafal Szukala,POL,1992,Barcelona,118.89,4
+200m Butterfly,Men,Keiichi Kawanaka,JPN,1992,Barcelona,118.97,4
+200m Butterfly,Men,Denis Pankratov,EUN,1992,Barcelona,118.98,4
+200m Butterfly,Men,Robert Doru Pinter,ROU,1992,Barcelona,119.34,4
+200m Butterfly,Men,Martin Wade Roberts,AUS,1992,Barcelona,119.64,4
+200m Butterfly,Women,Summer Sanders,USA,1992,Barcelona,128.67,1
+200m Butterfly,Women,Xiaohong Wang,CHN,1992,Barcelona,129.01,2
+200m Butterfly,Women,Susan O'Neill,AUS,1992,Barcelona,129.03,3
+200m Butterfly,Women,Mika Haruna,JPN,1992,Barcelona,129.88,4
+200m Butterfly,Women,Rie Shito,JPN,1992,Barcelona,130.24,4
+200m Butterfly,Women,Angie Wester Krieg,USA,1992,Barcelona,131.46,4
+200m Butterfly,Women,Mette Jacobsen,DEN,1992,Barcelona,131.87,4
+200m Butterfly,Women,Ilaria Tocchini,ITA,1992,Barcelona,133.78,4
+200m Freestyle,Men,Yevgeny Sadovy,EUN,1992,Barcelona,106.7,1
+200m Freestyle,Men,Anders Holmertz,SWE,1992,Barcelona,106.86,2
+200m Freestyle,Men,Antti Alexander Kasvio,FIN,1992,Barcelona,107.63,3
+200m Freestyle,Men,Artur Wojdat,POL,1992,Barcelona,108.24,4
+200m Freestyle,Men,Vladimir Pyshnenko,EUN,1992,Barcelona,108.32,4
+200m Freestyle,Men,Joseph Hudepohl,USA,1992,Barcelona,108.36,4
+200m Freestyle,Men,Steffen Zesner,GER,1992,Barcelona,108.84,4
+200m Freestyle,Men,Douglas S. Gjertsen,USA,1992,Barcelona,110.57,4
+200m Freestyle,Women,Nicole Lee Haislett,USA,1992,Barcelona,117.9,1
+200m Freestyle,Women,Franziska Van Almsick,GER,1992,Barcelona,118.0,2
+200m Freestyle,Women,Kerstin Kielgass,GER,1992,Barcelona,119.67,3
+200m Freestyle,Women,Catherine Plewinski,FRA,1992,Barcelona,119.88,4
+200m Freestyle,Women,Liliana Luminita Dobrescu,ROU,1992,Barcelona,120.48,4
+200m Freestyle,Women,Suzu Chiba,JPN,1992,Barcelona,120.64,4
+200m Freestyle,Women,Olga Kirichenko,EUN,1992,Barcelona,120.9,4
+200m Freestyle,Women,Bin Lu,CHN,1992,Barcelona,122.1,4
+200m Individual Medley,Men,Tamas Darnyi,HUN,1992,Barcelona,120.76,1
+200m Individual Medley,Men,Gregory Burgess,USA,1992,Barcelona,120.97,2
+200m Individual Medley,Men,Attila Czene,HUN,1992,Barcelona,121.0,3
+200m Individual Medley,Men,Jani Sievinen,FIN,1992,Barcelona,121.28,4
+200m Individual Medley,Men,Christian Gessner,GER,1992,Barcelona,121.97,4
+200m Individual Medley,Men,Ron Karnaugh,USA,1992,Barcelona,122.18,4
+200m Individual Medley,Men,Matthew Stephen Dunn,AUS,1992,Barcelona,122.79,4
+200m Individual Medley,Men,Gary Myers Anderson,CAN,1992,Barcelona,124.3,4
+200m Individual Medley,Women,Li Lin,CHN,1992,Barcelona,131.65,1
+200m Individual Medley,Women,Summer Sanders,USA,1992,Barcelona,131.91,2
+200m Individual Medley,Women,Daniela Hunger,GER,1992,Barcelona,133.92,3
+200m Individual Medley,Women,Elena Dendeberova,EUN,1992,Barcelona,135.47,4
+200m Individual Medley,Women,Elli Overton,AUS,1992,Barcelona,135.76,4
+200m Individual Medley,Women,Marianne Luise Limpert,CAN,1992,Barcelona,137.09,4
+200m Individual Medley,Women,Nancy Sweetnam,CAN,1992,Barcelona,137.13,4
+200m Individual Medley,Women,Ewa Synowska,POL,1992,Barcelona,138.85,4
+400m Freestyle,Men,Yevgeny Sadovy,EUN,1992,Barcelona,225.0,1
+400m Freestyle,Men,Kieren John Perkins,AUS,1992,Barcelona,225.16,2
+400m Freestyle,Men,Anders Holmertz,SWE,1992,Barcelona,226.77,3
+400m Freestyle,Men,Artur Wojdat,POL,1992,Barcelona,228.1,4
+400m Freestyle,Men,Ian Robert Brown,AUS,1992,Barcelona,228.79,4
+400m Freestyle,Men,Sebastian Wiese,GER,1992,Barcelona,229.06,4
+400m Freestyle,Men,Stefan Pfeiffer,GER,1992,Barcelona,229.75,4
+400m Freestyle,Men,Danyon Joseph Loader,NZL,1992,Barcelona,229.97,4
+400m Freestyle,Women,Dagmar Hase,GER,1992,Barcelona,247.18,1
+400m Freestyle,Women,Janet Evans,USA,1992,Barcelona,247.37,2
+400m Freestyle,Women,Hayley Lewis,AUS,1992,Barcelona,251.22,3
+400m Freestyle,Women,Erika Hansen,USA,1992,Barcelona,251.5,4
+400m Freestyle,Women,Kerstin Kielgass,GER,1992,Barcelona,251.52,4
+400m Freestyle,Women,Isabelle Arnould,BEL,1992,Barcelona,253.75,4
+400m Freestyle,Women,Malin Nilsson,SWE,1992,Barcelona,254.1,4
+400m Freestyle,Women,Suzu Chiba,JPN,1992,Barcelona,255.71,4
+400m Individual Medley,Men,Tamas Darnyi,HUN,1992,Barcelona,254.23,1
+400m Individual Medley,Men,Eric Namesnik,USA,1992,Barcelona,255.57,2
+400m Individual Medley,Men,Luca Sacchi,ITA,1992,Barcelona,256.34,3
+400m Individual Medley,Men,David Lee Wharton,USA,1992,Barcelona,257.26,4
+400m Individual Medley,Men,Christian Gessner,GER,1992,Barcelona,257.88,4
+400m Individual Medley,Men,Patrick Kuhl,GER,1992,Barcelona,259.66,4
+400m Individual Medley,Men,Serghei Mariniuc,EUN,1992,Barcelona,262.93,4
+400m Individual Medley,Men,Takahiro Fujimoto,JPN,1992,Barcelona,263.86,4
+400m Individual Medley,Women,Krisztina Egerszegi,HUN,1992,Barcelona,276.54,1
+400m Individual Medley,Women,Li Lin,CHN,1992,Barcelona,276.73,2
+400m Individual Medley,Women,Summer Sanders,USA,1992,Barcelona,277.58,3
+400m Individual Medley,Women,Hayley Lewis,AUS,1992,Barcelona,283.75,4
+400m Individual Medley,Women,Hideko Hiranaka,JPN,1992,Barcelona,286.24,4
+400m Individual Medley,Women,Daniela Hunger,GER,1992,Barcelona,287.57,4
+400m Individual Medley,Women,Eri Kimura,JPN,1992,Barcelona,287.78,4
+400m Individual Medley,Women,Ewa Synowska,POL,1992,Barcelona,293.32,4
+50m Freestyle,Men,Alexander Popov,EUN,1992,Barcelona,21.91,1
+50m Freestyle,Men,Matthew Biondi,USA,1992,Barcelona,22.09,2
+50m Freestyle,Men,Thomas Michael Jager,USA,1992,Barcelona,22.3,3
+50m Freestyle,Men,Christophe Kalfayan,FRA,1992,Barcelona,22.5,4
+50m Freestyle,Men,Peter Rowan Williams,RSA,1992,Barcelona,22.5,4
+50m Freestyle,Men,Mark Andrew Foster,GBR,1992,Barcelona,22.52,4
+50m Freestyle,Men,Gennady Prigoda,EUN,1992,Barcelona,22.54,4
+50m Freestyle,Men,Nils Rudolph,GER,1992,Barcelona,22.73,4
+50m Freestyle,Women,Wenyi Yang,CHN,1992,Barcelona,24.79,1
+50m Freestyle,Women,Yong Zhuang,CHN,1992,Barcelona,25.08,2
+50m Freestyle,Women,Angel Martino,USA,1992,Barcelona,25.23,3
+50m Freestyle,Women,Catherine Plewinski,FRA,1992,Barcelona,25.36,4
+50m Freestyle,Women,Jenny Thompson,USA,1992,Barcelona,25.37,4
+50m Freestyle,Women,Natalia Meshcheryakova,EUN,1992,Barcelona,25.47,4
+50m Freestyle,Women,Simone Osygus,GER,1992,Barcelona,25.74,4
+50m Freestyle,Women,Inge De Bruijn,NED,1992,Barcelona,25.84,4
+800m Freestyle,Women,Janet Evans,USA,1992,Barcelona,505.52,1
+800m Freestyle,Women,Hayley Lewis,AUS,1992,Barcelona,510.34,2
+800m Freestyle,Women,Jana Henke,GER,1992,Barcelona,510.99,3
+800m Freestyle,Women,Philippa Maree Langrell,NZL,1992,Barcelona,515.57,4
+800m Freestyle,Women,Irene Dalby,NOR,1992,Barcelona,517.12,4
+800m Freestyle,Women,Olga Splichalova,TCH,1992,Barcelona,517.66,4
+800m Freestyle,Women,Erika Hansen,USA,1992,Barcelona,519.25,4
+800m Freestyle,Women,Isabelle Arnould,BEL,1992,Barcelona,521.86,4
+100m Backstroke,Men,Daichi Suzuki,JPN,1988,Seoul,55.05,1
+100m Backstroke,Men,David Charles Berkoff,USA,1988,Seoul,55.18,2
+100m Backstroke,Men,Igor Polyanski,URS,1988,Seoul,55.2,3
+100m Backstroke,Men,Sergei Zabolotnov,URS,1988,Seoul,55.37,4
+100m Backstroke,Men,Mark Tewksbury,CAN,1988,Seoul,56.09,4
+100m Backstroke,Men,Frank Baltrusch,GDR,1988,Seoul,56.1,4
+100m Backstroke,Men,Frank Hoffmeister,FRG,1988,Seoul,56.19,4
+100m Backstroke,Men,Sean Murphy,CAN,1988,Seoul,56.32,4
+100m Backstroke,Women,Kristin Otto,GDR,1988,Seoul,60.89,1
+100m Backstroke,Women,Krisztina Egerszegi,HUN,1988,Seoul,61.56,2
+100m Backstroke,Women,Cornelia Sirch,GDR,1988,Seoul,61.57,3
+100m Backstroke,Women,Elizabeth Mitchell,USA,1988,Seoul,62.71,4
+100m Backstroke,Women,Elizabeth Cynthia Barr,USA,1988,Seoul,62.78,4
+100m Backstroke,Women,Silvia Poll Ahrens,CRC,1988,Seoul,63.34,4
+100m Backstroke,Women,Nicole Livingstone,AUS,1988,Seoul,64.15,4
+100m Backstroke,Women,Marion Aizpors,FRG,1988,Seoul,64.19,4
+100m Breaststroke,Men,Adrian David Moorhouse,GBR,1988,Seoul,62.04,1
+100m Breaststroke,Men,Karoly Guttler,HUN,1988,Seoul,62.05,2
+100m Breaststroke,Men,Dmitri Volkov,URS,1988,Seoul,62.2,3
+100m Breaststroke,Men,Victor Davis,CAN,1988,Seoul,62.38,4
+100m Breaststroke,Men,Tamas Debnar,HUN,1988,Seoul,62.5,4
+100m Breaststroke,Men,Richard Alan Schroeder,USA,1988,Seoul,62.55,4
+100m Breaststroke,Men,Gianni Minervini,ITA,1988,Seoul,62.93,4
+100m Breaststroke,Men,Christian Poswiat,GDR,1988,Seoul,63.43,4
+100m Breaststroke,Women,Tania Bogomilova-Dangalakova,BUL,1988,Seoul,67.95,1
+100m Breaststroke,Women,Antoaneta Frenkeva,BUL,1988,Seoul,68.74,2
+100m Breaststroke,Women,Silke Hörner,GDR,1988,Seoul,68.83,3
+100m Breaststroke,Women,Allison Ann Higson,CAN,1988,Seoul,68.86,4
+100m Breaststroke,Women,Elena Volkova,URS,1988,Seoul,69.24,4
+100m Breaststroke,Women,Tracey Mcfarlane,USA,1988,Seoul,69.6,4
+100m Breaststroke,Women,Xiao-Min Huang,CHN,1988,Seoul,70.53,4
+100m Breaststroke,Women,Annett Rex,GDR,1988,Seoul,70.67,4
+100m Butterfly,Men,Anthony Conrad Nesty,SUR,1988,Seoul,53.0,1
+100m Butterfly,Men,Matthew Biondi,USA,1988,Seoul,53.01,2
+100m Butterfly,Men,Andrew David Jameson,GBR,1988,Seoul,53.3,3
+100m Butterfly,Men,Jonathan Sieben,AUS,1988,Seoul,53.33,4
+100m Butterfly,Men,Michael Gross,FRG,1988,Seoul,53.44,4
+100m Butterfly,Men,Jay Paul Mortenson,USA,1988,Seoul,54.07,4
+100m Butterfly,Men,Thomas Ponting,CAN,1988,Seoul,54.09,4
+100m Butterfly,Men,Vadim Yaroshchuk,URS,1988,Seoul,54.6,4
+100m Butterfly,Women,Kristin Otto,GDR,1988,Seoul,59.0,4
+100m Butterfly,Women,Birte Weigang,GDR,1988,Seoul,59.45,4
+100m Butterfly,Women,Hong Qian,CHN,1988,Seoul,59.52,4
+100m Butterfly,Women,Catherine Plewinski,FRA,1988,Seoul,59.58,4
+100m Butterfly,Women,Janet Simone Jorgensen,USA,1988,Seoul,60.48,1
+100m Butterfly,Women,Conny Van Bentum,NED,1988,Seoul,60.62,2
+100m Butterfly,Women,Mary T. Meagher,USA,1988,Seoul,60.97,3
+100m Butterfly,Women,Xiaohong Wang,CHN,1988,Seoul,61.15,4
+100m Freestyle,Men,Matthew Biondi,USA,1988,Seoul,48.63,1
+100m Freestyle,Men,Christopher Charles Jacobs,USA,1988,Seoul,49.08,2
+100m Freestyle,Men,Stephan Caron,FRA,1988,Seoul,49.62,3
+100m Freestyle,Men,Gennady Prigoda,URS,1988,Seoul,49.75,4
+100m Freestyle,Men,Iurie Başcatov,URS,1988,Seoul,50.08,4
+100m Freestyle,Men,Andrew James Baildon,AUS,1988,Seoul,50.23,4
+100m Freestyle,Men,Per Johansson,SWE,1988,Seoul,50.35,4
+100m Freestyle,Men,Tommy Werner,SWE,1988,Seoul,50.54,4
+100m Freestyle,Women,Kristin Otto,GDR,1988,Seoul,54.93,1
+100m Freestyle,Women,Yong Zhuang,CHN,1988,Seoul,55.47,2
+100m Freestyle,Women,Catherine Plewinski,FRA,1988,Seoul,55.49,3
+100m Freestyle,Women,Manuela Stellmach,GDR,1988,Seoul,55.52,4
+100m Freestyle,Women,Silvia Poll Ahrens,CRC,1988,Seoul,55.9,4
+100m Freestyle,Women,Karin Brienesse,NED,1988,Seoul,56.15,4
+100m Freestyle,Women,Dara Torres,USA,1988,Seoul,56.25,4
+100m Freestyle,Women,Conny Van Bentum,NED,1988,Seoul,56.54,4
+1500m Freestyle,Men,Vladimir Salnikov,URS,1988,Seoul,900.4,1
+1500m Freestyle,Men,Stefan Pfeiffer,FRG,1988,Seoul,902.69,2
+1500m Freestyle,Men,Uwe Dassler,GDR,1988,Seoul,906.15,3
+1500m Freestyle,Men,Matthew J. Cetlinski,USA,1988,Seoul,906.42,4
+1500m Freestyle,Men,Mariusz Podkoscielny,POL,1988,Seoul,914.76,4
+1500m Freestyle,Men,Rainer Henkel,FRG,1988,Seoul,918.19,4
+1500m Freestyle,Men,Kevin Thomas Boyd,GBR,1988,Seoul,921.16,4
+1500m Freestyle,Men,Darjan Petric,YUG,1988,Seoul,937.12,4
+200m Backstroke,Men,Igor Polyanski,URS,1988,Seoul,119.37,1
+200m Backstroke,Men,Frank Baltrusch,GDR,1988,Seoul,119.6,2
+200m Backstroke,Men,Paul Kingsman,NZL,1988,Seoul,120.48,3
+200m Backstroke,Men,Sergei Zabolotnov,URS,1988,Seoul,120.52,4
+200m Backstroke,Men,Dirk Richter,GDR,1988,Seoul,121.67,4
+200m Backstroke,Men,Jens-Peter Berndt,FRG,1988,Seoul,121.84,4
+200m Backstroke,Men,Daniel Howard Veatch,USA,1988,Seoul,122.26,4
+200m Backstroke,Men,Rogerio Romero,BRA,1988,Seoul,122.28,4
+200m Backstroke,Women,Krisztina Egerszegi,HUN,1988,Seoul,129.29,1
+200m Backstroke,Women,Kathrin Zimmermann,GDR,1988,Seoul,130.61,2
+200m Backstroke,Women,Cornelia Sirch,GDR,1988,Seoul,131.45,3
+200m Backstroke,Women,Elizabeth Cynthia Barr,USA,1988,Seoul,132.39,4
+200m Backstroke,Women,Nicole Livingstone,AUS,1988,Seoul,133.43,4
+200m Backstroke,Women,Andrea Jean Hayes,USA,1988,Seoul,135.02,4
+200m Backstroke,Women,Jolanda De Rover,NED,1988,Seoul,135.17,4
+200m Backstroke,Women,Svenja Schlicht,FRG,1988,Seoul,135.94,4
+200m Breaststroke,Men,Jozsef Szabo,HUN,1988,Seoul,133.52,1
+200m Breaststroke,Men,Nick Gillingham,GBR,1988,Seoul,134.12,2
+200m Breaststroke,Men,Sergio Lopez Miro,ESP,1988,Seoul,135.21,3
+200m Breaststroke,Men,Mike Barrowman,USA,1988,Seoul,135.45,4
+200m Breaststroke,Men,Valeri Lozik,URS,1988,Seoul,136.16,4
+200m Breaststroke,Men,Vadim Alekseyev,URS,1988,Seoul,136.7,4
+200m Breaststroke,Men,Jonathan Thomas Cleveland,CAN,1988,Seoul,137.1,4
+200m Breaststroke,Men,Peter Szabo,HUN,1988,Seoul,137.12,4
+200m Breaststroke,Women,Silke Hörner,GDR,1988,Seoul,146.71,1
+200m Breaststroke,Women,Xiao-Min Huang,CHN,1988,Seoul,147.49,2
+200m Breaststroke,Women,Antoaneta Frenkeva,BUL,1988,Seoul,148.34,3
+200m Breaststroke,Women,Tania Bogomilova-Dangalakova,BUL,1988,Seoul,148.43,4
+200m Breaststroke,Women,Yuliya Bogachova,URS,1988,Seoul,148.54,4
+200m Breaststroke,Women,Ingrid Lempereur,BEL,1988,Seoul,149.42,4
+200m Breaststroke,Women,Allison Ann Higson,CAN,1988,Seoul,149.6,4
+200m Breaststroke,Women,Manuela Dalla Valle,ITA,1988,Seoul,149.86,4
+200m Butterfly,Men,Michael Gross,FRG,1988,Seoul,116.94,1
+200m Butterfly,Men,Benny Leo Nielsen,DEN,1988,Seoul,118.24,2
+200m Butterfly,Men,Anthony Mosse,NZL,1988,Seoul,118.28,3
+200m Butterfly,Men,Thomas Ponting,CAN,1988,Seoul,118.91,4
+200m Butterfly,Men,Melvin Stewart,USA,1988,Seoul,119.19,4
+200m Butterfly,Men,David Wilson,AUS,1988,Seoul,119.2,4
+200m Butterfly,Men,Jon Kelly,CAN,1988,Seoul,119.48,4
+200m Butterfly,Men,Anthony Conrad Nesty,SUR,1988,Seoul,120.8,4
+200m Butterfly,Women,Kathleen Nord,GDR,1988,Seoul,129.51,1
+200m Butterfly,Women,Birte Weigang,GDR,1988,Seoul,129.91,2
+200m Butterfly,Women,Mary T. Meagher,USA,1988,Seoul,130.8,3
+200m Butterfly,Women,Stela Marion Pura,ROU,1988,Seoul,131.28,4
+200m Butterfly,Women,Trina D. Radke,USA,1988,Seoul,131.55,4
+200m Butterfly,Women,Kiyomi Takahashi,JPN,1988,Seoul,131.62,4
+200m Butterfly,Women,Xiaohong Wang,CHN,1988,Seoul,132.34,4
+200m Butterfly,Women,Conny Van Bentum,NED,1988,Seoul,133.17,4
+200m Freestyle,Men,Duncan Armstrong,AUS,1988,Seoul,107.25,1
+200m Freestyle,Men,Anders Holmertz,SWE,1988,Seoul,107.89,2
+200m Freestyle,Men,Matthew Biondi,USA,1988,Seoul,107.99,3
+200m Freestyle,Men,Artur Wojdat,POL,1988,Seoul,108.4,4
+200m Freestyle,Men,Michael Gross,FRG,1988,Seoul,108.59,4
+200m Freestyle,Men,Steffen Zesner,GDR,1988,Seoul,108.77,4
+200m Freestyle,Men,Troy Dalbey,USA,1988,Seoul,108.86,4
+200m Freestyle,Men,Thomas Fahrner,FRG,1988,Seoul,109.19,4
+200m Freestyle,Women,Heike Friedrich,GDR,1988,Seoul,117.65,1
+200m Freestyle,Women,Silvia Poll Ahrens,CRC,1988,Seoul,118.67,2
+200m Freestyle,Women,Manuela Stellmach,GDR,1988,Seoul,119.01,3
+200m Freestyle,Women,Mary Alice Wayte,USA,1988,Seoul,119.04,4
+200m Freestyle,Women,Natalya Trefilova,URS,1988,Seoul,119.24,4
+200m Freestyle,Women,Mitzi Patricia Kremer,USA,1988,Seoul,120.23,4
+200m Freestyle,Women,Stephanie Ortwig,FRG,1988,Seoul,120.73,4
+200m Freestyle,Women,Cecile Prunier,FRA,1988,Seoul,122.88,4
+200m Individual Medley,Men,Tamas Darnyi,HUN,1988,Seoul,120.17,1
+200m Individual Medley,Men,Patrick Kuhl,GDR,1988,Seoul,121.61,2
+200m Individual Medley,Men,Vadim Yaroshchuk,URS,1988,Seoul,122.4,3
+200m Individual Medley,Men,Mikhail Zubkov,URS,1988,Seoul,122.92,4
+200m Individual Medley,Men,Peter Bermel,FRG,1988,Seoul,123.81,4
+200m Individual Medley,Men,Robert Bruce,AUS,1988,Seoul,124.34,4
+200m Individual Medley,Men,Raik Hannemann,GDR,1988,Seoul,124.82,4
+200m Individual Medley,Men,Gary Myers Anderson,CAN,1988,Seoul,126.35,4
+200m Individual Medley,Women,Daniela Hunger,GDR,1988,Seoul,132.59,1
+200m Individual Medley,Women,Elena Dendeberova,URS,1988,Seoul,133.31,2
+200m Individual Medley,Women,Noemi Ildiko Lung,ROU,1988,Seoul,134.85,3
+200m Individual Medley,Women,Judith Clatworthy,AUS,1988,Seoul,136.31,4
+200m Individual Medley,Women,Marianne Muis,NED,1988,Seoul,136.4,4
+200m Individual Medley,Women,Aneta Patrascoiu,ROU,1988,Seoul,136.7,4
+200m Individual Medley,Women,Li Lin,CHN,1988,Seoul,137.42,4
+200m Individual Medley,Women,Whitney L. Hedgepeth,USA,1988,Seoul,137.99,4
+400m Freestyle,Men,Uwe Dassler,GDR,1988,Seoul,226.95,1
+400m Freestyle,Men,Duncan Armstrong,AUS,1988,Seoul,227.15,2
+400m Freestyle,Men,Artur Wojdat,POL,1988,Seoul,227.34,3
+400m Freestyle,Men,Matthew J. Cetlinski,USA,1988,Seoul,228.09,4
+400m Freestyle,Men,Mariusz Podkoscielny,POL,1988,Seoul,228.59,4
+400m Freestyle,Men,Stefan Pfeiffer,FRG,1988,Seoul,229.96,4
+400m Freestyle,Men,Kevin Thomas Boyd,GBR,1988,Seoul,230.16,4
+400m Freestyle,Men,Anders Holmertz,SWE,1988,Seoul,231.04,4
+400m Freestyle,Women,Janet Evans,USA,1988,Seoul,243.85,1
+400m Freestyle,Women,Heike Friedrich,GDR,1988,Seoul,245.94,2
+400m Freestyle,Women,Anke Möhring,GDR,1988,Seoul,246.62,3
+400m Freestyle,Women,Tami Lee Bruce,USA,1988,Seoul,248.16,4
+400m Freestyle,Women,Janelle Elford,AUS,1988,Seoul,250.64,4
+400m Freestyle,Women,Isabelle Arnould,BEL,1988,Seoul,251.73,4
+400m Freestyle,Women,Stephanie Ortwig,FRG,1988,Seoul,253.05,4
+400m Freestyle,Women,Natalya Trefilova,URS,1988,Seoul,253.92,4
+400m Individual Medley,Men,Tamas Darnyi,HUN,1988,Seoul,254.75,1
+400m Individual Medley,Men,David Lee Wharton,USA,1988,Seoul,257.36,2
+400m Individual Medley,Men,Stefano Battistelli,ITA,1988,Seoul,258.01,3
+400m Individual Medley,Men,Jozsef Szabo,HUN,1988,Seoul,258.15,4
+400m Individual Medley,Men,Patrick Kuhl,GDR,1988,Seoul,258.44,4
+400m Individual Medley,Men,Jens-Peter Berndt,FRG,1988,Seoul,261.71,4
+400m Individual Medley,Men,Luca Sacchi,ITA,1988,Seoul,263.23,4
+400m Individual Medley,Men,Peter Bermel,FRG,1988,Seoul,264.02,4
+400m Individual Medley,Women,Janet Evans,USA,1988,Seoul,277.76,1
+400m Individual Medley,Women,Noemi Ildiko Lung,ROU,1988,Seoul,279.46,2
+400m Individual Medley,Women,Daniela Hunger,GDR,1988,Seoul,279.76,3
+400m Individual Medley,Women,Elena Dendeberova,URS,1988,Seoul,280.44,4
+400m Individual Medley,Women,Kathleen Nord,GDR,1988,Seoul,281.64,4
+400m Individual Medley,Women,Judith Clatworthy,AUS,1988,Seoul,285.86,4
+400m Individual Medley,Women,Li Lin,CHN,1988,Seoul,287.05,4
+400m Individual Medley,Women,Donna Procter,AUS,1988,Seoul,287.51,4
+50m Freestyle,Men,Matthew Biondi,USA,1988,Seoul,22.14,1
+50m Freestyle,Men,Thomas Michael Jager,USA,1988,Seoul,22.36,2
+50m Freestyle,Men,Gennady Prigoda,URS,1988,Seoul,22.71,3
+50m Freestyle,Men,Dano Halsall,SUI,1988,Seoul,22.83,4
+50m Freestyle,Men,Stefan Volery,SUI,1988,Seoul,22.84,4
+50m Freestyle,Men,Vladimir Tkachenko,URS,1988,Seoul,22.88,4
+50m Freestyle,Men,Frank Henter,FRG,1988,Seoul,23.03,4
+50m Freestyle,Men,Andrew James Baildon,AUS,1988,Seoul,23.15,4
+50m Freestyle,Women,Kristin Otto,GDR,1988,Seoul,25.49,1
+50m Freestyle,Women,Wenyi Yang,CHN,1988,Seoul,25.64,2
+50m Freestyle,Women,Katrin Meissner,GDR,1988,Seoul,25.71,3
+50m Freestyle,Women,Jill Sterkel,USA,1988,Seoul,25.71,3
+50m Freestyle,Women,Leigh Ann Fetter,USA,1988,Seoul,25.78,4
+50m Freestyle,Women,Tamara Costache,ROU,1988,Seoul,25.8,4
+50m Freestyle,Women,Catherine Plewinski,FRA,1988,Seoul,25.9,4
+50m Freestyle,Women,Karen Tracey Van Wirdum,AUS,1988,Seoul,26.01,4
+800m Freestyle,Women,Janet Evans,USA,1988,Seoul,500.2,1
+800m Freestyle,Women,Astrid Strauss,GDR,1988,Seoul,502.09,2
+800m Freestyle,Women,Julie M. Mcdonald,AUS,1988,Seoul,502.93,3
+800m Freestyle,Women,Anke Möhring,GDR,1988,Seoul,503.09,4
+800m Freestyle,Women,Tami Lee Bruce,USA,1988,Seoul,510.86,4
+800m Freestyle,Women,Janelle Elford,AUS,1988,Seoul,510.94,4
+800m Freestyle,Women,Isabelle Arnould,BEL,1988,Seoul,517.47,4
+800m Freestyle,Women,Antoaneta Strumenlieva,BUL,1988,Seoul,521.05,4
