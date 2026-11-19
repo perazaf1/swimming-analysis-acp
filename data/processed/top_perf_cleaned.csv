@@ -337,7 +337,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Butterfly,Men,Kristof Milak,HUN,51.08,2017-08-25,2017,2000-02-20,17.51129363449692,136,6th FINA World Junior Swimming Championships 2017,Indianapolis,USA
 100m Butterfly,Men,Ian Crocker,USA,51.08,2005-07-29,2005,1982-08-31,22.910335386721425,137,11th FINA World Championships 2005,Montreal,CAN
 100m Butterfly,Men,Shaine Casas,USA,51.09,2022-03-31,2022,1999-12-25,22.26420260095825,138,TYR Pro Swim Series San Antonio 2022,San Antonio,USA
-100m Butterfly,Men,Luis Carlos Martinez,GUA,51.09,2021-07-31,2021,1995-12-11,25.637234770704996,139,Olympic Games Tokyo 2020,Tokyo,JPN
+100m Butterfly,Men,Luis Martinez,GUA,51.09,2021-07-31,2021,1995-12-11,25.637234770704996,139,Olympic Games Tokyo 2020,Tokyo,JPN
 100m Butterfly,Men,Maxime Rooney,USA,51.09,2019-08-02,2019,1998-04-16,21.295003422313485,140,Philipps 66 USA National Championships (50m),Palo Alto,USA
 100m Butterfly,Men,Piero Codia,ITA,51.09,2017-07-28,2017,1989-10-22,27.76454483230664,141,17th FINA World Championships 2017,Budapest,HUN
 100m Butterfly,Men,Chad Le Clos,RSA,51.09,2015-11-07,2015,1992-04-12,23.57015742642026,142,FINA/airweave Swimming World Cup 2015,Dubai,UAE
@@ -619,7 +619,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Backstroke,Men,Nick Thoman,USA,52.86,2012-06-25,2012,1986-03-06,26.305270362765228,198,US Olympic Team Trials,Omaha,USA
 100m Backstroke,Men,Bryce Mefford,USA,52.87,2021-06-14,2021,1998-10-03,22.69678302532512,199,US Olympic Team Trials - Wave II,Omaha,USA
 100m Backstroke,Men,Arkady Vyatchanin,RUS,52.87,2009-07-28,2009,1984-04-04,25.31416837782341,200,13th FINA World Championships 2009,Rome,ITA
-100m Freestyle,Women,Fran Halsall,GBR,52.87,2009-07-31,2009,1990-04-12,19.301848049281315,21,13th FINA World Championships 2009,Rome,ITA
+100m Freestyle,Women,Francesca Halsall,GBR,52.87,2009-07-31,2009,1990-04-12,19.301848049281315,21,13th FINA World Championships 2009,Rome,ITA
 100m Freestyle,Women,Yufei Zhang,CHN,52.9,2021-05-04,2021,1998-04-19,23.041752224503764,22,Chinese National Championships (50m),Qingdao,CHN
 100m Freestyle,Women,Torri Huske,USA,52.92,2022-06-23,2022,2002-12-07,19.54277891854894,23,19th FINA World Championships Budapest 2022,Budapest,HUN
 100m Freestyle,Women,Meg Harris,AUS,52.92,2021-06-16,2021,2002-03-07,19.277207392197127,24,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
@@ -659,7 +659,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Freestyle,Women,Inge Dekker,NED,53.61,2009-07-26,2009,1985-08-18,23.93702943189596,58,13th FINA World Championships 2009,Rome,ITA
 100m Freestyle,Women,Katinka Hosszu,HUN,53.64,2014-09-05,2014,1989-05-03,25.34154688569473,59,Singapore Swim Stars,Singapore,SGP
 100m Freestyle,Women,Melanie Schlanger,AUS,53.65,2014-08-22,2014,1986-08-31,27.975359342915812,60,12th Pan Pacific Championships 2014,Gold Coast,AUS
-100m Freestyle,Women,Magdalena Veldhuis,NED,53.67,2008-03-19,2008,1979-06-29,28.722792607802873,61,European Championships 2008,Eindhoven,NED
+100m Freestyle,Women,Marleen Veldhuis,NED,53.67,2008-03-19,2008,1979-06-29,28.722792607802873,61,European Championships 2008,Eindhoven,NED
 100m Freestyle,Women,Ariarne Titmus,AUS,53.68,2022-05-18,2022,2000-09-07,21.691991786447637,62,Australian National Championships (50m),Adelaide,AUS
 100m Freestyle,Women,Barbora Seemanova,CZE,53.68,2021-05-21,2021,2000-04-01,21.136208076659823,63,European Championships 2021,Budapest,HUN
 100m Freestyle,Women,Arianna Vanderpool-Wallace,BAH,53.73,2012-08-01,2012,1990-03-04,22.412046543463383,64,Olympic Games London 2012,London,GBR
@@ -772,7 +772,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Freestyle,Women,Martina Moravcova,SVK,54.45,2000-07-05,2000,1976-01-16,24.468172484599588,171,European Championships 2000,Helsinki,FIN
 100m Freestyle,Women,Neza Klancar,SLO,54.47,2021-05-21,2021,2000-02-19,21.251197809719372,172,European Championships 2021,Budapest,HUN
 100m Freestyle,Women,Veronica Burchill,USA,54.47,2018-07-25,2018,1997-10-11,20.78576317590691,173,US National Championships (50m),Irvine,USA
-100m Freestyle,Women,Mie Oe Nielsen,DEN,54.47,2016-05-16,2016,1996-09-25,19.638603696098563,174,European Championships 2016,London,GBR
+100m Freestyle,Women,Mie Nielsen,DEN,54.47,2016-05-16,2016,1996-09-25,19.638603696098563,174,European Championships 2016,London,GBR
 100m Freestyle,Women,Kira Toussaint,NED,54.48,2019-11-09,2019,1994-05-22,25.467488021902806,175,FINA Swimming World Cup 2019,Doha,QAT
 100m Freestyle,Women,Margaux Fabre,FRA,54.48,2018-05-26,2018,1992-10-02,25.645448323066393,176,French National Championships (50m),Saint Raphael,FRA
 100m Freestyle,Women,Karin Prinsloo,RSA,54.48,2014-01-31,2014,1989-12-02,24.164271047227928,177,2014 BHP Billiton Aquatic Super Series,Perth,AUS
@@ -1233,7 +1233,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Backstroke,Women,Claire Curzan,USA,58.73,2022-04-01,2022,2004-06-30,17.752224503764545,132,TYR Pro Swim Series San Antonio 2022,San Antonio,USA
 100m Backstroke,Women,Kira Toussaint,NED,58.73,2021-05-20,2021,1994-05-22,26.99520876112252,133,European Championships 2021,Budapest,HUN
 100m Backstroke,Women,Olivia Smoliga,USA,58.73,2019-04-12,2019,1994-10-12,24.49828884325804,134,TYR Pro Swim Series Richmond 2019,Richmond,USA
-100m Backstroke,Women,Mie Oe Nielsen,DEN,58.73,2016-05-19,2016,1996-09-25,19.64681724845996,135,European Championships 2016,London,GBR
+100m Backstroke,Women,Mie Nielsen,DEN,58.73,2016-05-19,2016,1996-09-25,19.64681724845996,135,European Championships 2016,London,GBR
 100m Backstroke,Women,Emily Seebohm,AUS,58.73,2016-04-08,2016,1992-06-05,23.84120465434634,136,Australian National Championships (50m),Adelaide,AUS
 100m Breaststroke,Men,Michael Andrew,USA,58.73,2021-06-14,2021,1999-04-18,22.157426420260094,101,US Olympic Team Trials - Wave II,Omaha,USA
 100m Breaststroke,Men,Zibei Yan,CHN,58.73,2020-09-28,2020,1995-10-12,24.9637234770705,102,Chinese National Championships (50m),Qingdao,CHN
@@ -1248,7 +1248,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Breaststroke,Men,Adam Peaty,GBR,58.74,2016-05-16,2016,1994-12-28,21.38261464750171,109,European Championships 2016,London,GBR
 100m Breaststroke,Men,Adam Peaty,GBR,58.74,2016-04-12,2016,1994-12-28,21.28952772073922,110,British Championships 2016,Glasgow,GBR
 100m Backstroke,Women,Olivia Smoliga,USA,58.75,2018-07-28,2018,1994-10-12,23.79192334017796,139,US National Championships (50m),Irvine,USA
-100m Backstroke,Women,Mie Oe Nielsen,DEN,58.75,2016-08-13,2016,1996-09-25,19.88227241615332,140,Olympic Games Rio 2016,Rio de Janeiro,BRA
+100m Backstroke,Women,Mie Nielsen,DEN,58.75,2016-08-13,2016,1996-09-25,19.88227241615332,140,Olympic Games Rio 2016,Rio de Janeiro,BRA
 100m Backstroke,Women,Kathleen Baker,USA,58.75,2016-08-08,2016,1997-02-28,19.44147843942505,141,Olympic Games Rio 2016,Rio de Janeiro,BRA
 100m Backstroke,Women,Madison Wilson,AUS,58.75,2015-08-04,2015,1994-05-31,21.177275838466805,142,16th FINA World Championships 2015,Kazan,RUS
 100m Breaststroke,Men,Zibei Yan,CHN,58.75,2021-07-24,2021,1995-10-12,25.782340862423,111,Olympic Games Tokyo 2020,Tokyo,JPN
@@ -1283,7 +1283,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Breaststroke,Men,Kevin Cordes,USA,58.79,2017-07-24,2017,1993-08-13,23.94524298425736,125,17th FINA World Championships 2017,Budapest,HUN
 100m Breaststroke,Men,Christian Sprenger,AUS,58.79,2013-07-29,2013,1985-12-19,27.60848733744011,126,15th FINA World Championships 2013,Barcelona,ESP
 100m Backstroke,Women,Katinka Hosszu,HUN,58.8,2017-07-24,2017,1989-05-03,28.22450376454483,158,17th FINA World Championships 2017,Budapest,HUN
-100m Backstroke,Women,Mie Oe Nielsen,DEN,58.8,2016-08-08,2016,1996-09-25,19.86858316221766,159,Olympic Games Rio 2016,Rio de Janeiro,BRA
+100m Backstroke,Women,Mie Nielsen,DEN,58.8,2016-08-08,2016,1996-09-25,19.86858316221766,159,Olympic Games Rio 2016,Rio de Janeiro,BRA
 100m Breaststroke,Men,Nic Fink,USA,58.8,2021-06-14,2021,1993-07-03,27.94798083504449,127,US Olympic Team Trials - Wave II,Omaha,USA
 100m Breaststroke,Men,Andrew Wilson,USA,58.8,2021-06-13,2021,1993-09-16,27.73990417522245,128,US Olympic Team Trials - Wave II,Omaha,USA
 100m Breaststroke,Men,James Wilby,GBR,58.8,2021-05-17,2021,1993-11-12,27.509924709103355,129,European Championships 2021,Budapest,HUN
@@ -1309,7 +1309,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Breaststroke,Men,Cameron Van Der Burgh,RSA,58.83,2012-07-28,2012,1988-05-25,24.175222450376456,137,Olympic Games London 2012,London,GBR
 100m Backstroke,Women,Kathleen Baker,USA,58.84,2016-08-07,2016,1997-02-28,19.43874058863792,172,Olympic Games Rio 2016,Rio de Janeiro,BRA
 100m Backstroke,Women,Kathleen Baker,USA,58.84,2016-08-07,2016,1997-02-28,19.43874058863792,173,Olympic Games Rio 2016,Rio de Janeiro,BRA
-100m Backstroke,Women,Mie Oe Nielsen,DEN,58.84,2015-08-03,2015,1996-09-25,18.85284052019165,174,16th FINA World Championships 2015,Kazan,RUS
+100m Backstroke,Women,Mie Nielsen,DEN,58.84,2015-08-03,2015,1996-09-25,18.85284052019165,174,16th FINA World Championships 2015,Kazan,RUS
 100m Backstroke,Women,Emily Seebohm,AUS,58.84,2014-08-21,2014,1992-06-05,22.209445585215605,175,12th Pan Pacific Championships 2014,Gold Coast,AUS
 100m Backstroke,Women,Aya Terakawa,JPN,58.84,2013-04-11,2013,1984-11-12,28.410677618069816,176,Japan National Championships (50m),Nagaoka,JPN
 100m Breaststroke,Men,Michael Andrew,USA,58.84,2021-07-26,2021,1999-04-18,22.272416153319643,138,Olympic Games Tokyo 2020,Tokyo,JPN
@@ -1323,7 +1323,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Backstroke,Women,Mollie O'Callaghan,AUS,58.86,2021-06-13,2021,2004-04-02,17.196440793976727,181,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
 100m Backstroke,Women,Phoebe Bacon,USA,58.86,2020-01-18,2020,2002-08-12,17.43463381245722,182,TYR Pro Swim Series Knoxville 2020,Knoxville,USA
 100m Backstroke,Women,Kylie Masse,CAN,58.86,2017-07-30,2017,1996-01-18,21.530458590006845,183,17th FINA World Championships 2017,Budapest,HUN
-100m Backstroke,Women,Mie Oe Nielsen,DEN,58.86,2015-08-04,2015,1996-09-25,18.855578370978783,184,16th FINA World Championships 2015,Kazan,RUS
+100m Backstroke,Women,Mie Nielsen,DEN,58.86,2015-08-04,2015,1996-09-25,18.855578370978783,184,16th FINA World Championships 2015,Kazan,RUS
 100m Breaststroke,Men,Yasuhiro Koseki,JPN,58.86,2018-08-22,2018,1992-03-14,26.439425051334702,142,18th Asian Games 2018,Jakarta,INA
 100m Breaststroke,Men,Adam Peaty,GBR,58.86,2017-03-04,2017,1994-12-28,22.182067077344286,143,Arena Pro Swim Indianapolis 2017,Indianapolis,USA
 100m Breaststroke,Men,Zibei Yan,CHN,58.87,2021-09-19,2021,1995-10-12,25.93839835728953,144,The National Games,Xian,CHN
@@ -2034,7 +2034,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Men,Daiya Seto,JPN,114.46,2015-05-22,2015,1994-05-24,20.993839835728952,141,Japan Open 2015,Tokyo,JPN
 200m Butterfly,Men,Nick D'Arcy,AUS,114.46,2009-03-17,2009,1987-07-23,21.650924024640656,142,Telstra Australian National Championships (50m),Sydney,AUS
 200m Butterfly,Men,Jack Conger,USA,114.47,2017-06-27,2017,1994-09-26,22.751540041067763,143,US National Championships (50m),Indianapolis,USA
-200m Butterfly,Men,Viktor B Bromer,DEN,114.47,2015-08-04,2015,1993-04-20,22.288843258042437,144,16th FINA World Championships 2015,Kazan,RUS
+200m Butterfly,Men,Viktor Bromer,DEN,114.47,2015-08-04,2015,1993-04-20,22.288843258042437,144,16th FINA World Championships 2015,Kazan,RUS
 200m Freestyle,Women,Federica Pellegrini,ITA,114.47,2009-03-08,2009,1988-08-05,20.588637919233403,23,Italian National Championships (50m),Riccione,ITA
 200m Butterfly,Men,Laszlo Cseh,HUN,114.48,2008-08-11,2008,1985-12-03,22.688569472963724,145,Olympic Games Beijing 2008,Beijing,CHN
 200m Freestyle,Women,Junxuan Yang,CHN,114.48,2021-09-22,2021,2002-01-26,19.655030800821354,24,The National Games,Xian,CHN
@@ -2092,7 +2092,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Men,Nikolay Skvortsov,RUS,114.65,2008-03-21,2008,1984-03-28,23.980835044490075,178,European Championships 2008,Eindhoven,NED
 200m Freestyle,Women,Sarah Sjoestroem,SWE,114.65,2016-08-08,2016,1993-08-17,22.976043805612594,33,Olympic Games Rio 2016,Rio de Janeiro,BRA
 200m Backstroke,Men,Aaron Peirsol,USA,114.66,2005-07-29,2005,1983-07-23,22.017796030116358,76,11th FINA World Championships 2005,Montreal,CAN
-200m Butterfly,Men,Viktor B Bromer,DEN,114.66,2015-08-05,2015,1993-04-20,22.29158110882957,179,16th FINA World Championships 2015,Kazan,RUS
+200m Butterfly,Men,Viktor Bromer,DEN,114.66,2015-08-05,2015,1993-04-20,22.29158110882957,179,16th FINA World Championships 2015,Kazan,RUS
 200m Freestyle,Women,Ariarne Titmus,AUS,114.66,2022-03-06,2022,2000-09-07,21.492128678986994,34,NSW Open State Championships 2022,Sydney,AUS
 200m Freestyle,Women,Ariarne Titmus,AUS,114.66,2019-07-24,2019,2000-09-07,18.874743326488705,35,18th FINA World Championships 2019,Gwangju,KOR
 200m Freestyle,Women,Camille Muffat,FRA,114.66,2012-06-06,2012,1989-10-28,22.60643394934976,36,Mare Nostrum -  Meeting International de Canet-en-Roussillon 2012,Canet-en-Roussillon,FRA
@@ -2692,7 +2692,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Women,Liuyang Jiao,CHN,125.79,2010-11-15,2010,1991-08-06,19.277207392197127,62,16th Asian Games 2010,Guangzhou,CHN
 200m Backstroke,Women,Emily Seebohm,AUS,125.81,2017-07-28,2017,1992-06-05,25.144421629021217,30,17th FINA World Championships 2017,Budapest,HUN
 200m Backstroke,Women,Emily Seebohm,AUS,125.81,2015-08-08,2015,1992-06-05,23.173169062286107,31,16th FINA World Championships 2015,Kazan,RUS
-200m Butterfly,Women,Susie O'Neill,AUS,125.81,2000-05-17,2000,1973-08-02,26.78986995208761,63,Australian Olympic Swimming Trials,Sydney,AUS
+200m Butterfly,Women,Susan O'Neill,AUS,125.81,2000-05-17,2000,1973-08-02,26.78986995208761,63,Australian Olympic Swimming Trials,Sydney,AUS
 200m Butterfly,Women,Yufei Zhang,CHN,125.84,2021-09-23,2021,1998-04-19,23.430527036276523,64,The National Games,Xian,CHN
 200m Backstroke,Women,Kaylee Mckeown,AUS,125.85,2022-03-04,2022,2001-07-12,20.643394934976044,32,NSW Open State Championships 2022,Sydney,AUS
 200m Backstroke,Women,Katinka Hosszu,HUN,125.85,2017-07-29,2017,1989-05-03,28.238193018480494,33,17th FINA World Championships 2017,Budapest,HUN
@@ -2713,7 +2713,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Backstroke,Women,Phoebe Bacon,USA,125.93,2022-06-23,2022,2002-08-12,19.863107460643395,37,19th FINA World Championships Budapest 2022,Budapest,HUN
 200m Backstroke,Women,Regan Smith,USA,125.94,2020-01-19,2020,2002-02-09,17.94113620807666,38,TYR Pro Swim Series Knoxville 2020,Knoxville,USA
 200m Backstroke,Women,Kylie Masse,CAN,125.94,2019-04-05,2019,1996-01-18,23.211498973305954,39,Canadian Swimming Trials 2019,Toronto,CAN
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,125.95,2022-05-19,2022,1999-01-04,23.370294318959616,1,Australian National Championships (50m),Adelaide,AUS
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,125.95,2022-05-19,2022,1999-01-04,23.370294318959616,1,Australian National Championships (50m),Adelaide,AUS
 200m Butterfly,Women,Ellen Gandy,GBR,125.95,2012-02-10,2012,1991-08-15,20.490075290896645,76,2012 NSW State Open Championshps,Sydney,AUS
 200m Butterfly,Women,Audrey Lacroix,CAN,125.95,2009-07-30,2009,1983-11-17,25.700205338809035,77,13th FINA World Championships 2009,Rome,ITA
 200m Butterfly,Women,Hali Flickinger,USA,125.96,2019-07-24,2019,1994-07-07,25.045859000684462,78,18th FINA World Championships 2019,Gwangju,KOR
@@ -2768,7 +2768,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Women,Zige Liu,CHN,126.25,2008-08-13,2008,1989-03-31,19.370294318959616,106,Olympic Games Beijing 2008,Beijing,CHN
 200m Backstroke,Women,Kaylee Mckeown,AUS,126.26,2019-07-27,2019,2001-07-12,18.039698836413415,58,18th FINA World Championships 2019,Gwangju,KOR
 200m Butterfly,Women,Jess Schipper,AUS,126.26,2008-08-14,2008,1986-11-19,21.73579739904175,107,Olympic Games Beijing 2008,Beijing,CHN
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,126.28,2021-06-15,2021,1999-01-04,22.444900752908968,3,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,126.28,2021-06-15,2021,1999-01-04,22.444900752908968,3,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
 200m Backstroke,Women,Elizabeth Pelton,USA,126.29,2013-06-25,2013,1993-11-26,19.578370978781656,59,US National Championships (50m),Indianapolis,USA
 200m Butterfly,Women,Yilin Zhou,CHN,126.29,2017-09-01,2017,1992-09-18,24.95277207392197,108,2017 National Games ,Tianjin,CHN
 200m Butterfly,Women,Franziska Hentke,GER,126.29,2017-07-26,2017,1989-06-04,28.142368240930868,109,17th FINA World Championships 2017,Budapest,HUN
@@ -2796,7 +2796,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Women,Mary T Meagher,USA,126.37,1980-07-30,1980,1964-10-27,15.756331279945243,127,-,Irvine,USA
 200m Backstroke,Women,Emily Seebohm,AUS,126.38,2021-06-17,2021,1992-06-05,29.032169746748803,64,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
 200m Backstroke,Women,Kathleen Baker,USA,126.38,2017-06-28,2017,1997-02-28,20.32854209445585,65,US National Championships (50m),Indianapolis,USA
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,126.38,2021-07-29,2021,1999-01-04,22.56536618754278,4,Olympic Games Tokyo 2020,Tokyo,JPN
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,126.38,2021-07-29,2021,1999-01-04,22.56536618754278,4,Olympic Games Tokyo 2020,Tokyo,JPN
 200m Backstroke,Women,Rhyan White,USA,126.39,2021-07-31,2021,2000-01-25,21.51403148528405,66,Olympic Games Tokyo 2020,Tokyo,JPN
 200m Backstroke,Women,Elizabeth Beisel,USA,126.39,2009-08-01,2009,1992-08-18,16.95277207392197,67,13th FINA World Championships 2009,Rome,ITA
 200m Backstroke,Women,Kirsty Coventry,ZIM,126.39,2008-02-16,2008,1983-09-16,24.418891170431213,68,Missouri Grand Prix 2008,Mizzou Aquatic Cente,USA
@@ -2839,7 +2839,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Women,Boglarka Kapas,HUN,126.53,2021-07-29,2021,1993-04-22,28.268309377138944,147,Olympic Games Tokyo 2020,Tokyo,JPN
 200m Butterfly,Women,Mireia Belmonte,ESP,126.53,2014-08-23,2014,1990-11-10,23.783709787816566,148,European Championships 2014,Berlin,GER
 200m Butterfly,Women,Mireia Belmonte,ESP,126.53,2013-07-31,2013,1990-11-10,22.72142368240931,149,15th FINA World Championships 2013,Barcelona,ESP
-200m Butterfly,Women,Susie O'Neill,AUS,126.53,1999-08-25,1999,1973-08-02,26.06160164271047,150,8th Pan Pacific Championships 1999,Sydney,AUS
+200m Butterfly,Women,Susan O'Neill,AUS,126.53,1999-08-25,1999,1973-08-02,26.06160164271047,150,8th Pan Pacific Championships 1999,Sydney,AUS
 200m Backstroke,Women,Xuwei Peng,CHN,126.55,2017-10-14,2017,2003-01-15,14.746064339493497,85,Chinese National Championships (50m),Huangshan,CHN
 200m Backstroke,Women,Elizabeth Beisel,USA,126.55,2012-08-03,2012,1992-08-18,19.958932238193018,86,Olympic Games London 2012,London,GBR
 200m Backstroke,Women,Emily Seebohm,AUS,126.56,2015-08-07,2015,1992-06-05,23.170431211498972,87,16th FINA World Championships 2015,Kazan,RUS
@@ -2849,7 +2849,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Women,Brianna Throssell,AUS,126.58,2016-04-10,2016,1996-02-10,20.164271047227928,153,Australian National Championships (50m),Adelaide,AUS
 200m Butterfly,Women,Franziska Hentke,GER,126.58,2015-08-16,2015,1989-06-04,26.198494182067076,154,FINA/airweave Swimming World Cup 2015,Paris-Chartres,FRA
 200m Butterfly,Women,Zsuzsanna Jakabos,HUN,126.58,2013-08-01,2013,1989-04-03,24.32854209445585,155,15th FINA World Championships 2013,Barcelona,ESP
-200m Butterfly,Women,Susie O'Neill,AUS,126.58,2000-09-20,2000,1973-08-02,27.134839151266256,156,Olympic Games Sydney 2000,Sydney,AUS
+200m Butterfly,Women,Susan O'Neill,AUS,126.58,2000-09-20,2000,1973-08-02,27.134839151266256,156,Olympic Games Sydney 2000,Sydney,AUS
 200m Individual Medley,Women,Katinka Hosszu,HUN,126.58,2016-08-09,2016,1989-05-03,27.26899383983573,3,Olympic Games Rio 2016,Rio de Janeiro,BRA
 200m Backstroke,Women,Margherita Panziera,ITA,126.59,2019-12-14,2019,1995-08-12,24.33949349760438,89,Italian Winter National Championships (50m),Riccione,ITA
 200m Backstroke,Women,Emily Seebohm,AUS,126.59,2016-04-12,2016,1992-06-05,23.852156057494867,90,Australian National Championships (50m),Adelaide,AUS
@@ -2860,7 +2860,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Women,Liliana Szilagyi,HUN,126.59,2014-08-18,2014,1996-11-19,17.744010951403148,159,Youth Olympic Games Nanjing 2014,Nanjing,CHN
 200m Butterfly,Women,Aurore Mongel,FRA,126.59,2008-03-24,2008,1982-04-19,25.930184804928132,160,European Championships 2008,Eindhoven,NED
 200m Butterfly,Women,Brianna Throssell,AUS,126.6,2015-02-21,2015,1996-02-10,19.030800821355236,161,SA State Championships 2015,Adelaide,AUS
-200m Butterfly,Women,Susie O'Neill,AUS,126.6,1999-08-26,1999,1973-08-02,26.064339493497606,162,8th Pan Pacific Championships 1999,Sydney,AUS
+200m Butterfly,Women,Susan O'Neill,AUS,126.6,1999-08-26,1999,1973-08-02,26.064339493497606,162,8th Pan Pacific Championships 1999,Sydney,AUS
 200m Butterfly,Women,Yufei Zhang,CHN,126.61,2018-08-22,2018,1998-04-19,20.34223134839151,163,18th Asian Games 2018,Jakarta,INA
 200m Butterfly,Women,Cammile Adams,USA,126.61,2014-08-21,2014,1991-09-11,22.94318959616701,164,12th Pan Pacific Championships 2014,Gold Coast,AUS
 200m Backstroke,Women,Kylie Masse,CAN,126.62,2019-07-27,2019,1996-01-18,23.520876112251884,93,18th FINA World Championships 2019,Gwangju,KOR
@@ -2911,7 +2911,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Butterfly,Women,Emese Kovacs,HUN,126.71,2008-03-24,2008,1991-03-01,17.065023956194388,193,European Championships 2008,Eindhoven,NED
 200m Butterfly,Women,Kim Vandenberg,USA,126.71,2007-03-29,2007,1983-12-13,23.290896646132786,194,12th FINA World Championships 2007,Melbourne,AUS
 200m Backstroke,Women,Kirsty Coventry,ZIM,126.72,2009-07-31,2009,1983-09-16,25.872689938398356,107,13th FINA World Championships 2009,Rome,ITA
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,126.72,2022-06-22,2022,1999-01-04,23.463381245722108,9,19th FINA World Championships Budapest 2022,Budapest,HUN
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,126.72,2022-06-22,2022,1999-01-04,23.463381245722108,9,19th FINA World Championships Budapest 2022,Budapest,HUN
 200m Breaststroke,Men,Ippei Watanabe,JPN,126.73,2019-07-26,2019,1997-03-18,22.354551676933607,10,18th FINA World Championships 2019,Gwangju,KOR
 200m Butterfly,Women,Hali Flickinger,USA,126.73,2021-06-16,2021,1994-07-07,26.94318959616701,195,US Olympic Team Trials - Wave II,Omaha,USA
 200m Butterfly,Women,Cammile Adams,USA,126.73,2015-08-16,2015,1991-09-11,23.928815879534564,196,FINA/airweave Swimming World Cup 2015,Paris-Chartres,FRA
@@ -2954,7 +2954,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Breaststroke,Men,Anton Chupkov,RUS,126.99,2021-05-20,2021,1997-02-22,24.238193018480494,17,European Championships 2021,Budapest,HUN
 200m Backstroke,Women,Kylie Masse,CAN,127.0,2018-08-12,2018,1996-01-18,22.56536618754278,132,13th Pan Pacific Championships 2018,Tokyo,JPN
 200m Backstroke,Women,Anastasia Zueva,RUS,127.0,2009-07-31,2009,1990-05-08,19.23066392881588,133,13th FINA World Championships 2009,Rome,ITA
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.0,2021-05-15,2021,1999-01-04,22.360027378507873,18,Sydney Open 2021,Sydney,AUS
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.0,2021-05-15,2021,1999-01-04,22.360027378507873,18,Sydney Open 2021,Sydney,AUS
 200m Breaststroke,Men,Anton Chupkov,RUS,127.0,2019-04-09,2019,1997-02-22,22.12457221081451,19,Russian National Championships (50m),Moscow,RUS
 200m Individual Medley,Women,Katinka Hosszu,HUN,127.0,2017-07-24,2017,1989-05-03,28.22450376454483,6,17th FINA World Championships 2017,Budapest,HUN
 200m Backstroke,Women,Kaylee Mckeown,AUS,127.01,2018-08-12,2018,2001-07-12,17.084188911704313,134,13th Pan Pacific Championships 2018,Tokyo,JPN
@@ -2976,7 +2976,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Backstroke,Women,Emily Seebohm,AUS,127.06,2021-05-13,2021,1992-06-05,28.93634496919918,143,Sydney Open 2021,Sydney,AUS
 200m Backstroke,Women,Krisztina Egerszegi,HUN,127.06,1992-07-31,1992,1974-08-16,17.95756331279945,144,Olympic Games Barcelona 1992,Barcelona,ESP
 200m Backstroke,Women,Rhyan White,USA,127.07,2021-05-16,2021,2000-01-25,21.305954825462013,145,Atlanta Classic 2021,Atlanta,USA
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.07,2022-06-23,2022,1999-01-04,23.46611909650924,24,19th FINA World Championships Budapest 2022,Budapest,HUN
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.07,2022-06-23,2022,1999-01-04,23.46611909650924,24,19th FINA World Championships Budapest 2022,Budapest,HUN
 200m Backstroke,Women,Daria K Ustinova,RUS,127.08,2017-07-28,2017,1998-08-29,18.913073237508556,146,17th FINA World Championships 2017,Budapest,HUN
 200m Breaststroke,Men,Ippei Watanabe,JPN,127.08,2020-12-06,2020,1997-03-18,23.720739219712527,25,Japan National Championships (50m),Tokoy,JPN
 200m Backstroke,Women,Regan Smith,USA,127.09,2021-12-04,2021,2002-02-09,19.81656399726215,147,Toyota US Open 2021,Greensboro,USA
@@ -3052,13 +3052,13 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Breaststroke,Men,Anton Chupkov,RUS,127.32,2020-10-28,2020,1997-02-22,23.679671457905545,43,Russian National  Championships (50m),Kazan,RUS
 200m Backstroke,Women,Krisztina Egerszegi,HUN,127.34,1992-07-31,1992,1974-08-16,17.95756331279945,195,Olympic Games Barcelona 1992,Barcelona,ESP
 200m Backstroke,Women,Daria K Ustinova,RUS,127.35,2017-07-29,2017,1998-08-29,18.915811088295687,196,17th FINA World Championships 2017,Budapest,HUN
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.35,2021-07-28,2021,1999-01-04,22.562628336755647,44,Olympic Games Tokyo 2020,Tokyo,JPN
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.35,2021-07-28,2021,1999-01-04,22.562628336755647,44,Olympic Games Tokyo 2020,Tokyo,JPN
 200m Breaststroke,Men,Arno Kamminga,NED,127.35,2021-05-20,2021,1995-10-22,25.57700205338809,45,European Championships 2021,Budapest,HUN
 200m Breaststroke,Men,Haiyang Qin,CHN,127.35,2017-09-01,2017,1999-05-17,18.2943189596167,46,2017 National Games ,Tianjin,CHN
 200m Backstroke,Women,Katinka Hosszu,HUN,127.36,2016-03-05,2016,1989-05-03,26.83915126625599,197,Meeting Open de la Mediterranee Circuit FFN - Gold,Marseille,FRA
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.36,2019-07-26,2019,1999-01-04,20.555783709787818,47,18th FINA World Championships 2019,Gwangju,KOR
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.36,2019-07-26,2019,1999-01-04,20.555783709787818,47,18th FINA World Championships 2019,Gwangju,KOR
 200m Breaststroke,Men,Arno Kamminga,NED,127.37,2021-07-27,2021,1995-10-22,25.763175906913073,48,Olympic Games Tokyo 2020,Tokyo,JPN
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.37,2021-07-27,2021,1999-01-04,22.559890485968516,49,Olympic Games Tokyo 2020,Tokyo,JPN
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.37,2021-07-27,2021,1999-01-04,22.559890485968516,49,Olympic Games Tokyo 2020,Tokyo,JPN
 200m Backstroke,Women,Minna Atherton,AUS,127.38,2019-07-26,2019,2000-05-17,19.189596167008897,198,18th FINA World Championships 2019,Gwangju,KOR
 200m Breaststroke,Men,Arno Kamminga,NED,127.39,2021-05-19,2021,1995-10-22,25.574264202600958,50,European Championships 2021,Budapest,HUN
 200m Backstroke,Women,Kaylee Mckeown,AUS,127.4,2017-07-28,2017,2001-07-12,16.043805612594113,199,17th FINA World Championships 2017,Budapest,HUN
@@ -3140,7 +3140,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Breaststroke,Men,Ippei Watanabe,JPN,127.87,2016-08-10,2016,1997-03-18,19.397672826830938,117,Olympic Games Rio 2016,Rio de Janeiro,BRA
 200m Breaststroke,Men,Marco Koch,GER,127.88,2016-05-08,2016,1990-01-25,26.28336755646817,118,German National Championships (50m),Berlin,GER
 200m Breaststroke,Men,Marco Koch,GER,127.88,2016-05-05,2016,1990-01-25,26.275154004106778,119,German National Championships (50m),Berlin,GER
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.89,2018-08-12,2018,1999-01-04,19.603011635865844,120,13th Pan Pacific Championships 2018,Tokyo,JPN
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.89,2018-08-12,2018,1999-01-04,19.603011635865844,120,13th Pan Pacific Championships 2018,Tokyo,JPN
 200m Breaststroke,Men,Brenton Rickard,AUS,127.89,2009-07-30,2009,1983-10-19,25.779603011635867,121,13th FINA World Championships 2009,Rome,ITA
 200m Breaststroke,Men,Matt Fallon,USA,127.91,2022-07-27,2022,2002-10-03,19.813826146475016,122,Phillips 66 National Championships (50m) 2022,Irvine,USA
 200m Breaststroke,Men,James Wilby,GBR,127.91,2021-07-28,2021,1993-11-12,27.707049965776864,123,Olympic Games Tokyo 2020,Tokyo,JPN
@@ -3151,9 +3151,9 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Breaststroke,Men,Nic Fink,USA,127.93,2021-07-29,2021,1993-07-03,28.071184120465436,125,Olympic Games Tokyo 2020,Tokyo,JPN
 200m Breaststroke,Men,Anton Chupkov,RUS,127.93,2016-08-09,2016,1997-02-22,19.460643394934976,126,Olympic Games Rio 2016,Rio de Janeiro,BRA
 200m Breaststroke,Men,Anton Chupkov,RUS,127.94,2021-05-19,2021,1997-02-22,24.23545516769336,127,European Championships 2021,Budapest,HUN
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.95,2019-07-25,2019,1999-01-04,20.553045859000683,128,18th FINA World Championships 2019,Gwangju,KOR
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.95,2019-07-25,2019,1999-01-04,20.553045859000683,128,18th FINA World Championships 2019,Gwangju,KOR
 200m Breaststroke,Men,Anton Chupkov,RUS,127.95,2018-08-05,2018,1997-02-22,21.44832306639288,129,European Championships 2018,Glasgow,GBR
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,127.96,2020-12-13,2020,1999-01-04,21.94113620807666,130,McDonald’s Queensland Championships 2020,Brisbane,AUS
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,127.96,2020-12-13,2020,1999-01-04,21.94113620807666,130,McDonald’s Queensland Championships 2020,Brisbane,AUS
 200m Breaststroke,Men,Arno Kamminga,NED,127.96,2019-10-06,2019,1995-10-22,23.956194387405887,131,FINA Swimming World Cup 2019,Budapest,HUN
 200m Breaststroke,Men,Marco Koch,GER,127.96,2019-06-23,2019,1990-01-25,29.4072553045859,132,56th International Trophy “Settecolli”,Rome,ITA
 200m Breaststroke,Men,Ross Murdoch,GBR,127.96,2019-04-19,2019,1994-01-14,25.259411362080765,133,British Swimming Championships (50m),Glasgow,GBR
@@ -3177,7 +3177,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Breaststroke,Men,James Wilby,GBR,128.05,2018-04-05,2018,1993-11-12,24.39425051334702,151,21st Commonwealth Games 2018,Gold Coast,AUS
 200m Breaststroke,Men,Kevin Cordes,USA,128.05,2015-08-07,2015,1993-08-13,21.982203969883642,152,16th FINA World Championships 2015,Kazan,RUS
 200m Breaststroke,Men,James Wilby,GBR,128.06,2021-04-16,2021,1993-11-12,27.42505133470226,153,British National Swimming Championships (50m),London,GBR
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,128.07,2022-07-29,2022,1999-01-04,23.564681724845997,154,22nd Commonwealth Games 2022,Birmingham,GBR
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,128.07,2022-07-29,2022,1999-01-04,23.564681724845997,154,22nd Commonwealth Games 2022,Birmingham,GBR
 200m Breaststroke,Men,Haiyang Qin,CHN,128.07,2018-08-21,2018,1999-05-17,19.263518138261464,155,18th Asian Games 2018,Jakarta,INA
 200m Breaststroke,Men,Anton Chupkov,RUS,128.07,2018-04-05,2018,1997-02-22,21.114305270362767,156,Malmsten Swim Open Stockholm 2018,Stockholm,SWE
 200m Breaststroke,Men,Ryuya Mura,JPN,128.08,2021-04-06,2021,1996-07-03,24.758384668035593,157,Japan National Championships (50m),Tokyo,JPN
@@ -3232,7 +3232,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 200m Breaststroke,Men,Shoma Sato,JPN,128.26,2022-03-05,2022,2001-02-08,21.06776180698152,197,Japan Selection Trial for 19th FINA World Championships 2022,Tokyo,JPN
 200m Breaststroke,Men,Matti Mattsson,FIN,128.26,2021-05-19,2021,1993-10-05,27.619438740588638,198,European Championships 2021,Budapest,HUN
 200m Breaststroke,Men,Ryuya Mura,JPN,128.27,2021-07-28,2021,1996-07-03,25.06776180698152,199,Olympic Games Tokyo 2020,Tokyo,JPN
-200m Breaststroke,Men,Zac Stubblety-Cook,AUS,128.28,2021-04-17,2021,1999-01-04,22.28336755646817,200,Hancock Prospecting Australian Swimming Club Championships 2021,Gold Coast,AUS
+200m Breaststroke,Men,Izaac Stubblety-Cook,AUS,128.28,2021-04-17,2021,1999-01-04,22.28336755646817,200,Hancock Prospecting Australian Swimming Club Championships 2021,Gold Coast,AUS
 200m Individual Medley,Women,Katinka Hosszu,HUN,128.28,2019-06-23,2019,1989-05-03,30.138261464750173,35,56th International Trophy “Settecolli”,Rome,ITA
 200m Individual Medley,Women,Kathleen Baker,USA,128.32,2018-07-29,2018,1997-02-28,21.412731006160165,36,US National Championships (50m),Irvine,USA
 200m Individual Medley,Women,Seoyeong Kim,KOR,128.34,2018-08-24,2018,1994-03-17,24.438056125941138,37,18th Asian Games 2018,Jakarta,INA
@@ -3605,7 +3605,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Ian Thorpe,AUS,220.17,2001-07-22,2001,1982-10-13,18.77344284736482,4,9th FINA World Championships 2001,Fukuoka,JPN
 400m Freestyle,Men,Yang Sun,CHN,220.29,2011-09-23,2011,1991-12-01,19.811088295687885,5,Chinese National Championships (50m),Rizhao,CHN
 400m Freestyle,Men,Ian Thorpe,AUS,220.59,2000-09-16,2000,1982-10-13,17.927446954141,6,Olympic Games Sydney 2000,Sydney,AUS
-400m Freestyle,Men,Ous Mellouli,TUN,221.11,2009-07-26,2009,1984-02-16,25.440109514031484,7,13th FINA World Championships 2009,Rome,ITA
+400m Freestyle,Men,Oussama Mellouli,TUN,221.11,2009-07-26,2009,1984-02-16,25.440109514031484,7,13th FINA World Championships 2009,Rome,ITA
 400m Freestyle,Men,Elijah Winnington,AUS,221.22,2022-06-18,2022,2000-05-05,22.119096509240247,8,19th FINA World Championships Budapest 2022,Budapest,HUN
 400m Freestyle,Men,Ian Thorpe,AUS,221.33,2000-05-13,2000,1982-10-13,17.582477754962355,9,Australian Olympic Swimming Trials,Sydney,AUS
 400m Freestyle,Men,Lin Zhang,CHN,221.35,2009-07-26,2009,1987-01-06,22.55167693360712,10,13th FINA World Championships 2009,Rome,ITA
@@ -3653,7 +3653,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Gabriele Detti,ITA,223.23,2019-07-21,2019,1994-08-29,24.892539356605067,52,18th FINA World Championships 2019,Gwangju,KOR
 400m Freestyle,Men,Yang Sun,CHN,223.23,2014-09-23,2014,1991-12-01,22.811772758384667,53,17th Asian Games 2014,Incheon,KOR
 400m Freestyle,Men,Yang Sun,CHN,223.24,2011-07-24,2011,1991-12-01,19.644079397672826,54,14th FINA World Championships 2011,Shanghai,CHN
-400m Freestyle,Men,Jack Alan Mcloughlin,AUS,223.27,2021-06-12,2021,1995-02-01,26.360027378507873,55,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
+400m Freestyle,Men,Jack Mcloughlin,AUS,223.27,2021-06-12,2021,1995-02-01,26.360027378507873,55,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
 400m Freestyle,Men,Guilherme Costa,BRA,223.31,2022-06-18,2022,1998-10-01,23.71252566735113,56,19th FINA World Championships Budapest 2022,Budapest,HUN
 400m Freestyle,Men,Lin Zhang,CHN,223.32,2008-08-09,2008,1987-01-06,21.590691307323752,57,Olympic Games Beijing 2008,Beijing,CHN
 400m Freestyle,Men,Taehwan Park,KOR,223.35,2008-08-09,2008,1989-09-27,18.86652977412731,58,Olympic Games Beijing 2008,Beijing,CHN
@@ -3664,13 +3664,13 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Grant Hackett,AUS,223.36,2004-08-14,2004,1980-05-09,24.265571526351813,63,Olympic Games Athens 2004,Athens,GRE
 400m Freestyle,Men,Massimiliano Rosolino,ITA,223.4,2000-09-16,2000,1978-07-11,22.184804928131417,64,Olympic Games Sydney 2000,Sydney,AUS
 400m Freestyle,Men,Conor Dwyer,USA,223.42,2016-08-06,2016,1989-01-10,27.57015742642026,65,Olympic Games Rio 2016,Rio de Janeiro,BRA
-400m Freestyle,Men,Ous Mellouli,TUN,223.45,2008-08-10,2008,1984-02-16,24.48186173853525,66,Olympic Games Beijing 2008,Beijing,CHN
+400m Freestyle,Men,Oussama Mellouli,TUN,223.45,2008-08-10,2008,1984-02-16,24.48186173853525,66,Olympic Games Beijing 2008,Beijing,CHN
 400m Freestyle,Men,Nikita Lobintsev,RUS,223.45,2008-08-09,2008,1988-11-21,19.71526351813826,67,Olympic Games Beijing 2008,Beijing,CHN
 400m Freestyle,Men,Ryan Cochrane,CAN,223.46,2014-07-24,2014,1988-10-29,25.73305954825462,68,20th Commonwealth Games 2014,Glasgow,GBR
 400m Freestyle,Men,Grant Hackett,AUS,223.48,2002-07-30,2002,1980-05-09,22.223134839151268,69,17th Commonwealth Games 2002,Manchester,GBR
 400m Freestyle,Men,Gabriele Detti,ITA,223.49,2016-08-06,2016,1994-08-29,21.93839835728953,70,Olympic Games Rio 2016,Rio de Janeiro,BRA
 400m Freestyle,Men,Danas Rapsys,LTU,223.5,2019-07-21,2019,1995-05-21,24.16700889801506,71,18th FINA World Championships 2019,Gwangju,KOR
-400m Freestyle,Men,Jack Alan Mcloughlin,AUS,223.52,2021-07-25,2021,1995-02-01,26.477754962354553,72,Olympic Games Tokyo 2020,Tokyo,JPN
+400m Freestyle,Men,Jack Mcloughlin,AUS,223.52,2021-07-25,2021,1995-02-01,26.477754962354553,72,Olympic Games Tokyo 2020,Tokyo,JPN
 400m Freestyle,Men,Yang Sun,CHN,223.55,2016-06-04,2016,1991-12-01,24.50924024640657,73,Arena Pro Swim Series Santa Clara 2016,Santa Clara,USA
 400m Freestyle,Men,Felix Auboeck,AUT,223.58,2022-06-18,2022,1996-12-19,25.49486652977413,74,19th FINA World Championships Budapest 2022,Budapest,HUN
 400m Freestyle,Men,Lin Zhang,CHN,223.58,2009-07-26,2009,1987-01-06,22.55167693360712,75,13th FINA World Championships 2009,Rome,ITA
@@ -3681,7 +3681,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Yang Sun,CHN,223.73,2019-03-24,2019,1991-12-01,27.310061601642712,80,National Swimming Championships 2019 (50m),Qingdao,CHN
 400m Freestyle,Men,James Guy,GBR,223.75,2015-08-02,2015,1995-11-26,19.682409308692677,81,16th FINA World Championships 2015,Kazan,RUS
 400m Freestyle,Men,Mack Horton,AUS,223.76,2018-04-05,2018,1996-04-25,21.94387405886379,82,21st Commonwealth Games 2018,Gold Coast,AUS
-400m Freestyle,Men,Ous Mellouli,TUN,223.78,2009-07-26,2009,1984-02-16,25.440109514031484,83,13th FINA World Championships 2009,Rome,ITA
+400m Freestyle,Men,Oussama Mellouli,TUN,223.78,2009-07-26,2009,1984-02-16,25.440109514031484,83,13th FINA World Championships 2009,Rome,ITA
 400m Freestyle,Men,Yang Sun,CHN,223.79,2019-03-24,2019,1991-12-01,27.310061601642712,84,National Swimming Championships 2019 (50m),Qingdao,CHN
 400m Freestyle,Men,Connor Jaeger,USA,223.79,2016-06-26,2016,1991-04-30,25.15811088295688,85,US Olympic Team Trials - Swimming,Omaha,USA
 400m Freestyle,Men,Kieren Perkins,AUS,223.8,1994-09-05,1994,1973-08-14,21.059548254620122,86,7th FINA World Championships 1994,Rome,ITA
@@ -3703,7 +3703,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Taehwan Park,KOR,223.96,2014-02-28,2014,1989-09-27,24.421629021218344,102,2014 NSW State Open Championships,Sydney,AUS
 400m Freestyle,Men,Gabriele Detti,ITA,223.97,2016-04-21,2016,1994-08-29,21.645448323066393,103,Italian National Championships (50m),Riccione,ITA
 400m Freestyle,Men,Yang Sun,CHN,223.97,2012-09-22,2012,1991-12-01,20.810403832991103,104,Chinese National Championships (50m),Huangshan,CHN
-400m Freestyle,Men,Yuriy Prilukov,RUS,223.97,2008-08-10,2008,1984-06-14,24.15605749486653,105,Olympic Games Beijing 2008,Beijing,CHN
+400m Freestyle,Men,Yuri Prilukov,RUS,223.97,2008-08-10,2008,1984-06-14,24.15605749486653,105,Olympic Games Beijing 2008,Beijing,CHN
 400m Freestyle,Men,Conor Dwyer,USA,224.01,2016-08-06,2016,1989-01-10,27.57015742642026,106,Olympic Games Rio 2016,Rio de Janeiro,BRA
 400m Freestyle,Men,Gabriele Detti,ITA,224.01,2016-05-16,2016,1994-08-29,21.713894592744694,107,European Championships 2016,London,GBR
 400m Freestyle,Men,Grant Hackett,AUS,224.03,2008-08-09,2008,1980-05-09,28.251882272416154,108,Olympic Games Beijing 2008,Beijing,CHN
@@ -3721,12 +3721,12 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Martin Malyutin,RUS,224.18,2021-05-17,2021,1999-07-05,21.867214236824093,120,European Championships 2021,Budapest,HUN
 400m Freestyle,Men,Mack Horton,AUS,224.18,2017-04-09,2017,1996-04-25,20.955509924709105,121,Hancock Prospecting Australian,Brisbane,AUS
 400m Freestyle,Men,Felix Auboeck,AUT,224.19,2017-07-23,2017,1996-12-19,20.591375770020534,122,17th FINA World Championships 2017,Budapest,HUN
-400m Freestyle,Men,Jack Alan Mcloughlin,AUS,224.2,2018-08-11,2018,1995-02-01,23.523613963039015,123,13th Pan Pacific Championships 2018,Tokyo,JPN
+400m Freestyle,Men,Jack Mcloughlin,AUS,224.2,2018-08-11,2018,1995-02-01,23.523613963039015,123,13th Pan Pacific Championships 2018,Tokyo,JPN
 400m Freestyle,Men,Gabriele Detti,ITA,224.21,2016-06-24,2016,1994-08-29,21.82067077344285,124,53th International Trophy “Settecolli”,Rome,ITA
 400m Freestyle,Men,Taehwan Park,KOR,224.22,2012-05-25,2012,1989-09-27,22.65845311430527,125,Mel Zajac Jr International 2012,Vancouver,CAN
 400m Freestyle,Men,Peter Vanderkaay,USA,224.22,2008-08-09,2008,1984-02-12,24.490075290896645,126,Olympic Games Beijing 2008,Beijing,CHN
 400m Freestyle,Men,Yang Sun,CHN,224.23,2016-08-06,2016,1991-12-01,24.681724845995895,127,Olympic Games Rio 2016,Rio de Janeiro,BRA
-400m Freestyle,Men,Jack Alan Mcloughlin,AUS,224.24,2020-12-14,2020,1995-02-01,25.867214236824093,128,McDonald’s Queensland Championships 2020,Brisbane,AUS
+400m Freestyle,Men,Jack Mcloughlin,AUS,224.24,2020-12-14,2020,1995-02-01,25.867214236824093,128,McDonald’s Queensland Championships 2020,Brisbane,AUS
 400m Freestyle,Men,Felix Auboeck,AUT,224.26,2022-04-09,2022,1996-12-19,25.30321697467488,129,Malmsten Swim Open Stockholm,Stockholm,SWE
 400m Freestyle,Men,Taehwan Park,KOR,224.26,2016-04-25,2016,1989-09-27,26.576317590691307,130,88th Dong-A Swimming Meet,Gwangju,KOR
 400m Freestyle,Men,David Mckeon,AUS,224.28,2015-04-03,2015,1992-07-25,22.688569472963724,131,Australian National Championships (50m),Sydney,AUS
@@ -3735,7 +3735,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Danas Rapsys,LTU,224.31,2019-07-21,2019,1995-05-21,24.16700889801506,134,18th FINA World Championships 2019,Gwangju,KOR
 400m Freestyle,Men,Mack Horton,AUS,224.31,2018-08-11,2018,1996-04-25,22.2943189596167,135,13th Pan Pacific Championships 2018,Tokyo,JPN
 400m Freestyle,Men,Samuel Jack Short,AUS,224.34,2022-05-18,2022,2003-09-17,18.666666666666668,136,Australian National Championships (50m),Adelaide,AUS
-400m Freestyle,Men,Jack Alan Mcloughlin,AUS,224.34,2019-06-09,2019,1995-02-01,24.35044490075291,137,Hancock Prospecting Australian Swimming Trials 2019,Brisbane,AUS
+400m Freestyle,Men,Jack Mcloughlin,AUS,224.34,2019-06-09,2019,1995-02-01,24.35044490075291,137,Hancock Prospecting Australian Swimming Trials 2019,Brisbane,AUS
 400m Freestyle,Men,Florian Wellbrock,GER,224.35,2021-04-10,2021,1997-08-19,23.641341546885695,138,Qualifikationswettkampf Magdeburg 2021,Magdeburg,GER
 400m Freestyle,Men,Ian Thorpe,AUS,224.35,1998-09-15,1998,1982-10-13,15.9233401779603,139,16th Commonwealth Games 1998,Kuala Lumpur,MAS
 400m Freestyle,Men,Florian Wellbrock,GER,224.36,2021-04-17,2021,1997-08-19,23.66050650239562,140,German Trials 2021,Berlin,GER
@@ -3745,7 +3745,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Mads Glaesner,DEN,224.4,2009-07-26,2009,1988-10-18,20.76933607118412,144,13th FINA World Championships 2009,Rome,ITA
 400m Freestyle,Men,Elijah Winnington,AUS,224.42,2022-06-18,2022,2000-05-05,22.119096509240247,145,19th FINA World Championships Budapest 2022,Budapest,HUN
 400m Freestyle,Men,Zane Grothe,USA,224.43,2017-06-30,2017,1992-04-22,25.188227241615333,146,US National Championships (50m),Indianapolis,USA
-400m Freestyle,Men,Yuriy Prilukov,RUS,224.44,2005-07-24,2005,1984-06-14,21.1088295687885,147,11th FINA World Championships 2005,Montreal,CAN
+400m Freestyle,Men,Yuri Prilukov,RUS,224.44,2005-07-24,2005,1984-06-14,21.1088295687885,147,11th FINA World Championships 2005,Montreal,CAN
 400m Freestyle,Men,Marco De Tullio,ITA,224.47,2022-04-09,2022,2000-09-21,21.54688569472964,148,Italian National Championships (50m),Milano,ITA
 400m Freestyle,Men,Kosuke Hagino,JPN,224.48,2014-09-23,2014,1994-08-15,20.10677618069815,149,17th Asian Games 2014,Incheon,KOR
 400m Freestyle,Men,Thomas Neill,AUS,224.51,2021-06-12,2021,2002-06-09,19.00889801505818,150,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
@@ -3754,7 +3754,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,Henning Bennet Muhlleitner,GER,224.53,2022-08-17,2022,1997-07-15,25.089664613278575,153,European Championships 2022,Rome,ITA
 400m Freestyle,Men,Yang Sun,CHN,224.53,2015-04-09,2015,1991-12-01,23.353867214236825,154,Chinese National Championships (50m),Baoji ,CHN
 400m Freestyle,Men,Taehwan Park,KOR,224.54,2017-06-23,2017,1989-09-27,27.737166324435318,155,54th International Trophy “Settecolli”,Rome,ITA
-400m Freestyle,Men,Ous Mellouli,TUN,224.54,2008-08-09,2008,1984-02-16,24.479123887748116,156,Olympic Games Beijing 2008,Beijing,CHN
+400m Freestyle,Men,Oussama Mellouli,TUN,224.54,2008-08-09,2008,1984-02-16,24.479123887748116,156,Olympic Games Beijing 2008,Beijing,CHN
 400m Freestyle,Men,Yang Sun,CHN,224.55,2017-07-23,2017,1991-12-01,25.642710472279262,157,17th FINA World Championships 2017,Budapest,HUN
 400m Freestyle,Men,Kosuke Hagino,JPN,224.56,2014-08-23,2014,1994-08-15,20.021902806297057,158,12th Pan Pacific Championships 2014,Gold Coast,AUS
 400m Freestyle,Men,James Guy,GBR,224.58,2014-07-24,2014,1995-11-26,18.65845311430527,159,20th Commonwealth Games 2014,Glasgow,GBR
@@ -3779,10 +3779,10 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Freestyle,Men,James Guy,GBR,224.74,2017-04-18,2017,1995-11-26,21.39356605065024,178,British National Championships (50m),Sheffield,GBR
 400m Freestyle,Men,Taehwan Park,KOR,224.75,2014-07-16,2014,1989-09-27,24.799452429842574,179,2014 MBC Cup Swimming Competition ,Gimcheon,KOR
 400m Freestyle,Men,Florian Wellbrock,GER,224.77,2021-04-10,2021,1997-08-19,23.641341546885695,180,Qualifikationswettkampf Magdeburg 2021,Magdeburg,GER
-400m Freestyle,Men,Jack Alan Mcloughlin,AUS,224.79,2019-07-21,2019,1995-02-01,24.465434633812457,181,18th FINA World Championships 2019,Gwangju,KOR
+400m Freestyle,Men,Jack Mcloughlin,AUS,224.79,2019-07-21,2019,1995-02-01,24.465434633812457,181,18th FINA World Championships 2019,Gwangju,KOR
 400m Freestyle,Men,Connor Jaeger,USA,224.81,2015-08-02,2015,1991-04-30,24.257357973990416,182,16th FINA World Championships 2015,Kazan,RUS
 400m Freestyle,Men,Kosuke Hagino,JPN,224.82,2013-07-28,2013,1994-08-15,18.951403148528406,183,15th FINA World Championships 2013,Barcelona,ESP
-400m Freestyle,Men,Yuriy Prilukov,RUS,224.82,2008-08-09,2008,1984-06-14,24.1533196440794,184,Olympic Games Beijing 2008,Beijing,CHN
+400m Freestyle,Men,Yuri Prilukov,RUS,224.82,2008-08-09,2008,1984-06-14,24.1533196440794,184,Olympic Games Beijing 2008,Beijing,CHN
 400m Freestyle,Men,Elijah Winnington,AUS,224.83,2021-03-18,2021,2000-05-05,20.867898699520875,185,SNSW State Open Championships 2021,Sydney,AUS
 400m Freestyle,Men,Peter Vanderkaay,USA,224.83,2011-07-24,2011,1984-02-12,27.444216290212182,186,14th FINA World Championships 2011,Shanghai,CHN
 400m Freestyle,Men,Connor Jaeger,USA,224.85,2013-07-28,2013,1991-04-30,22.245037645448324,187,15th FINA World Championships 2013,Barcelona,ESP
@@ -4063,7 +4063,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Individual Medley,Men,Chase Kalisz,USA,249.22,2013-08-04,2013,1994-03-07,19.411362080766597,62,15th FINA World Championships 2013,Barcelona,ESP
 400m Individual Medley,Men,Daiya Seto,JPN,249.25,2019-01-26,2019,1994-05-24,24.67624914442163,63,Hamamatsu Championships (50m),Shizuoka,JPN
 400m Individual Medley,Men,Laszlo Cseh,HUN,249.26,2008-08-09,2008,1985-12-03,22.68309377138946,64,Olympic Games Beijing 2008,Beijing,CHN
-400m Individual Medley,Men,Brendon Peter Smith,AUS,249.27,2021-07-24,2021,2000-07-04,21.05407255304586,65,Olympic Games Tokyo 2020,Tokyo,JPN
+400m Individual Medley,Men,Brendon Smith,AUS,249.27,2021-07-24,2021,2000-07-04,21.05407255304586,65,Olympic Games Tokyo 2020,Tokyo,JPN
 400m Individual Medley,Men,Michael Phelps,USA,249.28,2012-07-28,2012,1985-06-30,27.077344284736483,66,Olympic Games London 2012,London,GBR
 400m Individual Medley,Men,Jay Litherland,USA,249.31,2017-06-29,2017,1995-08-24,21.848049281314168,67,US National Championships (50m),Indianapolis,USA
 400m Individual Medley,Men,Carson Foster,USA,249.33,2022-04-28,2022,2001-10-26,20.503764544832308,68,Phillips 66 International Team Trials 2022,Greensboro,USA
@@ -4105,14 +4105,14 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Individual Medley,Men,David Verraszto,HUN,250.01,2017-03-03,2017,1988-08-22,28.528405201916495,104,Meeting International FFN - Golden Tour,Marseille,FRA
 400m Individual Medley,Men,Kosuke Hagino,JPN,250.01,2012-07-28,2012,1994-08-15,17.95208761122519,105,Olympic Games London 2012,London,GBR
 400m Individual Medley,Men,Ilia Borodin,RUS,250.02,2021-05-23,2021,2003-02-14,18.269678302532512,106,European Championships 2021,Budapest,HUN
-400m Individual Medley,Men,Brendon Peter Smith,AUS,250.04,2021-06-12,2021,2000-07-04,20.93908281998631,107,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
+400m Individual Medley,Men,Brendon Smith,AUS,250.04,2021-06-12,2021,2000-07-04,20.93908281998631,107,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
 400m Individual Medley,Men,Daiya Seto,JPN,250.04,2015-05-23,2015,1994-05-24,20.996577686516083,108,Japan Open 2015,Tokyo,JPN
 400m Individual Medley,Men,Tyler Clary,USA,250.04,2009-08-02,2009,1989-03-12,20.39151266255989,109,13th FINA World Championships 2009,Rome,ITA
 400m Individual Medley,Men,Chase Kalisz,USA,250.05,2015-08-09,2015,1994-03-07,21.423682409308693,110,16th FINA World Championships 2015,Kazan,RUS
 400m Individual Medley,Men,Leon Marchand,FRA,250.09,2021-07-24,2021,2002-05-17,19.186858316221766,111,Olympic Games Tokyo 2020,Tokyo,JPN
 400m Individual Medley,Men,Daiya Seto,JPN,250.1,2012-09-15,2012,1994-05-24,18.313483915126625,112,67th Japan National Sports Festival - Swimming Com,Gifu,JPN
 400m Individual Medley,Men,Thomas Fraser-Holmes,AUS,250.14,2013-04-26,2013,1991-10-09,21.54688569472964,113,2013 EnergyAustralia Swimming,Adelaide,AUS
-400m Individual Medley,Men,Brendon Peter Smith,AUS,250.15,2022-07-30,2022,2000-07-04,22.069815195071868,114,22nd Commonwealth Games 2022,Birmingham,GBR
+400m Individual Medley,Men,Brendon Smith,AUS,250.15,2022-07-30,2022,2000-07-04,22.069815195071868,114,22nd Commonwealth Games 2022,Birmingham,GBR
 400m Individual Medley,Men,Daiya Seto,JPN,250.17,2016-11-17,2016,1994-05-24,22.48596851471595,115,Asian Swimming Championships 2016,Tokyo,JPN
 400m Individual Medley,Men,Daiya Seto,JPN,250.18,2017-05-20,2017,1994-05-24,22.989733059548254,116,Japan Open 2017 (50m),Tokyo,JPN
 400m Individual Medley,Men,Zhixian Yang,CHN,250.18,2014-09-24,2014,1992-05-20,22.34633812457221,117,17th Asian Games 2014,Incheon,KOR
@@ -4131,7 +4131,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Individual Medley,Men,Laszlo Cseh,HUN,250.33,2009-08-02,2009,1985-12-03,23.66324435318275,130,13th FINA World Championships 2009,Rome,ITA
 400m Individual Medley,Men,Ryan Lochte,USA,250.33,2008-08-09,2008,1984-08-03,24.016427104722794,131,Olympic Games Beijing 2008,Beijing,CHN
 400m Individual Medley,Men,Leon Marchand,FRA,250.38,2022-03-31,2022,2002-05-17,19.871321013004792,132,TYR Pro Swim Series San Antonio 2022,San Antonio,USA
-400m Individual Medley,Men,Brendon Peter Smith,AUS,250.38,2021-07-25,2021,2000-07-04,21.05681040383299,133,Olympic Games Tokyo 2020,Tokyo,JPN
+400m Individual Medley,Men,Brendon Smith,AUS,250.38,2021-07-25,2021,2000-07-04,21.05681040383299,133,Olympic Games Tokyo 2020,Tokyo,JPN
 400m Individual Medley,Men,Daiya Seto,JPN,250.39,2014-09-24,2014,1994-05-24,20.33675564681725,134,17th Asian Games 2014,Incheon,KOR
 400m Individual Medley,Men,Tyler Clary,USA,250.39,2013-08-04,2013,1989-03-12,24.396988364134156,135,15th FINA World Championships 2013,Barcelona,ESP
 400m Individual Medley,Men,Gergo Kis,HUN,250.4,2009-08-02,2009,1988-01-19,21.53593429158111,136,13th FINA World Championships 2009,Rome,ITA
@@ -4145,7 +4145,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Individual Medley,Men,Daiya Seto,JPN,250.52,2021-07-24,2021,1994-05-24,27.16769336071184,144,Olympic Games Tokyo 2020,Tokyo,JPN
 400m Individual Medley,Men,Yuya Horihata,JPN,250.52,2012-04-02,2012,1990-07-30,21.675564681724847,145,Japan National Championships (50m),Tokyo,JPN
 400m Individual Medley,Men,Daiya Seto,JPN,250.53,2016-05-21,2016,1994-05-24,21.99315537303217,146,Japan Open 2016,Tokyo,JPN
-400m Individual Medley,Men,Ous Mellouli,TUN,250.53,2009-06-29,2009,1984-02-16,25.366187542778917,147,16th Mediterranean Games 2009,Pescara,ITA
+400m Individual Medley,Men,Oussama Mellouli,TUN,250.53,2009-06-29,2009,1984-02-16,25.366187542778917,147,16th Mediterranean Games 2009,Pescara,ITA
 400m Individual Medley,Men,Chase Kalisz,USA,250.55,2018-05-18,2018,1994-03-07,24.197125256673512,148,Indianapolis PSS 2018,Indianapolis,USA
 400m Individual Medley,Men,Thomas Fraser-Holmes,AUS,250.55,2014-08-22,2014,1991-10-09,22.869267624914443,149,12th Pan Pacific Championships 2014,Gold Coast,AUS
 400m Individual Medley,Men,Bobby Finke,USA,250.57,2022-04-28,2022,1999-11-06,22.47501711156742,150,Phillips 66 International Team Trials 2022,Greensboro,USA
@@ -4400,7 +4400,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 400m Individual Medley,Women,Shiwen Ye,CHN,275.15,2011-07-31,2011,1996-03-01,15.41409993155373,199,14th FINA World Championships 2011,Shanghai,CHN
 400m Individual Medley,Women,Katinka Hosszu,HUN,275.15,2009-08-02,2009,1989-05-03,20.249144421629023,200,13th FINA World Championships 2009,Rome,ITA
 800m Freestyle,Men,Lin Zhang,CHN,452.12,2009-07-29,2009,1987-01-06,22.559890485968516,1,13th FINA World Championships 2009,Rome,ITA
-800m Freestyle,Men,Ous Mellouli,TUN,455.27,2009-07-29,2009,1984-02-16,25.44832306639288,2,13th FINA World Championships 2009,Rome,ITA
+800m Freestyle,Men,Oussama Mellouli,TUN,455.27,2009-07-29,2009,1984-02-16,25.44832306639288,2,13th FINA World Championships 2009,Rome,ITA
 800m Freestyle,Men,Yang Sun,CHN,458.57,2011-07-27,2011,1991-12-01,19.652292950034223,3,14th FINA World Championships 2011,Shanghai,CHN
 800m Freestyle,Men,Grant Hackett,AUS,458.65,2005-07-27,2005,1980-05-09,25.215605749486652,4,11th FINA World Championships 2005,Montreal,CAN
 800m Freestyle,Men,Ian Thorpe,AUS,459.16,2001-07-24,2001,1982-10-13,18.77891854893908,5,9th FINA World Championships 2001,Fukuoka,JPN
@@ -4423,7 +4423,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,Gabriele Detti,ITA,461.64,2017-04-06,2017,1994-08-29,22.60369609856263,22,Italian National Championship (50m),Riccione,ITA
 800m Freestyle,Men,Wojciech Wojdak,POL,461.73,2017-07-26,2017,1996-03-13,21.36892539356605,23,17th FINA World Championships 2017,Budapest,HUN
 800m Freestyle,Men,Florian Wellbrock,GER,461.77,2021-07-27,2021,1997-08-19,23.93702943189596,24,Olympic Games Tokyo 2020,Tokyo,JPN
-800m Freestyle,Men,Ous Mellouli,TUN,461.82,2009-07-28,2009,1984-02-16,25.44558521560575,25,13th FINA World Championships 2009,Rome,ITA
+800m Freestyle,Men,Oussama Mellouli,TUN,461.82,2009-07-28,2009,1984-02-16,25.44558521560575,25,13th FINA World Championships 2009,Rome,ITA
 800m Freestyle,Men,Ryan Cochrane,CAN,461.86,2011-07-27,2011,1988-10-29,22.740588637919235,26,14th FINA World Championships 2011,Shanghai,CHN
 800m Freestyle,Men,Bobby Finke,USA,461.87,2021-07-29,2021,1999-11-06,21.727583846680357,27,Olympic Games Tokyo 2020,Tokyo,JPN
 800m Freestyle,Men,Ryan Cochrane,CAN,461.92,2009-07-29,2009,1988-10-29,20.747433264887064,28,13th FINA World Championships 2009,Rome,ITA
@@ -4434,9 +4434,9 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,462.33,2016-05-20,2016,1994-09-05,21.7056810403833,33,European Championships 2016,London,GBR
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,462.44,2017-07-26,2017,1994-09-05,22.888432580424368,34,17th FINA World Championships 2017,Budapest,HUN
 800m Freestyle,Men,Mykhailo Romanchuk,UKR,462.49,2019-04-15,2019,1996-08-07,22.68583162217659,35,Malmsten Swim Open Stockholm,Stockholm,SWE
-800m Freestyle,Men,Jack Alan Mcloughlin,AUS,462.51,2021-06-14,2021,1995-02-01,26.365503080082135,36,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
+800m Freestyle,Men,Jack Mcloughlin,AUS,462.51,2021-06-14,2021,1995-02-01,26.365503080082135,36,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS
 800m Freestyle,Men,Mykhailo Romanchuk,UKR,462.61,2021-05-22,2021,1996-08-07,24.788501026694046,37,European Championships 2021,Budapest,HUN
-800m Freestyle,Men,Jack Alan Mcloughlin,AUS,462.64,2019-07-24,2019,1995-02-01,24.473648186173854,38,18th FINA World Championships 2019,Gwangju,KOR
+800m Freestyle,Men,Jack Mcloughlin,AUS,462.64,2019-07-24,2019,1995-02-01,24.473648186173854,38,18th FINA World Championships 2019,Gwangju,KOR
 800m Freestyle,Men,Lukas Martens,GER,462.65,2022-08-13,2022,2001-12-27,20.62696783025325,39,European Championships 2022,Rome,ITA
 800m Freestyle,Men,Florian Wellbrock,GER,462.68,2021-07-29,2021,1997-08-19,23.942505133470227,40,Olympic Games Tokyo 2020,Tokyo,JPN
 800m Freestyle,Men,Bobby Finke,USA,462.72,2021-07-27,2021,1999-11-06,21.72210814510609,41,Olympic Games Tokyo 2020,Tokyo,JPN
@@ -4477,7 +4477,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,Gergo Kis,HUN,464.94,2011-07-27,2011,1988-01-19,23.51813826146475,76,14th FINA World Championships 2011,Shanghai,CHN
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,464.97,2016-08-13,2016,1994-09-05,21.93839835728953,77,Olympic Games Rio 2016,Rio de Janeiro,BRA
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,464.98,2014-08-22,2014,1994-09-05,19.96167008898015,78,European Championships 2014,Berlin,GER
-800m Freestyle,Men,Jack Alan Mcloughlin,AUS,465.0,2021-07-29,2021,1995-02-01,26.48870636550308,79,Olympic Games Tokyo 2020,Tokyo,JPN
+800m Freestyle,Men,Jack Mcloughlin,AUS,465.0,2021-07-29,2021,1995-02-01,26.48870636550308,79,Olympic Games Tokyo 2020,Tokyo,JPN
 800m Freestyle,Men,Yang Sun,CHN,465.01,2019-07-24,2019,1991-12-01,27.644079397672826,80,18th FINA World Championships 2019,Gwangju,KOR
 800m Freestyle,Men,Mykhailo Romanchuk,UKR,465.02,2022-08-16,2022,1996-08-07,26.023271731690624,81,European Championships 2022,Rome,ITA
 800m Freestyle,Men,Mykhailo Romanchuk,UKR,465.03,2022-08-13,2022,1996-08-07,26.015058179329227,82,European Championships 2022,Rome,ITA
@@ -4514,11 +4514,11 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,David Davies,GBR,465.89,2009-07-28,2009,1985-03-03,24.40246406570842,113,13th FINA World Championships 2009,Rome,ITA
 800m Freestyle,Men,Wojciech Wojdak,POL,465.9,2015-08-05,2015,1996-03-13,19.394934976043807,114,16th FINA World Championships 2015,Kazan,RUS
 800m Freestyle,Men,Franko Grgic,CRO,465.92,2019-08-22,2019,2003-01-31,16.555783709787818,115,7th FINA World Junior Swimming Championships 2019,Budapest,HUN
-800m Freestyle,Men,Ous Mellouli,TUN,465.99,2011-07-27,2011,1984-02-16,27.44147843942505,116,14th FINA World Championships 2011,Shanghai,CHN
+800m Freestyle,Men,Oussama Mellouli,TUN,465.99,2011-07-27,2011,1984-02-16,27.44147843942505,116,14th FINA World Championships 2011,Shanghai,CHN
 800m Freestyle,Men,Kieren Perkins,AUS,466.0,1994-08-19,1994,1973-08-14,21.013004791238878,117,15th Commonwealth Games 1994,Victoria,CAN
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,466.01,2022-04-11,2022,1994-09-05,27.59753593429158,118,Italian National Championships (50m),Milano,ITA
 800m Freestyle,Men,Gabriele Detti,ITA,466.04,2020-08-12,2020,1994-08-29,25.95482546201232,119,57th International Trophy “Settecolli”,Rome,ITA
-800m Freestyle,Men,Yuriy Prilukov,RUS,466.05,2009-07-28,2009,1984-06-14,25.11978097193703,120,13th FINA World Championships 2009,Rome,ITA
+800m Freestyle,Men,Yuri Prilukov,RUS,466.05,2009-07-28,2009,1984-06-14,25.11978097193703,120,13th FINA World Championships 2009,Rome,ITA
 800m Freestyle,Men,Mack Horton,AUS,466.07,2016-04-07,2016,1996-04-25,19.95071868583162,121,Australian National Championships (50m),Adelaide,AUS
 800m Freestyle,Men,Gabriele Detti,ITA,466.08,2022-06-20,2022,1994-08-29,27.808350444900753,122,19th FINA World Championships Budapest 2022,Budapest,HUN
 800m Freestyle,Men,Guilherme Costa,BRA,466.09,2021-07-27,2021,1998-10-01,22.819986310746064,123,Olympic Games Tokyo 2020,Tokyo,JPN
@@ -4535,7 +4535,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,466.39,2019-04-06,2019,1994-09-05,24.583162217659137,134,Italian National Championships (50m),Riccione,ITA
 800m Freestyle,Men,Wojciech Wojdak,POL,466.39,2017-07-25,2017,1996-03-13,21.366187542778917,135,17th FINA World Championships 2017,Budapest,HUN
 800m Freestyle,Men,Stephen Milne,GBR,466.41,2015-08-04,2015,1994-04-29,21.26488706365503,136,16th FINA World Championships 2015,Kazan,RUS
-800m Freestyle,Men,Jack Alan Mcloughlin,AUS,466.42,2019-07-23,2019,1995-02-01,24.470910335386723,137,18th FINA World Championships 2019,Gwangju,KOR
+800m Freestyle,Men,Jack Mcloughlin,AUS,466.42,2019-07-23,2019,1995-02-01,24.470910335386723,137,18th FINA World Championships 2019,Gwangju,KOR
 800m Freestyle,Men,Gabriele Detti,ITA,466.46,2019-07-23,2019,1994-08-29,24.89801505817933,138,18th FINA World Championships 2019,Gwangju,KOR
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,466.49,2020-12-18,2020,1994-09-05,26.286105407255306,139,Italian Open Swimming Championships,Riccione,ITA
 800m Freestyle,Men,Pal Joensen,FAR,466.51,2011-07-27,2011,1990-12-10,20.62696783025325,140,14th FINA World Championships 2011,Shanghai,CHN
@@ -4544,19 +4544,19 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,Gabriele Detti,ITA,466.58,2021-04-01,2021,1994-08-29,26.590006844626966,143,Italian National Championships (50m),Riccione,ITA
 800m Freestyle,Men,Kieren Perkins,AUS,466.6,1992-02-16,1992,1973-08-14,18.507871321013006,144,NSW Age Group Championships,Sydney,AUS
 800m Freestyle,Men,Peter Vanderkaay,USA,466.64,2011-07-27,2011,1984-02-12,27.45242984257358,145,14th FINA World Championships 2011,Shanghai,CHN
-800m Freestyle,Men,Yuriy Prilukov,RUS,466.64,2005-07-27,2005,1984-06-14,21.117043121149898,146,11th FINA World Championships 2005,Montreal,CAN
+800m Freestyle,Men,Yuri Prilukov,RUS,466.64,2005-07-27,2005,1984-06-14,21.117043121149898,146,11th FINA World Championships 2005,Montreal,CAN
 800m Freestyle,Men,Sven Schwarz,GER,466.65,2022-04-09,2022,2002-01-31,20.186173853524984,147,Berlin Swim Open,Berlin,GER
 800m Freestyle,Men,Felix Auboeck,AUT,466.72,2021-04-11,2021,1996-12-19,24.309377138945926,148,Malmsten Swim Open Stockholm,Stockholm,SWE
 800m Freestyle,Men,Henrik Christiansen,NOR,466.75,2018-08-08,2018,1996-10-09,21.828884325804243,149,European Championships 2018,Glasgow,GBR
 800m Freestyle,Men,Connor Jaeger,USA,466.78,2013-06-25,2013,1991-04-30,22.154688569472963,150,US National Championships (50m),Indianapolis,USA
-800m Freestyle,Men,Jack Alan Mcloughlin,AUS,466.79,2019-06-11,2019,1995-02-01,24.355920602327174,151,Hancock Prospecting Australian Swimming Trials 2019,Brisbane,AUS
+800m Freestyle,Men,Jack Mcloughlin,AUS,466.79,2019-06-11,2019,1995-02-01,24.355920602327174,151,Hancock Prospecting Australian Swimming Trials 2019,Brisbane,AUS
 800m Freestyle,Men,Yang Sun,CHN,466.8,2017-09-01,2017,1991-12-01,25.752224503764545,152,2017 National Games ,Tianjin,CHN
 800m Freestyle,Men,Florian Wellbrock,GER,466.85,2018-04-08,2018,1997-08-19,20.635181382614647,153,Malmsten Swim Open Stockholm 2018,Stockholm,SWE
 800m Freestyle,Men,Florian Wellbrock,GER,466.85,2018-04-05,2018,1997-08-19,20.62696783025325,154,Malmsten Swim Open Stockholm 2018,Stockholm,SWE
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,466.85,2015-08-09,2015,1994-09-05,20.92539356605065,155,16th FINA World Championships 2015,Kazan,RUS
 800m Freestyle,Men,Guilherme Costa,BRA,466.9,2022-06-20,2022,1998-10-01,23.718001368925393,156,19th FINA World Championships Budapest 2022,Budapest,HUN
 800m Freestyle,Men,Grant Hackett,AUS,466.9,2005-07-31,2005,1980-05-09,25.22655715263518,157,11th FINA World Championships 2005,Montreal,CAN
-800m Freestyle,Men,Jack Alan Mcloughlin,AUS,466.94,2021-07-27,2021,1995-02-01,26.483230663928815,158,Olympic Games Tokyo 2020,Tokyo,JPN
+800m Freestyle,Men,Jack Mcloughlin,AUS,466.94,2021-07-27,2021,1995-02-01,26.483230663928815,158,Olympic Games Tokyo 2020,Tokyo,JPN
 800m Freestyle,Men,Mykhailo Romanchuk,UKR,467.01,2019-07-23,2019,1996-08-07,22.95687885010267,159,18th FINA World Championships 2019,Gwangju,KOR
 800m Freestyle,Men,Michael Mc Broom,USA,467.05,2015-08-04,2015,1991-05-16,24.21902806297057,160,16th FINA World Championships 2015,Kazan,RUS
 800m Freestyle,Men,Mack Horton,AUS,467.08,2015-08-04,2015,1996-04-25,19.274469541409992,161,16th FINA World Championships 2015,Kazan,RUS
@@ -4568,7 +4568,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,Chad La Tourette,USA,467.24,2009-07-07,2009,1988-10-07,20.747433264887064,167,25th Summer Universiade 2009,Belgrade,SRB
 800m Freestyle,Men,Sergii Frolov,UKR,467.25,2019-07-23,2019,1992-04-14,27.27173169062286,168,18th FINA World Championships 2019,Gwangju,KOR
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,467.27,2017-04-04,2017,1994-09-05,22.579055441478438,169,Italian National Championship (50m),Riccione,ITA
-800m Freestyle,Men,Jack Alan Mcloughlin,AUS,467.31,2018-08-12,2018,1995-02-01,23.526351813826146,170,13th Pan Pacific Championships 2018,Tokyo,JPN
+800m Freestyle,Men,Jack Mcloughlin,AUS,467.31,2018-08-12,2018,1995-02-01,23.526351813826146,170,13th Pan Pacific Championships 2018,Tokyo,JPN
 800m Freestyle,Men,Sergii Frolov,UKR,467.32,2019-07-24,2019,1992-04-14,27.274469541409992,171,18th FINA World Championships 2019,Gwangju,KOR
 800m Freestyle,Men,Gregorio Paltrinieri,ITA,467.32,2016-03-20,2016,1994-09-05,21.53867214236824,172,6th Milano City Trophy - 2016,Milan,ITA
 800m Freestyle,Men,Sven Schwarz,GER,467.36,2022-08-13,2022,2002-01-31,20.531143052703626,173,European Championships 2022,Rome,ITA
@@ -4591,7 +4591,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 800m Freestyle,Men,Mack Horton,AUS,467.73,2014-08-24,2014,1996-04-25,18.32991101984942,190,12th Pan Pacific Championships 2014,Gold Coast,AUS
 800m Freestyle,Men,Gabriele Detti,ITA,467.75,2022-06-21,2022,1994-08-29,27.811088295687885,191,19th FINA World Championships Budapest 2022,Budapest,HUN
 800m Freestyle,Men,Connor Jaeger,USA,467.75,2014-08-24,2014,1991-04-30,23.318275154004105,192,12th Pan Pacific Championships 2014,Gold Coast,AUS
-800m Freestyle,Men,Yuriy Prilukov,RUS,467.79,2008-08-15,2008,1984-06-14,24.16974674880219,193,Olympic Games Beijing 2008,Beijing,CHN
+800m Freestyle,Men,Yuri Prilukov,RUS,467.79,2008-08-15,2008,1984-06-14,24.16974674880219,193,Olympic Games Beijing 2008,Beijing,CHN
 800m Freestyle,Men,Bobby Finke,USA,467.81,2022-04-26,2022,1999-11-06,22.469541409993155,194,Phillips 66 International Team Trials 2022,Greensboro,USA
 800m Freestyle,Men,Kieren Perkins,AUS,467.85,1991-08-25,1991,1973-08-14,18.028747433264886,195,4th Pan Pacific Championships 1991,Edmonton,CAN
 800m Freestyle,Men,Yang Sun,CHN,467.87,2015-08-04,2015,1991-12-01,23.67419575633128,196,16th FINA World Championships 2015,Kazan,RUS
@@ -4817,7 +4817,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Florian Wellbrock,GER,876.94,2022-06-25,2022,1997-08-19,24.84873374401095,16,19th FINA World Championships Budapest 2022,Budapest,HUN
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,877.08,2017-04-07,2017,1994-09-05,22.587268993839835,17,Italian National Championship (50m),Riccione,ITA
 1500m Freestyle,Men,Mykhailo Romanchuk,UKR,877.14,2017-07-30,2017,1996-08-07,20.97741273100616,18,17th FINA World Championships 2017,Budapest,HUN
-1500m Freestyle,Men,Ous Mellouli,TUN,877.28,2009-08-02,2009,1984-02-16,25.45927446954141,19,13th FINA World Championships 2009,Rome,ITA
+1500m Freestyle,Men,Oussama Mellouli,TUN,877.28,2009-08-02,2009,1984-02-16,25.45927446954141,19,13th FINA World Championships 2009,Rome,ITA
 1500m Freestyle,Men,Mykhailo Romanchuk,UKR,877.63,2019-07-28,2019,1996-08-07,22.97056810403833,20,18th FINA World Championships 2019,Gwangju,KOR
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,878.34,2019-04-06,2019,1994-09-05,24.583162217659137,21,Italian National Championships (50m),Riccione,ITA
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,878.75,2019-07-28,2019,1994-09-05,24.892539356605067,22,18th FINA World Championships 2019,Gwangju,KOR
@@ -4831,19 +4831,19 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Mykhailo Romanchuk,UKR,879.89,2021-05-19,2021,1996-08-07,24.78028747433265,30,European Championships 2021,Budapest,HUN
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,879.93,2014-08-20,2014,1994-09-05,19.956194387405887,31,European Championships 2014,Berlin,GER
 1500m Freestyle,Men,Lukas Martens,GER,880.28,2022-03-25,2022,2001-12-27,20.240930869267626,32,31th Internationale Schwimmveranstaltung Gothaer & Friends,Magdeburg,GER
-1500m Freestyle,Men,Ous Mellouli,TUN,880.31,2012-08-04,2012,1984-02-16,28.465434633812457,33,Olympic Games London 2012,London,GBR
+1500m Freestyle,Men,Oussama Mellouli,TUN,880.31,2012-08-04,2012,1984-02-16,28.465434633812457,33,Olympic Games London 2012,London,GBR
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,880.38,2021-04-03,2021,1994-09-05,26.576317590691307,34,Italian National Championships (50m),Riccione,ITA
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,880.61,2016-03-20,2016,1994-09-05,21.53867214236824,35,6th Milano City Trophy - 2016,Milan,ITA
 1500m Freestyle,Men,Mykhailo Romanchuk,UKR,880.66,2021-08-01,2021,1996-08-07,24.982888432580424,36,Olympic Games Tokyo 2020,Tokyo,JPN
 1500m Freestyle,Men,Florian Wellbrock,GER,880.69,2018-04-06,2018,1997-08-19,20.629705681040384,37,Malmsten Swim Open Stockholm 2018,Stockholm,SWE
 1500m Freestyle,Men,Florian Wellbrock,GER,880.69,2018-04-05,2018,1997-08-19,20.62696783025325,38,Malmsten Swim Open Stockholm 2018,Stockholm,SWE
-1500m Freestyle,Men,Ous Mellouli,TUN,880.84,2008-08-17,2008,1984-02-16,24.501026694045173,39,Olympic Games Beijing 2008,Beijing,CHN
+1500m Freestyle,Men,Oussama Mellouli,TUN,880.84,2008-08-17,2008,1984-02-16,24.501026694045173,39,Olympic Games Beijing 2008,Beijing,CHN
 1500m Freestyle,Men,Ryan Cochrane,CAN,880.84,2008-08-15,2008,1988-10-29,19.794661190965094,40,Olympic Games Beijing 2008,Beijing,CHN
 1500m Freestyle,Men,Gabriele Detti,ITA,880.86,2016-08-13,2016,1994-08-29,21.95756331279945,41,Olympic Games Rio 2016,Rio de Janeiro,BRA
 1500m Freestyle,Men,Lukas Martens,GER,880.89,2022-06-25,2022,2001-12-27,20.49281314168378,42,19th FINA World Championships Budapest 2022,Budapest,HUN
 1500m Freestyle,Men,Florian Wellbrock,GER,880.91,2021-08-01,2021,1997-08-19,23.95071868583162,43,Olympic Games Tokyo 2020,Tokyo,JPN
 1500m Freestyle,Men,Mykhailo Romanchuk,UKR,880.98,2022-06-25,2022,1996-08-07,25.880903490759753,44,19th FINA World Championships Budapest 2022,Budapest,HUN
-1500m Freestyle,Men,Yuriy Prilukov,RUS,881.13,2008-08-15,2008,1984-06-14,24.16974674880219,45,Olympic Games Beijing 2008,Beijing,CHN
+1500m Freestyle,Men,Yuri Prilukov,RUS,881.13,2008-08-15,2008,1984-06-14,24.16974674880219,45,Olympic Games Beijing 2008,Beijing,CHN
 1500m Freestyle,Men,Yang Sun,CHN,881.15,2013-08-04,2013,1991-12-01,21.675564681724847,46,15th FINA World Championships 2013,Barcelona,ESP
 1500m Freestyle,Men,Connor Jaeger,USA,881.2,2015-08-09,2015,1991-04-30,24.27652292950034,47,16th FINA World Championships 2015,Kazan,RUS
 1500m Freestyle,Men,Ryan Cochrane,CAN,881.38,2009-08-02,2009,1988-10-29,20.758384668035593,48,13th FINA World Championships 2009,Rome,ITA
@@ -4862,7 +4862,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Florian Wellbrock,GER,882.91,2019-04-13,2019,1997-08-19,21.648186173853524,61,Malmsten Swim Open Stockholm,Stockholm,SWE
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,882.91,2016-04-19,2016,1994-09-05,21.620807665982205,62,Italian National Championships (50m),Riccione,ITA
 1500m Freestyle,Men,Grant Hackett,AUS,883.14,2003-07-27,2003,1980-05-09,23.21423682409309,63,10th FINA World Championships 2003,Barcelona,ESP
-1500m Freestyle,Men,Yuriy Prilukov,RUS,883.21,2008-08-17,2008,1984-06-14,24.175222450376456,64,Olympic Games Beijing 2008,Beijing,CHN
+1500m Freestyle,Men,Yuri Prilukov,RUS,883.21,2008-08-17,2008,1984-06-14,24.175222450376456,64,Olympic Games Beijing 2008,Beijing,CHN
 1500m Freestyle,Men,Yang Sun,CHN,883.25,2012-08-03,2012,1991-12-01,20.673511293634498,65,Olympic Games London 2012,London,GBR
 1500m Freestyle,Men,Grant Hackett,AUS,883.4,2004-08-21,2004,1980-05-09,24.28473648186174,66,Olympic Games Athens 2004,Athens,GRE
 1500m Freestyle,Men,Kieren Perkins,AUS,883.48,1992-07-31,1992,1973-08-14,18.962354551676935,67,Olympic Games Barcelona 1992,Barcelona,ESP
@@ -4898,7 +4898,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Bobby Finke,USA,886.06,2021-06-20,2021,1999-11-06,21.620807665982205,97,US Olympic Team Trials - Wave II,Omaha,USA
 1500m Freestyle,Men,Franko Grgic,CRO,886.09,2019-08-25,2019,2003-01-31,16.56399726214921,98,7th FINA World Junior Swimming Championships 2019,Budapest,HUN
 1500m Freestyle,Men,David Davies,GBR,886.11,2008-08-15,2008,1985-03-03,23.45242984257358,99,Olympic Games Beijing 2008,Beijing,CHN
-1500m Freestyle,Men,Ous Mellouli,TUN,886.23,2012-08-03,2012,1984-02-16,28.462696783025326,100,Olympic Games London 2012,London,GBR
+1500m Freestyle,Men,Oussama Mellouli,TUN,886.23,2012-08-03,2012,1984-02-16,28.462696783025326,100,Olympic Games London 2012,London,GBR
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,886.25,2018-06-24,2018,1994-09-05,23.800136892539356,101,18th Mediterranean Games 2018,Tarragona,ESP
 1500m Freestyle,Men,Pal Joensen,FAR,886.33,2011-07-31,2011,1990-12-10,20.637919233401778,102,14th FINA World Championships 2011,Shanghai,CHN
 1500m Freestyle,Men,Gabriele Detti,ITA,886.48,2016-04-19,2016,1994-08-29,21.639972621492127,103,Italian National Championships (50m),Riccione,ITA
@@ -4909,9 +4909,9 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Yang Sun,CHN,886.84,2009-08-02,2009,1991-12-01,17.67008898015058,108,13th FINA World Championships 2009,Rome,ITA
 1500m Freestyle,Men,Jordan Wilimovsky,USA,886.93,2018-08-09,2018,1994-04-22,24.298425735797398,109,13th Pan Pacific Championships 2018,Tokyo,JPN
 1500m Freestyle,Men,Florian Wellbrock,GER,887.03,2022-03-25,2022,1997-08-19,24.5968514715948,110,31th Internationale Schwimmveranstaltung Gothaer & Friends,Magdeburg,GER
-1500m Freestyle,Men,Jack Alan Mcloughlin,AUS,887.09,2018-04-10,2018,1995-02-01,23.186858316221766,111,21st Commonwealth Games 2018,Gold Coast,AUS
+1500m Freestyle,Men,Jack Mcloughlin,AUS,887.09,2018-04-10,2018,1995-02-01,23.186858316221766,111,21st Commonwealth Games 2018,Gold Coast,AUS
 1500m Freestyle,Men,Bobby Finke,USA,887.2,2021-07-30,2021,1999-11-06,21.730321697467488,112,Olympic Games Tokyo 2020,Tokyo,JPN
-1500m Freestyle,Men,Yuriy Prilukov,RUS,887.29,2007-04-01,2007,1984-06-14,22.795345653661876,113,12th FINA World Championships 2007,Melbourne,AUS
+1500m Freestyle,Men,Yuri Prilukov,RUS,887.29,2007-04-01,2007,1984-06-14,22.795345653661876,113,12th FINA World Championships 2007,Melbourne,AUS
 1500m Freestyle,Men,Taehwan Park,KOR,887.38,2012-02-10,2012,1989-09-27,22.3709787816564,114,2012 NSW State Open Championshps,Sydney,AUS
 1500m Freestyle,Men,Florian Wellbrock,GER,887.52,2019-07-27,2019,1997-08-19,21.935660506502394,115,18th FINA World Championships 2019,Gwangju,KOR
 1500m Freestyle,Men,Mykhailo Romanchuk,UKR,887.54,2019-07-27,2019,1996-08-07,22.967830253251197,116,18th FINA World Championships 2019,Gwangju,KOR
@@ -4920,7 +4920,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Mack Horton,AUS,887.7,2017-07-30,2017,1996-04-25,21.2621492128679,119,17th FINA World Championships 2017,Budapest,HUN
 1500m Freestyle,Men,Alexander Norgaard,DEN,887.75,2019-07-27,2019,2000-03-15,19.364818617385353,120,18th FINA World Championships 2019,Gwangju,KOR
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,887.75,2017-08-22,2017,1994-09-05,22.962354551676935,121,29th Summer Universiade 2017,Taipei City,TPE
-1500m Freestyle,Men,Ous Mellouli,TUN,887.76,2008-08-15,2008,1984-02-16,24.49555099247091,122,Olympic Games Beijing 2008,Beijing,CHN
+1500m Freestyle,Men,Oussama Mellouli,TUN,887.76,2008-08-15,2008,1984-02-16,24.49555099247091,122,Olympic Games Beijing 2008,Beijing,CHN
 1500m Freestyle,Men,Connor Jaeger,USA,887.96,2013-08-04,2013,1991-04-30,22.26420260095825,123,15th FINA World Championships 2013,Barcelona,ESP
 1500m Freestyle,Men,Yang Sun,CHN,888.1,2013-04-01,2013,1991-12-01,21.333333333333332,124,Chinese National Championships (50m),Zhengzhou,CHN
 1500m Freestyle,Men,David Davies,GBR,888.11,2005-07-31,2005,1985-03-03,20.410677618069816,125,11th FINA World Championships 2005,Montreal,CAN
@@ -4938,7 +4938,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Guilherme Costa,BRA,888.53,2022-06-25,2022,1998-10-01,23.731690622861056,137,19th FINA World Championships Budapest 2022,Budapest,HUN
 1500m Freestyle,Men,Florian Wellbrock,GER,888.53,2021-07-30,2021,1997-08-19,23.94524298425736,138,Olympic Games Tokyo 2020,Tokyo,JPN
 1500m Freestyle,Men,Samuel Jack Short,AUS,888.54,2022-08-03,2022,2003-09-17,18.87748117727584,139,22nd Commonwealth Games 2022,Birmingham,GBR
-1500m Freestyle,Men,Jack Alan Mcloughlin,AUS,888.6,2016-04-13,2016,1995-02-01,21.196440793976727,140,Australian National Championships (50m),Adelaide,AUS
+1500m Freestyle,Men,Jack Mcloughlin,AUS,888.6,2016-04-13,2016,1995-02-01,21.196440793976727,140,Australian National Championships (50m),Adelaide,AUS
 1500m Freestyle,Men,Daniel Jervis,GBR,888.67,2018-04-10,2018,1996-06-09,21.83436002737851,141,21st Commonwealth Games 2018,Gold Coast,AUS
 1500m Freestyle,Men,Gabriele Detti,ITA,888.68,2016-08-12,2016,1994-08-29,21.95482546201232,142,Olympic Games Rio 2016,Rio de Janeiro,BRA
 1500m Freestyle,Men,Bobby Finke,USA,888.7,2018-08-09,2018,1999-11-06,18.757015742642025,143,13th Pan Pacific Championships 2018,Tokyo,JPN
@@ -4974,7 +4974,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 1500m Freestyle,Men,Mykhailo Romanchuk,UKR,890.33,2016-05-18,2016,1996-08-07,19.7782340862423,173,European Championships 2016,London,GBR
 1500m Freestyle,Men,Gregorio Paltrinieri,ITA,890.35,2018-04-14,2018,1994-09-05,23.60574948665298,174,Campionato Italiano Assoluto UnipolSai 2018,Riccione,ITA
 1500m Freestyle,Men,Joerg Hoffmann,GER,890.36,1991-01-13,1991,1970-01-29,20.955509924709105,175,6th FINA World Championships 1991,Perth,AUS
-1500m Freestyle,Men,Yuriy Prilukov,RUS,890.4,2008-03-22,2008,1984-06-14,23.770020533880903,176,European Championships 2008,Eindhoven,NED
+1500m Freestyle,Men,Yuri Prilukov,RUS,890.4,2008-03-22,2008,1984-06-14,23.770020533880903,176,European Championships 2008,Eindhoven,NED
 1500m Freestyle,Men,Oliver Klemet,GER,890.43,2022-03-25,2022,2002-03-18,20.019164955509925,177,31th Internationale Schwimmveranstaltung Gothaer & Friends,Magdeburg,GER
 1500m Freestyle,Men,Kieren Perkins,AUS,890.52,1994-09-11,1994,1973-08-14,21.075975359342916,178,7th FINA World Championships 1994,Rome,ITA
 1500m Freestyle,Men,Kieren Perkins,AUS,890.58,1991-01-13,1991,1973-08-14,17.415468856947296,179,6th FINA World Championships 1991,Perth,AUS

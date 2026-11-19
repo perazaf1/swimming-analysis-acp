@@ -39,7 +39,6 @@ Women,Kristin Otto,25.49,54.93,,,59.0,,3
 Women,Libby Trickett,24.25,53.16,,,56.73,,3
 Women,Penny Oleksiak,,52.59,114.7,,56.46,,3
 Women,Rikako Ikee,,52.79,114.85,,56.08,,3
-Women,Sarah Sjostrom,,52.99,114.08,,55.48,,3
 Women,Summer Mcintosh,,,114.79,239.32,,128.7,3
 Men,Alain Bernard,21.49,46.94,,,,,2
 Men,Alexander Popov,21.91,48.69,,,,,2
@@ -99,7 +98,6 @@ Men,Salim Iles,22.37,49.3,,,,,2
 Men,Shaine Casas,,,,,50.4,115.24,2
 Men,Stefan Nystrand,21.72,47.37,,,,,2
 Men,Sunwoo Hwang,,47.56,104.47,,,,2
-Men,Tae-Hwan Park,,,104.85,221.86,,,2
 Men,Taehwan Park,,,104.8,221.53,,,2
 Men,Vadim Yaroshchuk,,,,,54.6,122.4,2
 Men,Yang Sun,,,104.39,220.14,,,2
@@ -114,7 +112,7 @@ Women,Bin Lu,,54.15,122.1,,,,2
 Women,Brianna Throssell,,53.8,,,56.96,,2
 Women,Britta Steffen,24.06,52.07,,,,,2
 Women,Bronte Campbell,24.42,52.27,,,,,2
-Women,Camelia Alina Potec,,,116.87,244.66,,,2
+Women,Camelia Potec,,,116.87,243.41,,,2
 Women,Cate Campbell,24.15,52.03,,,,,2
 Women,Charlotte Bonnet,,52.74,114.95,,,,2
 Women,Claire Curzan,,53.55,,,56.35,,2
@@ -124,7 +122,7 @@ Women,Dagmar Hase,,,119.56,247.18,,,2
 Women,Duo Shen,,53.84,115.25,,,,2
 Women,Etiene Medeiros,24.69,54.26,,,,,2
 Women,Femke Heemskerk,,52.69,114.68,,,,2
-Women,Francesca Halsall,24.13,53.66,,,,,2
+Women,Francesca Halsall,24.13,52.87,,,,,2
 Women,Heike Friedrich,,,117.65,245.94,,,2
 Women,Hinkelien Schreuder,24.65,54.59,,,,,2
 Women,Inge Dekker,,53.61,,,58.54,,2
@@ -150,7 +148,7 @@ Women,Malia Metella,24.89,53.91,,,,,2
 Women,Manuela Stellmach,,55.52,119.01,,,,2
 Women,Margaret Macneil,,54.02,,,55.59,,2
 Women,Marie Wattel,,53.12,,,56.14,,2
-Women,Marleen Veldhuis,24.26,54.21,,,,,2
+Women,Marleen Veldhuis,24.26,53.67,,,,,2
 Women,Mette Jacobsen,,56.01,,,60.76,,2
 Women,Michelle Coleman,,53.04,115.64,,,,2
 Women,Michelle Marie Smith,,,,247.25,,133.93,2
@@ -228,7 +226,7 @@ Men,Cullen Jones,21.54,,,,,,1
 Men,Curtis Allen Myden,,,,,,121.13,1
 Men,Daiki Tanaka,,,,,51.13,,1
 Men,Daiya Seto,,,,,,115.55,1
-Men,Dan Wallace,,,,,,118.54,1
+Men,Daniel Wallace,,,,,,118.54,1
 Men,Danila Izotov,,,103.9,,,,1
 Men,Dano Halsall,22.83,,,,,,1
 Men,Darian Townsend,,,,,,117.03,1
@@ -274,9 +272,8 @@ Men,Ian Robert Brown,,,,228.79,,,1
 Men,Igor Marchenko,,,,,52.32,,1
 Men,Iurie Başcatov,,50.08,,,,,1
 Men,Ivan Girev,,,105.49,,,,1
-Men,Jack Alan Mcloughlin,,,,223.27,,,1
 Men,Jack Conger,,,,,51.0,,1
-Men,Jack Mcloughlin,,,,223.52,,,1
+Men,Jack Mcloughlin,,,,223.27,,,1
 Men,Jacob Carstensen,,,,234.45,,,1
 Men,Jake Mitchell,,,,225.39,,,1
 Men,Jakub Majerski,,,,,50.92,,1
@@ -291,6 +288,7 @@ Men,Jean Basson,,,105.97,,,,1
 Men,Jeremy Desplanches,,,,,,116.17,1
 Men,Jimmy Feigen,,47.82,,,,,1
 Men,Jiro Miki,,,,,,122.16,1
+Men,Joerg Hoffmann,,,,232.15,,,1
 Men,Joeri Verlinden,,,,,51.82,,1
 Men,Jon Olsen,,49.51,,,,,1
 Men,Jonathan Sieben,,,,,53.33,,1
@@ -300,19 +298,16 @@ Men,Joseph Schooling,,,,,50.39,,1
 Men,Josh Davis,,,106.73,,,,1
 Men,Josh Prenot,,,,,,117.14,1
 Men,Josif Miladinov,,,,,50.93,,1
-Men,Jörg Hoffmann,,,,232.15,,,1
 Men,Katsumi Nakamura,,47.87,,,,,1
 Men,Keith Beavers,,,,,,119.43,1
 Men,Ken Takakuwa,,,,,,118.22,1
 Men,Kenrick Monk,,,105.46,,,,1
 Men,Kevin Thomas Boyd,,,,230.16,,,1
-Men,Kieren John Perkins,,,,225.16,,,1
 Men,Kieren Perkins,,,,223.8,,,1
 Men,Kliment Kolesnikov,,47.11,,,,,1
 Men,Konrad Czerniak,,,,,51.15,,1
 Men,Kouhei Kawamoto,,,,,51.0,,1
 Men,Kristian Gkolomeev,21.72,,,,,,1
-Men,Kristof Kristof Milak,,,,,49.68,,1
 Men,Larsen Jensen,,,,222.78,,,1
 Men,Leith Brodie,,,,,,116.69,1
 Men,Leon Marchand,,,,,,115.22,1
@@ -322,7 +317,6 @@ Men,Liam Tancock,,,,,,120.76,1
 Men,Lin Zhang,,,,221.35,,,1
 Men,Lorenzo Vismara,22.11,,,,,,1
 Men,Lorenzo Zazzeri,21.78,,,,,,1
-Men,Luis Carlos Martinez,,,,,51.09,,1
 Men,Luis Martinez,,,,,51.09,,1
 Men,Lyndon Ferns,,47.79,,,,,1
 Men,Mack Horton,,,,221.55,,,1
@@ -354,8 +348,7 @@ Men,Nicolas Oliveira,,47.78,,,,,1
 Men,Nils Rudolph,22.73,,,,,,1
 Men,Noe Ponti,,,,,50.74,,1
 Men,Oleksandr Volynets,22.26,,,,,,1
-Men,Ous Mellouli,,,,221.11,,,1
-Men,Oussama Mellouli,,,,223.45,,,1
+Men,Oussama Mellouli,,,,221.11,,,1
 Men,Pablo Morales,,,,,53.32,,1
 Men,Patrick Kuhl,,,,,,121.61,1
 Men,Per Johansson,,50.35,,,,,1
@@ -430,7 +423,6 @@ Men,Xinjie Ji,,,105.48,,,,1
 Men,Yoshihiro Okumura,,,107.14,,,,1
 Men,Yun Hao,,,,224.87,,,1
 Men,Yuri Prilukov,,,,223.97,,,1
-Men,Yuriy Prilukov,,,,223.97,,,1
 Men,Zach Apple,,47.69,,,,,1
 Men,Zane Grothe,,,,224.43,,,1
 Men,Zetao Ning,,47.65,,,,,1
@@ -458,7 +450,7 @@ Women,Anastasia Gorbenko,,54.35,,,,,1
 Women,Andrea Murez,,54.06,,,,,1
 Women,Aneta Patrascoiu,,,,,,136.7,1
 Women,Anika Apostalon,,54.28,,,,,1
-Women,Anke Möhring,,,,246.62,,,1
+Women,Anke Mohring,,,,246.62,,,1
 Women,Anna Hopkin,,52.75,,,,,1
 Women,Annika Bruhn,,53.96,,,,,1
 Women,Annika Lurz,,,115.68,,,,1
@@ -481,7 +473,6 @@ Women,Brittany Maclean,,,,243.43,,,1
 Women,Brooke Bennett,,,,245.8,,,1
 Women,Caitlin Leverenz,,,,,,128.95,1
 Women,Caitlin Mcclatchey,,,117.6,,,,1
-Women,Camelia Potec,,,,243.41,,,1
 Women,Carla Louise Geurts,,,,250.06,,,1
 Women,Caroline Grace Baldwin,,54.57,,,,,1
 Women,Catie Deloof,,53.77,,,,,1
@@ -516,7 +507,6 @@ Women,Erin Gallagher,,54.23,,,,,1
 Women,Evelin Verraszto,,53.74,,,,,1
 Women,Ewa Synowska,,,,,,138.85,1
 Women,Flavia Cazziolato,25.2,,,,,,1
-Women,Fran Halsall,,52.87,,,,,1
 Women,Freya Anderson,,53.31,,,,,1
 Women,Gabby De Loof,,54.41,,,,,1
 Women,Gabi Albiero,,54.39,,,,,1
@@ -546,13 +536,11 @@ Women,Janet Evans,,,,243.85,,,1
 Women,Janet Simone Jorgensen,,,,,60.48,,1
 Women,Janja Segel,,54.29,,,,,1
 Women,Jaz Carlin,,,,241.23,,,1
-Women,Jazz Carlin,,,,241.23,,,1
 Women,Jemma Lowe,,,,,58.06,,1
 Women,Jenna Forrester,,54.58,,,,,1
 Women,Jess Schipper,,,,,56.23,,1
 Women,Jessica Ashwood,,,,243.34,,,1
 Women,Jessica Steiger,,54.59,,,,,1
-Women,Jessicah Schipper,,,,,57.25,,1
 Women,Jianjiahe Wang,,,,243.14,,,1
 Women,Jill Sterkel,25.71,,,,,,1
 Women,Jingzhuo Wang,,54.53,,,,,1
@@ -580,7 +568,6 @@ Women,Kim Busch,,54.05,,,,,1
 Women,Kira Toussaint,,54.48,,,,,1
 Women,Kirsten Vlieghuis,,,,248.7,,,1
 Women,Kirsty Coventry,,,,,,128.59,1
-Women,Kirsty Leigh Coventry,,,,,,128.59,1
 Women,Kotuku Ngawati,,54.1,,,,,1
 Women,Lani Pallister,,,,242.16,,,1
 Women,Lara Carroll,,,,,,133.74,1
@@ -613,10 +600,8 @@ Women,Madeline Dirado,,,,,,128.79,1
 Women,Madeline Groves,,54.18,,,,,1
 Women,Madison Kennedy,,54.18,,,,,1
 Women,Madisyn Cox,,,,,,128.51,1
-Women,Magdalena Veldhuis,,53.67,,,,,1
 Women,Malin Nilsson,,,,254.1,,,1
 Women,Mallory Comerford,,52.59,,,,,1
-Women,Margaret Mac Neil,,,,,55.59,,1
 Women,Margaux Fabre,,54.48,,,,,1
 Women,Margo Geer,,53.44,,,,,1
 Women,Maria Ugolkova,,54.54,,,,,1
@@ -626,7 +611,7 @@ Women,Marieke Guehrer,,54.21,,,,,1
 Women,Mariia Kameneva,,53.45,,,,,1
 Women,Marrit Steenbergen,,53.24,,,,,1
 Women,Mary Alice Wayte,,,119.04,,,,1
-Women,Mary T. Meagher,,,,,60.97,,1
+Women,Mary T Meagher,,,,,60.97,,1
 Women,Mathilde Cini,,54.44,,,,,1
 Women,Maud Van Der Meer,,54.44,,,,,1
 Women,Maya Di Rado,,,,,,128.79,1
@@ -643,7 +628,7 @@ Women,Mia Patricia O'Leary,,54.31,,,,,1
 Women,Michelle Engelsman,25.06,,,,,,1
 Women,Michelle Toro,,54.14,,,,,1
 Women,Michelle Williams,,54.45,,,,,1
-Women,Mie Oe Nielsen,,54.47,,,,,1
+Women,Mie Nielsen,,54.47,,,,,1
 Women,Miho Teramura,,,,,,129.55,1
 Women,Miki Uchida,,53.93,,,,,1
 Women,Minouche Smit,,,,,,136.73,1
@@ -686,7 +671,6 @@ Women,Signe Bro,,53.54,,,,,1
 Women,Silvia Di Pietro,,54.11,,,,,1
 Women,Simona Quadarella,,,,243.35,,,1
 Women,Sinead Russell,,54.17,,,,,1
-Women,Siobhan-Marie Oconnor,,,,,,126.88,1
 Women,Solenne Figues,,,118.45,,,,1
 Women,Stephanie Balduccini,,54.1,,,,,1
 Women,Stephanie Rice,,,,,,127.03,1

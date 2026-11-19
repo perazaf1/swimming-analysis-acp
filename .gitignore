@@ -28,8 +28,9 @@ wheels/
 *.synctex.gz
 *.toc
 
-# Local study notes (never pushed to GitHub)
+# Local study notes & interactive study guide (never pushed to GitHub)
 notes/
+study_guide/
 
 # Secrets & environment
 .env

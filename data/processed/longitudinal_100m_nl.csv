@@ -219,7 +219,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Freestyle,Women,Ranomi Kromowidjojo,NED,52.75,2012-04-12,2012,1990-08-20,21.645448323066393,18,Swim Cup Eindhoven 2012,Eindhoven,NED,,,52.75,1
 100m Freestyle,Women,Madison Wilson,AUS,52.76,2021-06-16,2021,1994-05-31,27.044490075290895,19,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS,115.68,,52.76,1
 100m Freestyle,Women,Rikako Ikee,JPN,52.79,2018-11-18,2018,2000-07-04,18.373716632443532,20,Kosuke Kitajima Cup,Tokyo,JPN,114.85,56.08,52.79,1
-100m Freestyle,Women,Fran Halsall,GBR,52.87,2009-07-31,2009,1990-04-12,19.301848049281315,21,13th FINA World Championships 2009,Rome,ITA,,,52.87,1
+100m Freestyle,Women,Francesca Halsall,GBR,52.87,2009-07-31,2009,1990-04-12,19.301848049281315,21,13th FINA World Championships 2009,Rome,ITA,,,52.87,1
 100m Freestyle,Women,Yufei Zhang,CHN,52.9,2021-05-04,2021,1998-04-19,23.041752224503764,22,Chinese National Championships (50m),Qingdao,CHN,,55.62,52.9,1
 100m Freestyle,Women,Torri Huske,USA,52.92,2022-06-23,2022,2002-12-07,19.54277891854894,23,19th FINA World Championships Budapest 2022,Budapest,HUN,,55.64,52.92,1
 100m Freestyle,Women,Meg Harris,AUS,52.92,2021-06-16,2021,2002-03-07,19.277207392197127,24,Hancock Prospecting Australian Swimming Trials 2021,Adelaide,AUS,,,52.92,1
@@ -259,7 +259,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Freestyle,Women,Inge Dekker,NED,53.61,2009-07-26,2009,1985-08-18,23.93702943189596,58,13th FINA World Championships 2009,Rome,ITA,,,53.61,1
 100m Freestyle,Women,Katinka Hosszu,HUN,53.64,2014-09-05,2014,1989-05-03,25.34154688569473,59,Singapore Swim Stars,Singapore,SGP,115.41,,53.64,1
 100m Freestyle,Women,Melanie Schlanger,AUS,53.65,2014-08-22,2014,1986-08-31,27.975359342915812,60,12th Pan Pacific Championships 2014,Gold Coast,AUS,,,53.65,1
-100m Freestyle,Women,Magdalena Veldhuis,NED,53.67,2008-03-19,2008,1979-06-29,28.722792607802873,61,European Championships 2008,Eindhoven,NED,,,53.67,1
+100m Freestyle,Women,Marleen Veldhuis,NED,53.67,2008-03-19,2008,1979-06-29,28.722792607802873,61,European Championships 2008,Eindhoven,NED,,,53.67,1
 100m Freestyle,Women,Ariarne Titmus,AUS,53.68,2022-05-18,2022,2000-09-07,21.691991786447637,62,Australian National Championships (50m),Adelaide,AUS,113.09,,53.68,1
 100m Freestyle,Women,Barbora Seemanova,CZE,53.68,2021-05-21,2021,2000-04-01,21.136208076659823,63,European Championships 2021,Budapest,HUN,115.45,,53.68,1
 100m Freestyle,Women,Arianna Vanderpool-Wallace,BAH,53.73,2012-08-01,2012,1990-03-04,22.412046543463383,64,Olympic Games London 2012,London,GBR,,,53.73,1
@@ -372,7 +372,7 @@ event,gender,athlete_name,team_code,swim_time_s,swim_date,swim_year,birth_date,a
 100m Freestyle,Women,Martina Moravcova,SVK,54.45,2000-07-05,2000,1976-01-16,24.468172484599588,171,European Championships 2000,Helsinki,FIN,,,54.45,1
 100m Freestyle,Women,Neza Klancar,SLO,54.47,2021-05-21,2021,2000-02-19,21.251197809719372,172,European Championships 2021,Budapest,HUN,,,54.47,1
 100m Freestyle,Women,Veronica Burchill,USA,54.47,2018-07-25,2018,1997-10-11,20.78576317590691,173,US National Championships (50m),Irvine,USA,,,54.47,1
-100m Freestyle,Women,Mie Oe Nielsen,DEN,54.47,2016-05-16,2016,1996-09-25,19.638603696098563,174,European Championships 2016,London,GBR,,,54.47,1
+100m Freestyle,Women,Mie Nielsen,DEN,54.47,2016-05-16,2016,1996-09-25,19.638603696098563,174,European Championships 2016,London,GBR,,,54.47,1
 100m Freestyle,Women,Kira Toussaint,NED,54.48,2019-11-09,2019,1994-05-22,25.467488021902806,175,FINA Swimming World Cup 2019,Doha,QAT,,,54.48,1
 100m Freestyle,Women,Margaux Fabre,FRA,54.48,2018-05-26,2018,1992-10-02,25.645448323066393,176,French National Championships (50m),Saint Raphael,FRA,,,54.48,1
 100m Freestyle,Women,Karin Prinsloo,RSA,54.48,2014-01-31,2014,1989-12-02,24.164271047227928,177,2014 BHP Billiton Aquatic Super Series,Perth,AUS,,,54.48,1

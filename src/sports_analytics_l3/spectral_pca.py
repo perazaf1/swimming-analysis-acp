@@ -439,7 +439,7 @@ if __name__ == "__main__":
     assert pca_oly.X_std.shape == (18, 6)
     assert np.isclose(pca_oly.explained_variance_ratio.sum(), 1.0, atol=1e-12)
     assert pca_oly.eckart_young_errors[-1] < 1e-12
-    assert pca_swim.X_std.shape == (129, 4)
+    assert pca_swim.X_std.shape == (128, 4)
     for fig_path in results["figures"]:  # type: ignore[attr-defined]
         assert Path(fig_path).exists() and Path(fig_path).stat().st_size > 0
 

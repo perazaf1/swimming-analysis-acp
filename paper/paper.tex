@@ -1,6 +1,6 @@
 \documentclass[11pt, a4paper]{article}
 
-% --- PACKAGES ---
+% PACKAGES
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
@@ -8,6 +8,7 @@
 \usepackage{microtype}
 \usepackage{graphicx}
 \usepackage{amsmath, amssymb}
+\usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{geometry}
 \geometry{margin=2.4cm}
@@ -19,12 +20,47 @@
 \usepackage{float}
 \usepackage{etoolbox}
 \usepackage{xurl}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
 
-% --- LAYOUT & SECTION RULE ---
+% EDITORIAL TYPOGRAPHY & HARMONIZED LAYOUT
+\linespread{1.05}
+\captionsetup{font=small, labelfont=bf, labelsep=period, skip=8pt}
+
+\titleformat{\section}
+  {\Large\bfseries}
+  {\thesection}{0.75em}{}
+  [\vspace{3pt}{\color{black!25}\titlerule[0.5pt]}]
+\titlespacing*{\section}{0pt}{0pt}{14pt}
+
+\titleformat{\subsection}
+  {\large\bfseries}
+  {\thesubsection}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{14pt}{5pt}
+
+% Running headers on continuation pages; clean plain style on section openers
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\itshape\color{black!60}\nouppercase{\leftmark}}
+\fancyhead[R]{\footnotesize\color{black!60} 100\,m Freestyle: Profiling \& Modelling}
+\fancyfoot[C]{\small\color{black!75}\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{black!18}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[C]{\small\color{black!75}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% LAYOUT & SECTION RULE
 % Every top-level section starts on a new page (and flushes pending floats).
-\preto\section{\clearpage}
+\preto\section{\clearpage\thispagestyle{plain}}
 
-% --- HYPERREF CONFIG ---
+% HYPERREF CONFIG
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
@@ -43,59 +79,72 @@
 % ============================================================
 \begin{titlepage}
     \centering
+    \thispagestyle{empty}
 
-    % --- Logos ---
-    \vspace*{0.5cm}
-    \begin{minipage}{0.35\textwidth}
+    % Logos
+    \vspace*{0.6cm}
+    \begin{minipage}[c]{0.36\textwidth}
         \centering
-        \includegraphics[height=2.2cm]{olympics.png}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.35\textwidth}
+        \includegraphics[height=1.85cm]{olympics.png}
+    \end{minipage}%
+    \hspace{0.08\textwidth}%
+    \begin{minipage}[c]{0.36\textwidth}
         \centering
-        \includegraphics[height=2.2cm]{world_aquatics.png}
+        \includegraphics[height=1.75cm]{world_aquatics.png}
     \end{minipage}
 
-    \vspace{0.6cm}
+    \vspace*{\stretch{0.8}}
+
+    % Classic weighted double rule
+    \rule{\textwidth}{1.1pt}\\[-0.85em]
     \rule{\textwidth}{0.4pt}
-    \vspace{0.4cm}
 
-    % --- Surtitle ---
-    {\large\scshape Data Analysis \& Statistical Modelling Report\par}
+    \vspace{0.75cm}
 
-    \vspace{0.4cm}
+    % Surtitle
+    {\normalsize\scshape\textls[90]{Quantitative sport analytics}\par}
 
-    % --- Main Title ---
-    {\fontsize{28}{34}\bfseries 100m Freestyle Swimming\par}
-    {\fontsize{20}{26}\bfseries Swimmer Profiling \& Performance Modelling\par}
+    \vspace{0.5cm}
 
-    \vspace{0.35cm}
+    % Main Title
+    {\fontsize{27}{33}\selectfont\bfseries 100\,m Freestyle Swimming\par}
+    \vspace{0.18cm}
+    {\fontsize{17}{23}\selectfont\bfseries Swimmer Profiling \& Performance Modelling\par}
 
-    {\large\textit{Characterizing top 100\,m Freestyle swimmers and predicting times from neighbouring events}\par}
+    \vspace{0.75cm}
 
-    \vspace{0.4cm}
-    \rule{\textwidth}{0.4pt}
-    \vspace{0.6cm}
+    \rule{\textwidth}{0.4pt}\\[-0.85em]
+    \rule{\textwidth}{1.1pt}
 
-    % --- Abstract ---
-    \begin{minipage}{0.86\textwidth}
-        \small
-        \textbf{Abstract.}
-        This report studies how to characterize the profiles of top 100\,m Freestyle swimmers and model their performances from neighbouring events. Using World Aquatics Top~200 records and Olympic Games results (1912--2020), we combine Principal Component Analysis (SVD) to identify sprint profiles with linear regression and Ridge regularization to predict 100\,m times under collinearity.
+    \vspace*{\stretch{0.9}}
+
+    % Abstract
+    \begin{minipage}{0.84\textwidth}
+        \small\linespread{1.25}\selectfont
+        \begin{center}
+            {\footnotesize\scshape\textls[110]{Abstract}\par}
+        \end{center}
+        \vspace{-0.2cm}
+        \noindent Using World Aquatics Top~200 records (1980 to 2022) and Olympic Games results (1988 to 2020), this report analyses elite 100\,m Freestyle performances directly in \texttt{NumPy} and \texttt{SciPy}. First, we use reduced SVD and PCA to describe sprint profiles across 128 multi-event swimmers and 18 Olympic finals averages. Then, we compare OLS, Moore-Penrose, and Ridge regression with Leave-One-Out cross-validation and 2D Fisher confidence ellipsoids to see how collinearity between events affects 100\,m regression weights and prediction error.
     \end{minipage}
 
-    \vfill
+    \vspace*{\stretch{1.1}}
 
-    % --- Author & Metadata ---
-    {\small\textbf{Author}\\[4pt]}
-    {\normalsize Paul-Emile RAZAFINDRAKOTO\par}
+    % Author & Metadata
+    {\color{black!45}\rule{0.28\textwidth}{0.4pt}}\\[0.55cm]
 
-    \vspace{0.35cm}
+    {\footnotesize\scshape\textls[80]{Author}\\[4pt]}
+    {\large\bfseries Paul-Emile Razafindrakoto\par}
+    \vspace{0.15cm}
+    {\small\color{black!65} November 2026\par}
 
-    {\footnotesize Code repository: \href{https://github.com/perazaf1/swimming-analysis-acp}{github.com/perazaf1/swimming-analysis-acp}\par}
-    {\footnotesize Data sources: World Aquatics Top~200 Records \& Olympic Swimming (1912--2020)\par}
+    \vspace{0.45cm}
 
-    \vspace{0.3cm}
+    {\footnotesize\color{black!70}
+    Code repository: \href{https://github.com/perazaf1/swimming-analysis-acp}{github.com/perazaf1/swimming-analysis-acp}\\
+    Data sources: World Aquatics Top~200 Records \& Olympic Swimming (1912 to 2020)\par}
+
+    \vspace*{0.4cm}
 
 \end{titlepage}
 
@@ -103,9 +152,6 @@
 % CONTENTS
 % ============================================================
 \tableofcontents
-
-\vspace{1.2cm}
-\noindent\textit{Upcoming sections (in progress): Section~3 will cover 100\,m performance modelling under collinearity (OLS vs.\ Moore--Penrose vs.\ Ridge and 2D Fisher confidence ellipsoids), followed by Section~4 on limitations and extensions.}
 
 % ============================================================
 % USE OF ARTIFICIAL INTELLIGENCE
@@ -117,11 +163,9 @@ This project is an independent personal study written for publication. For trans
 
 \subsection*{Models Used}
 \begin{itemize}
-    \item \textbf{Gemini 4 Argon:} used for Python code development (data cleaning and PCA/SVD scripts), code review, and checking schema and value consistency across the CSV datasets.
+    \item \textbf{Gemini 4 Argon:} used for Python code development (PCA/SVD scripts), code review, and checking schema and value consistency across the CSV datasets, review mathematical formulas, and keep notations consistent across linear algebra and statistics sections
 
     \item \textbf{Gemini 4 Hydrogen:} used for drafting assistance, \LaTeX{} typesetting, and document compilation.
-
-    \item \textbf{Deepseek V4.1 Pro:} used to review the mathematical formulations and keep notations consistent across the linear algebra and statistics sections.
 \end{itemize}
 
 \subsection*{Author Responsibility, Verification, and Reproducibility}
@@ -130,7 +174,7 @@ This project is an independent personal study written for publication. For trans
 
     \item \textbf{No AI-generated figures or numbers:} no numerical results, tables, or plots were produced or estimated by a language model. Every number in this report comes directly from local Python scripts executed on the raw World Aquatics and Olympic datasets.
 
-    \item \textbf{Verification protocol:} all scripts include automated consistency checks covering table shapes, missing-value counts, and linear algebra identities (such as $V^T V = I_r$ and Eckart--Young reconstruction errors verified to machine precision $< 10^{-10}$). Generated plots and compiled PDF pages were inspected visually.
+    \item \textbf{Verification protocol:} all scripts include automated consistency checks covering table shapes, missing-value counts, and linear algebra identities (such as $V^T V = I_r$ and Eckart-Young reconstruction errors verified to machine precision $< 10^{-10}$). Generated plots and compiled PDF pages were inspected visually.
 
     \item \textbf{Open reproducibility:} all Python scripts and \LaTeX{} sources are published on GitHub (\url{https://github.com/perazaf1/swimming-analysis-acp}) so every result can be reproduced independently without relying on any AI tool.
 \end{itemize}
@@ -149,33 +193,33 @@ The 100\,m Freestyle (50\,m long-course pool) is one of the most competitive eve
     \item \textbf{Speed endurance}, needed to maintain pace over the second half of the race despite fatigue (shared with the 200\,m Freestyle and 100\,m Butterfly).
 \end{itemize}
 
-\noindent Because swimmers lean toward either pure speed or endurance, looking at their times across several events tells us a lot about their profile. This leads to the main question of this report:
+\noindent Because swimmers are usually better either at pure speed or at endurance, looking at their times across several events shows their profile. This leads to the main question of this report:
 \begin{quote}
-    \textbf{\textit{How can we characterize the profiles of top 100\,m Freestyle swimmers and model their performances from neighbouring events?}}
+    \textbf{\textit{How can we characterize the sprint profiles of elite 100\,m Freestyle swimmers via SVD/PCA and model their times from other sprint events under collinearity?}}
 \end{quote}
 
-\noindent \textbf{Implementation choice:} rather than using high-level machine learning Python packages such as \texttt{scikit-learn}, all dimensionality reduction, missing-data completion, and regression estimators are implemented directly from linear algebra primitives in \texttt{NumPy} and \texttt{SciPy} (alongside \texttt{pandas} for cleaning). This deliberate choice avoids black-box defaults and keeps a direct link between the mathematical derivations and every numerical result reported here.
+\noindent \textbf{Implementation choice:} instead of using machine learning libraries like \texttt{scikit-learn}, all SVD/PCA steps, missing-value completion, and regression models are coded directly with \texttt{NumPy} and \texttt{SciPy} (plus \texttt{pandas} for cleaning). That way, there is no black box and every formula in the report matches the Python code directly.
 
 \subsection{Raw Datasets}
 
-We combine two complementary datasets:
+We combine two datasets:
 \begin{enumerate}
     \item \textbf{World Aquatics All-Time Top~200~\cite{kaggle_top200}:} 5{,}200 long-course performances covering the 200 fastest historical times across 26 categories (13 men's and 13 women's events, 100\,m to 1500\,m) between 1980 and 2022, for 716 unique athletes. An important limitation is that \textbf{the 50\,m Freestyle is absent} from this file (distances start at 100\,m).
 
-    \item \textbf{Olympic Games Swimming Results (1912--2020)~\cite{kaggle_olympics}:} 4{,}359 Olympic entries spanning 1912 to 2020, including relays and non-finishing entries. Unlike the Top~200 dataset, it contains the \textbf{50\,m Freestyle}, which makes it essential to link pure sprint speed with the 100\,m Freestyle.
+    \item \textbf{Olympic Games Swimming Results (1912 to 2020)~\cite{kaggle_olympics}:} 4{,}359 Olympic entries from 1912 to 2020, including relays and non-finishing entries. Unlike the Top~200 dataset, it contains the \textbf{50\,m Freestyle}, which is needed to link pure sprint speed with the 100\,m Freestyle.
 \end{enumerate}
 
 \subsection{Data Cleaning}
 
-Both raw files are cleaned and harmonized in Python using reproducible rules:
+Both raw files are cleaned in Python with simple rules:
 \begin{itemize}
     \item \textbf{Time conversion:} mixed string formats (\texttt{"46.86"}, \texttt{"01:45.30"}, \texttt{"00:01:00.000000"}, and estimated times ending in \texttt{"est"}) are converted to decimal seconds. Disqualified, empty, and missing entries map to \texttt{NaN}.
 
-    \item \textbf{Dates and age:} two-digit \texttt{MM-DD-YY} dates are parsed with a 2025 century pivot to recover true dates between 1980 and 2022. Athlete age is computed as $(\text{swim date} - \text{birth date}) / 365.25$, ranging from 13.98 to 34.32 years (median 22.70).
+    \item \textbf{Dates and age:} two-digit \texttt{MM-DD-YY} dates are parsed with a 2025 cutoff year to recover true dates between 1980 and 2022. Athlete age is computed as $(\text{swim date} - \text{birth date}) / 365.25$, ranging from 13.98 to 34.32 years (median 22.70).
 
-    \item \textbf{Name and event normalization:} \texttt{"LAST, First"} strings are unified to \texttt{"First Last"}, and event labels are standardized across both datasets (e.g.\ \texttt{"200m Individual Medley"}).
+    \item \textbf{Name and event normalization:} \texttt{"LAST, First"} strings are unified to \texttt{"First Last"}, 35 verified spelling, transliteration, punctuation, and middle-name variants across sources (such as \textit{Sarah Sjostrom} $\to$ \textit{Sarah Sjoestroem} and \textit{Francesca}/\textit{Fran Halsall}) are merged using an alias dictionary, and event labels are standardized across both datasets (e.g.\ \texttt{"200m Individual Medley"}).
 
-    \item \textbf{Olympic filtering:} from 4{,}359 raw Olympic rows, we keep individual events (3{,}619 rows) with valid times (3{,}511 rows) from \textbf{1988 to 2020} (when the 50\,m Freestyle became a permanent Olympic event), and remove duplicates, leaving \textbf{1{,}869} clean records across 960 athletes (943 Men, 926 Women; zero missing values).
+    \item \textbf{Olympic filtering:} from 4{,}359 raw Olympic rows, we keep individual events (3{,}619 rows) with valid times (3{,}511 rows) from \textbf{1988 to 2020} (when the 50\,m Freestyle became a permanent Olympic event), and remove duplicates, leaving \textbf{1{,}869} clean records across 959 athletes (943 Men, 926 Women; zero missing values).
 \end{itemize}
 
 \subsection{Processed Tables \& Limitations}
@@ -190,24 +234,24 @@ The cleaning step produces four analysis tables summarized in Table~\ref{tab:pha
         \toprule
         \textbf{Table} & \textbf{Shape} & \textbf{Period} & \textbf{Description} \\
         \midrule
-        All-Time Top~200 (cleaned) & $5{,}200 \times 13$ & 1980--2022 & Standardized Top~200 across 26 categories (716 athletes). \\
-        100\,m Freestyle Longitudinal & $400 \times 17$ & 1992--2022 & Top~200 Men/Women 100\,m Free with age and 200\,m Free / 100\,m Fly personal bests. \\
-        Olympic Results (1988--2020) & $1{,}869 \times 8$ & 1988--2020 & Individual Olympic results across 14 events (including 50\,m Free). \\
-        Multi-Event Sprint Matrix & $726 \times 9$ & 1988--2022 & Best time per swimmer across 6 sprint and mid-distance events. \\
+        All-Time Top~200 (cleaned) & $5{,}200 \times 13$ & 1980-2022 & Standardized Top~200 across 26 categories (716 athletes). \\
+        100\,m Freestyle Longitudinal & $400 \times 17$ & 1992-2022 & Top~200 Men/Women 100\,m Free with age and 200\,m Free / 100\,m Fly personal bests. \\
+        Olympic Results (1988-2020) & $1{,}869 \times 8$ & 1988-2020 & Individual Olympic results across 14 events (including 50\,m Free). \\
+        Multi-Event Sprint Matrix & $710 \times 9$ & 1988-2022 & Best time per swimmer across 6 sprint and mid-distance events. \\
         \bottomrule
     \end{tabularx}
     \caption{Processed tables built from the raw datasets.}
     \label{tab:phase1_datasets}
 \end{table}
 
-\noindent Inspecting these tables highlights two important structural facts that guide the rest of the study:
+\noindent Looking at these tables shows two main points for the rest of the project:
 \begin{enumerate}
-    \item \textbf{Repeated athletes in the men's 100\,m Top~200:} in the 100\,m longitudinal table (Men: 46.86--47.88\,s; Women: 51.71--54.59\,s; age 13.98--33.44 years), the 200 women's times belong to \textbf{200 different swimmers}, whereas the 200 men's times come from only \textbf{49 unique swimmers} (e.g.\ Caeleb Dressel has 16 entries, David Popovici 15, James Magnussen and Alessandro Miressi 13 each, Kyle Chalmers 12). Only 68 of these 400 rows also have a Top~200 mark in 200\,m Freestyle and 51 in 100\,m Butterfly.
+    \item \textbf{Repeated athletes in the men's 100\,m Top~200:} in the 100\,m longitudinal table (Men: 46.86 to 47.88\,s; Women: 51.71 to 54.59\,s; age 13.98 to 33.44 years), the 200 women's times belong to \textbf{200 different swimmers}, whereas the 200 men's times come from only \textbf{49 unique swimmers} (e.g.\ Caeleb Dressel has 16 entries, David Popovici 15, James Magnussen and Alessandro Miressi 13 each, Kyle Chalmers 12). Only 68 of these 400 rows also have a Top~200 mark in 200\,m Freestyle and 51 in 100\,m Butterfly. Because the same men appear many times, we use this table for descriptive stats rather than standard OLS regression, and run our regressions on the one-row-per-swimmer multi-event matrix below.
 
-    \item \textbf{Sparse multi-event matrix:} combining Olympic and Top~200 results over six events (50\,m, 100\,m, 200\,m, 400\,m Freestyle, 100\,m Butterfly, and 200\,m IM) yields \textbf{726 swimmers} (327 Men, 399 Women): 539 appear in only 1 event, \textbf{187} in $\ge 2$ events, \textbf{42} in $\ge 3$, and \textbf{7} in 4 events. Restricting to the four core sprint events (50\,m, 100\,m, 200\,m Free, and 100\,m Fly) keeps \textbf{129 swimmers} with $\ge 2$ recorded events. Pairwise overlaps with the 100\,m Freestyle stay small (56 with 50\,m, 47 with 200\,m, 45 with 100\,m Fly, and only 6 swimmers with all three Freestyle sprints).
+    \item \textbf{Sparse multi-event matrix:} combining Olympic and Top~200 results over six events (50\,m, 100\,m, 200\,m, 400\,m Freestyle, 100\,m Butterfly, and 200\,m IM) gives \textbf{710 swimmers} (320 Men, 390 Women): 525 appear in only 1 event, \textbf{185} in $\ge 2$ events, \textbf{41} in $\ge 3$, and \textbf{7} in 4 events. Focusing on the four main sprint events (50\,m, 100\,m, 200\,m Free, and 100\,m Fly) keeps \textbf{128 swimmers} with $\ge 2$ recorded events. Overlaps with the 100\,m Freestyle remain small (56 with 50\,m, 46 with 200\,m, 44 with 100\,m Fly, and only 6 swimmers with all three Freestyle sprints).
 \end{enumerate}
 
-\noindent Because the swimmer matrix is sparse and neighbouring events are strongly correlated, standard OLS regression is unstable~\cite{wasserman2004, hastie2009}. This motivates using SVD/PCA for profiling (Sec.~\ref{sec:profiling}) and Ridge regularization for prediction (Sec.~3).
+\noindent Because this matrix has many missing values and nearby events are strongly correlated, basic OLS regression is unstable~\cite{wasserman2004, hastie2009}. This is why we use SVD/PCA for swimmer profiling (Sec.~\ref{sec:profiling}) and Ridge regularization for modelling (Sec.~3).
 
 % ============================================================
 % SECTION 2: PROFILING 100M SWIMMERS VIA SVD / PCA
@@ -217,72 +261,242 @@ The cleaning step produces four analysis tables summarized in Table~\ref{tab:pha
 
 \subsection{SVD, PCA, and Definition of PC1 and PC2}
 
-To compare swimmers on equal footing without mixing physiological sex differences into event profiles, each column of a performance matrix is standardized separately within each gender group:
+To compare men and women on the same scale without mixing sex differences into the event profiles, each column of a performance matrix is standardized separately within each gender group:
 \[
     z_{ij} = \frac{x_{ij} - \mu_{g,j}}{\sigma_{g,j}}, \qquad g \in \{\text{Men}, \text{Women}\}.
 \]
-Let $X \in \mathbb{R}^{m \times n}$ denote the resulting standardized matrix ($m$ observations, $n$ events). Following the standard SVD formulation of Principal Component Analysis~\cite{hastie2009}, the reduced Singular Value Decomposition of $X$ is
+Let $X \in \mathbb{R}^{m \times n}$ be the standardized matrix ($m$ observations, $n$ events). Using the SVD formulation of Principal Component Analysis~\cite{hastie2009}, the reduced Singular Value Decomposition of $X$ is
 \begin{equation}
     X = U \Sigma V^T, \qquad \Sigma = \operatorname{diag}(\sigma_1, \dots, \sigma_r),
 \end{equation}
-where $\sigma_1 \ge \dots \ge \sigma_r > 0$ are the singular values ($r = \operatorname{rank}(X)$), $U \in \mathbb{R}^{m \times r}$ holds the left singular vectors, and $V \in \mathbb{R}^{n \times r}$ holds the orthogonal principal directions ($V^T V = I_r$).
+where $\sigma_1 \ge \dots \ge \sigma_r > 0$ are the singular values ($r = \operatorname{rank}(X)$), $U \in \mathbb{R}^{m \times r}$ contains the left singular vectors, and $V \in \mathbb{R}^{n \times r}$ contains the orthogonal principal directions ($V^T V = I_r$).
 
-The \textbf{principal components} are the columns of the score matrix $Z = XV = U\Sigma \in \mathbb{R}^{m \times r}$. Specifically, the $k$-th principal component ($\text{PC}_k$) is the linear combination of the standardized event times along direction $v_k$:
+The \textbf{principal components} are the columns of the score matrix $Z = XV = U\Sigma \in \mathbb{R}^{m \times r}$. The $k$-th principal component ($\text{PC}_k$) is the linear combination of standardized event times along direction $v_k$:
 \begin{equation}
     \text{PC}_k = X v_k = \sigma_k u_k = \sum_{j=1}^{n} v_{j,k}\, z_{\cdot, j},
 \end{equation}
-and captures a fraction $\sigma_k^2 / \sum_{j=1}^r \sigma_j^2$ of total variance. In particular, \textbf{PC1} is the single linear combination of events that captures the largest share of performance variation across observations, while \textbf{PC2} is the direction orthogonal to PC1 that captures the largest remaining contrast between events.
+and explains a share $\sigma_k^2 / \sum_{j=1}^r \sigma_j^2$ of total variance. In short, \textbf{PC1} is the direction that captures the largest part of the overall performance differences, while \textbf{PC2} is the orthogonal direction that captures the main remaining contrast between events.
 
-By the Eckart--Young--Mirsky theorem~\cite{deisenroth2020}, the best rank-$k$ Frobenius approximation $X_k = \sum_{j=1}^k \sigma_j u_j v_j^T$ yields the relative reconstruction error
+By the Eckart-Young-Mirsky theorem~\cite{deisenroth2020}, the best rank-$k$ Frobenius approximation $X_k = \sum_{j=1}^k \sigma_j u_j v_j^T$ has a relative reconstruction error of
 \begin{equation}
     \rho_k = \frac{\|X - X_k\|_F^2}{\|X\|_F^2} = \frac{\sum_{j=k+1}^r \sigma_j^2}{\sum_{j=1}^r \sigma_j^2}.
 \end{equation}
-Finally, the $L_2$ condition numbers $\kappa_2(X) = \sigma_1 / \sigma_n$ and $\kappa_2(X^T X) = (\sigma_1 / \sigma_n)^2$ quantify collinearity across events~\cite{hastie2009}. All algebraic identities ($\|X\|_F^2 = \sum \sigma_j^2$, $\rho_k$, $V^T V = I_r$, $Z^T Z = \Sigma^2$) hold to machine precision ($< 10^{-10}$).
+Finally, the $L_2$ condition numbers $\kappa_2(X) = \sigma_1 / \sigma_n$ and $\kappa_2(X^T X) = (\sigma_1 / \sigma_n)^2$ measure collinearity between events~\cite{hastie2009}. All matrix identities ($\|X\|_F^2 = \sum \sigma_j^2$, $\rho_k$, $V^T V = I_r$, $Z^T Z = \Sigma^2$) are checked in the code to $< 10^{-10}$.
 \newpage
 
-\subsection{Olympic Finals Spectrum (1988--2020)}
+\subsection{Olympic Finals Spectrum (1988 to 2020)}
 
-Before working on sparse individual data, we first analyse a complete reference matrix built by averaging Olympic finalist times per edition and gender across six events (\texttt{50m}, \texttt{100m}, \texttt{200m}, \texttt{400m Free}, \texttt{100m Fly}, and \texttt{200m IM}). This yields an $18 \times 6$ matrix (9 editions $\times$ 2 genders) with zero missing values.
+Before looking at incomplete individual swimmer rows, we start with a complete reference matrix built by averaging Olympic finalist times per edition and gender across six events (\texttt{50m}, \texttt{100m}, \texttt{200m}, \texttt{400m Free}, \texttt{100m Fly}, and \texttt{200m IM}). This gives an $18 \times 6$ matrix (9 editions $\times$ 2 genders) with no missing values.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{figures/phase2_scree_eckart_young.png}
-    \caption{Singular value spectrum (left) and Eckart--Young rank-$k$ approximation error $\rho_k$ (right) on the complete 1988--2020 Olympic finals matrix ($m=18$, $n=6$).}
+    \caption{Singular value spectrum (left) and Eckart-Young rank-$k$ approximation error $\rho_k$ (right) on the complete 1988 to 2020 Olympic finals matrix ($m=18$, $n=6$).}
     \label{fig:scree_eckart}
 \end{figure}
 
-Figure~\ref{fig:scree_eckart} shows a strongly dominated spectrum ($\sigma = [10.172, 1.585, 1.006, 0.807, 0.487, 0.356]$), where the first two principal components represent:
+Figure~\ref{fig:scree_eckart} shows a very skewed spectrum ($\sigma = [10.172, 1.585, 1.006, 0.807, 0.487, 0.356]$), where the first two components represent:
 \begin{itemize}
-    \item \textbf{PC1 (95.8\% of variance): overall historical progression.} PC1 loads almost equally across all six events ($v_1 = [-0.409, -0.413, -0.413, -0.394, -0.409, -0.411]$), measuring the global improvement in Olympic swimming times from 1988 to 2020 across every stroke and distance.
+    \item \textbf{PC1 (95.8\% of variance): overall historical progression.} PC1 puts almost the same weight on all six events ($v_1 = [-0.409, -0.413, -0.413, -0.394, -0.409, -0.411]$), tracking the general drop in Olympic swimming times from 1988 to 2020 across all strokes and distances.
 
-    \item \textbf{PC2 (2.33\% of variance): sprint vs.\ 400\,m contrast.} PC2 loads positively on the shorter events (\texttt{50m Free}: $+0.220$, \texttt{100m Free}: $+0.242$, \texttt{100m Fly}: $+0.248$, \texttt{200m IM}: $+0.237$) and strongly negatively on \texttt{400m Free} ($-0.874$), separating sprint evolution from mid-distance progression.
+    \item \textbf{PC2 (2.33\% of variance): sprint vs.\ 400\,m contrast.} PC2 has positive weights on the shorter events (\texttt{50m Free}: $+0.220$, \texttt{100m Free}: $+0.242$, \texttt{100m Fly}: $+0.248$, \texttt{200m IM}: $+0.237$) and a strong negative weight on \texttt{400m Free} ($-0.874$), separating pure sprint from middle distance.
 \end{itemize}
-A rank-2 projection already preserves $98.12\%$ of total variance ($\rho_2 = 1.88\%$). However, the small last singular value ($\sigma_6 = 0.356$) leads to $\kappa_2(X) = 28.58$ and $\kappa_2(X^T X) = 816.86$. This high condition number confirms that Olympic events are tightly collinear, which will cause unregularized linear regression to suffer from variance inflation in Section~3.
+A rank-2 projection already keeps $98.12\%$ of total variance ($\rho_2 = 1.88\%$). At the same time, the small last singular value ($\sigma_6 = 0.356$) gives $\kappa_2(X) = 28.58$ and $\kappa_2(X^T X) = 816.86$. This high condition number shows that the Olympic events are strongly collinear, which explains why ordinary linear regression becomes unstable in Section~3.
 
 \subsection{Swimmer Sprint Profiles (PCA Biplot)}
 
-We next study individual athletes from the multi-event matrix across the four core sprint events around 100\,m Freestyle (\texttt{50m}, \texttt{100m}, \texttt{200m Free}, and \texttt{100m Fly}). Keeping swimmers with at least two recorded events gives $m=129$ athletes. After gender-wise standardization, missing entries are filled using iterative rank-2 SVD completion.
+Next, we look at individual swimmers from the multi-event matrix on the four sprint events around the 100\,m Freestyle (\texttt{50m}, \texttt{100m}, \texttt{200m Free}, and \texttt{100m Fly}). Keeping swimmers with at least two recorded events gives $m=128$ athletes. After standardizing within each gender, missing values are filled using iterative rank-2 SVD completion.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.86\textwidth]{figures/phase2_biplot_sprint.png}
-    \caption{PCA biplot of $m=129$ versatile sprint swimmers ($n=4$ events, completed via rank-2 SVD). Faster swimmers appear on the right ($\text{PC1} > 0$), while event time arrows point left.}
+    \caption{PCA biplot of $m=128$ multi-event sprint swimmers ($n=4$ events, completed via rank-2 SVD). Faster swimmers appear on the right ($\text{PC1} > 0$), while event time arrows point left.}
     \label{fig:biplot_sprint}
 \end{figure}
 
-Figure~\ref{fig:biplot_sprint} projects the 129 swimmers onto the plane $(\text{PC1}, \text{PC2})$. Explicitly, the two components are:
+Figure~\ref{fig:biplot_sprint} plots the 128 swimmers in the $(\text{PC1}, \text{PC2})$ plane. The two components are:
 \begin{align}
-    \text{PC1} &= -0.540\,z_{50} - 0.468\,z_{100} - 0.453\,z_{200} - 0.534\,z_{100\text{Fly}}, \\
-    \text{PC2} &= -0.239\,z_{50} + 0.630\,z_{100} - 0.687\,z_{200} + 0.272\,z_{100\text{Fly}}.
+    \text{PC1} &= -0.539\,z_{50} - 0.467\,z_{100} - 0.455\,z_{200} - 0.533\,z_{100\text{Fly}}, \\
+    \text{PC2} &= -0.240\,z_{50} + 0.635\,z_{100} - 0.683\,z_{200} + 0.268\,z_{100\text{Fly}}.
 \end{align}
-Their sporting meaning is clear:
+In swimming terms:
 \begin{itemize}
-    \item \textbf{PC1 (81.9\% of variance): overall sprint level.} All four event times enter PC1 with negative weights of similar magnitude. Since lower times correspond to negative standardized values $z$, faster swimmers obtain positive PC1 scores and sit on the right of the biplot (e.g.\ Caeleb Dressel at $\text{PC1}=+3.02$, David Popovici at $+2.30$, Sarah Sjoestroem and Emma McKeon at $+2.26$, Michael Phelps at $+1.84$), whereas earlier-era or slower swimmers lie on the left.
+    \item \textbf{PC1 (82.2\% of variance): overall sprint level.} All four event times have negative weights of similar size. Because a fast time corresponds to a negative standardized value $z$, faster swimmers get positive PC1 scores and sit on the right of the biplot (e.g.\ Caeleb Dressel at $\text{PC1}=+2.99$, Sarah Sjoestroem, David Popovici, and Emma McKeon at $+2.26$, Michael Phelps at $+1.81$), while slower or older-era swimmers sit on the left.
 
-    \item \textbf{PC2 (17.3\% of variance): 100\,m vs.\ 200\,m balance.} PC2 opposes \texttt{100m Free} ($+0.630$) and \texttt{100m Fly} ($+0.272$) against \texttt{200m Free} ($-0.687$) and \texttt{50m Free} ($-0.239$). Because faster times are negative after standardization, negative PC2 scores identify swimmers who are relatively faster in the 100\,m than in the 200\,m Freestyle (such as Kyle Chalmers at $\text{PC2}=-1.13$ with 47.08\,s vs.\ 105.48\,s, or Sarah Sjoestroem at $-1.14$), whereas balanced 100\,m/200\,m performers like Michael Phelps ($\text{PC2}=-0.07$, 47.51\,s vs.\ 102.96\,s) sit near zero.
+    \item \textbf{PC2 (17.0\% of variance): 100\,m vs.\ 200\,m balance.} PC2 contrasts \texttt{100m Free} ($+0.635$) and \texttt{100m Fly} ($+0.268$) with \texttt{200m Free} ($-0.683$) and \texttt{50m Free} ($-0.240$). Because faster times are negative after standardization, negative PC2 scores correspond to swimmers who are relatively stronger on the 100\,m than on the 200\,m Freestyle (such as Sarah Sjoestroem at $\text{PC2}=-1.15$ or Kyle Chalmers at $-1.13$ with 47.08\,s vs.\ 105.48\,s), while balanced 100\,m/200\,m swimmers like Michael Phelps ($\text{PC2}=-0.10$, 47.51\,s vs.\ 102.96\,s) sit near zero.
 \end{itemize}
 
-\noindent \textbf{Methodological note:} iterative rank-2 SVD completion mechanically concentrates $99.2\%$ of total variance onto PC1 and PC2. For this reason, the biplot is best read as a clean 2D map of swimmer profiles, while the complete Olympic matrix (Sec.~2.2) remains our unbiased spectral reference.
+\noindent \textbf{Note on imputation:} filling missing values with a rank-2 SVD automatically pushes $99.2\%$ of total variance onto PC1 and PC2. The biplot should therefore be read as a 2D map of swimmer profiles, while the complete Olympic matrix (Sec.~2.2) serves as our clean reference without imputation.
+
+% ============================================================
+% SECTION 3: 100M PERFORMANCE MODELLING UNDER COLLINEARITY
+% ============================================================
+\section{100\,m Performance Modelling under Collinearity}
+\label{sec:modelling}
+
+\subsection{Modelling Matrices \& Collinearity Diagnostics}
+
+To model \texttt{100m Freestyle} times ($y$) without missing values on the target and without leaking information from the rank-2 SVD completion of Section~\ref{sec:profiling}, we build four complete, gender-standardized datasets from our cleaned tables:
+\begin{itemize}
+    \item \textbf{Individual Sprint (\texttt{50m Free + 100m Fly $\to$ 100m Free}):} $n=14$ complete athletes (3 Men, 11 Women) from the multi-event matrix.
+    \item \textbf{Individual Univariate Baseline (\texttt{50m Free $\to$ 100m Free}):} $n=56$ athletes (20 Men, 36 Women), used to see how much a second event improves the fit.
+    \item \textbf{Olympic Finals 5-Predictor (\texttt{50m, 200m, 400m Free, 100m Fly, 200m IM $\to$ 100m Free}):} $n=18$ complete edition-gender averages (9 Men, 9 Women; 1988 to 2020) with no missing values.
+    \item \textbf{Olympic Finals 2-Predictor (\texttt{50m + 200m Free $\to$ 100m Free}):} $n=18$ observations, used as a 2D test case under strong collinearity.
+\end{itemize}
+
+\noindent Because each column is standardized within each gender ($\mu_{g,j}=0$, $\sigma_{g,j}=1$), the overall column means are zero and no intercept is needed. Table~\ref{tab:phase3_collinearity} gives the condition numbers $\kappa_2(X)$, $\kappa_2(X^T X)$, and Variance Inflation Factors $\text{VIF}_j = (R^{-1})_{jj}$ (where $R = \frac{1}{n}X^T X$ is the correlation matrix of the predictors).
+
+\begin{table}[H]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabularx}{\textwidth}{@{}l r r r r >{\raggedright\arraybackslash}X@{}}
+        \toprule
+        \textbf{Dataset} & $n$ & $p$ & $\kappa_2(X)$ & $\kappa_2(X^T X)$ & \textbf{VIF per predictor} \\
+        \midrule
+        Individual (\texttt{50m Free}) & 56 & 1 & 1.00 & 1.00 & $[1.00]$ \\
+        Individual (\texttt{50m + 100m Fly}) & 14 & 2 & 3.73 & 13.89 & $[3.99,\; 3.99]$ \\
+        Olympic (\texttt{50m + 200m Free}) & 18 & 2 & 6.46 & 41.77 & $[10.95,\; 10.95]$ \\
+        Olympic (5 predictors) & 18 & 5 & 24.23 & 587.27 & $[28.64,\; 61.67,\; 12.14,\; 18.95,\; 57.34]$ \\
+        \bottomrule
+    \end{tabularx}
+    \caption{Collinearity diagnostics across the four complete gender-standardized modelling matrices.}
+    \label{tab:phase3_collinearity}
+\end{table}
+
+\noindent Collinearity is moderate on the 14 individual swimmers ($\text{VIF} = 3.99$), passes the usual threshold of 10 on the 2D Olympic matrix ($\text{VIF} = 10.95$), and becomes very strong across all five Olympic events ($\kappa_2(X^T X) = 587.27$, with $\text{VIF} = 61.67$ on \texttt{200m Free} and $57.34$ on \texttt{200m IM}).
+
+\subsection{OLS, Moore-Penrose, and Ridge Regularization}
+
+For a full-column-rank standardized matrix $X \in \mathbb{R}^{n \times p}$ with reduced SVD $X = U\Sigma V^T$ and target $y \in \mathbb{R}^n$, we compare three linear estimators~\cite{hastie2009, deisenroth2020}:
+\begin{align}
+    \hat{\beta}_{\text{OLS}} &= (X^T X)^{-1} X^T y, \\
+    \hat{\beta}^{+} &= V \Sigma^+ U^T y = \sum_{j=1}^{r} \frac{1}{\sigma_j} (u_j^T y)\, v_j, \\
+    \hat{\beta}_{\lambda} &= (X^T X + \lambda I_p)^{-1} X^T y = \sum_{j=1}^{r} \frac{\sigma_j}{\sigma_j^2 + \lambda} (u_j^T y)\, v_j, \qquad \lambda \ge 0.
+\end{align}
+All three match as expected in the code ($\hat{\beta}_{\text{OLS}} = \hat{\beta}^{+} = \hat{\beta}_{0}$ at full rank, and the normal-equation Ridge formula matches the SVD formula to $< 10^{-10}$). When $\lambda$ increases, Ridge reduces the weights along directions with small singular values $\sigma_j$ through the factor $\sigma_j^2 / (\sigma_j^2 + \lambda)$, adding a small bias to keep the weights much more stable.
+
+To pick $\lambda^*$ on these small samples, we use Leave-One-Out (LOO) cross-validation over a log grid $\lambda \in [10^{-3}, 10^2]$ (100 values). We also check that the closed-form hat-matrix shortcut $e_i^{\text{LOO}} = (y_i - \hat{y}_i) / (1 - (H_\lambda)_{ii})$ with $H_\lambda = X(X^T X + \lambda I_p)^{-1} X^T$ gives the exact same result as the full LOO loop ($< 10^{-10}$). Standardized LOO errors $e_i^{\text{LOO}}$ are then converted back into seconds using each gender's target standard deviation $\sigma_{g(i), y}$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{figures/phase3_ridge_path_cv.png}
+    \caption{Ridge regularization path (left) and Leave-One-Out cross-validation curve (right) on the 5-predictor Olympic dataset ($n=18$, $\kappa_2(X^T X)=587.27$).}
+    \label{fig:phase3_ridge_cv}
+\end{figure}
+
+Figure~\ref{fig:phase3_ridge_cv} and Table~\ref{tab:phase3_models} show what collinearity does in practice:
+\begin{itemize}
+    \item \textbf{Flipped signs with OLS:} on the 5-predictor Olympic matrix, every event correlates with \texttt{100m Free} at $r > 0.90$, yet OLS gives negative weights to \texttt{400m Free} ($-0.070$) and \texttt{200m IM} ($-0.077$) to compensate for large positive weights on \texttt{50m Free} ($+0.474$) and \texttt{100m Fly} ($+0.392$).
+    \item \textbf{More stable weights and lower LOO error with Ridge:} at $\lambda^* = 0.5995$, all five Ridge weights turn positive ($[0.317, 0.172, 0.016, 0.341, 0.151]$), $\|\hat{\beta}\|_2$ drops from $0.685$ to $0.520$, and the LOO error goes down from $0.1738\,\text{std}$ ($0.162\,\text{s}$) with OLS to $0.1617\,\text{std}$ ($0.149\,\text{s}$).
+    \item \textbf{Moderate collinearity ($n=14$ swimmers):} with $\text{VIF} = 3.99$ and a strong predictor (\texttt{100m Fly}, $r = 0.949$ with \texttt{100m Free}), LOO picks $\lambda^* = 0.0010$ ($0.395\,\text{s}$), which is much more accurate than using \texttt{50m Free} alone ($0.587\,\text{s}$).
+\end{itemize}
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \renewcommand{\arraystretch}{1.25}
+    \begin{tabularx}{\textwidth}{@{}l l r r r >{\raggedright\arraybackslash}X@{}}
+        \toprule
+        \textbf{Dataset} & \textbf{Method} & \textbf{$R^2$} & \textbf{LOO (std)} & \textbf{LOO (s)} & \textbf{Weights $\hat{\beta}$} \\
+        \midrule
+        Olympic (5 pred.) & OLS & 0.9840 & 0.1738 & 0.162 & [$0.474$, $0.283$, $-0.070$, $0.392$, $-0.077$] \\
+        Olympic (5 pred.) & Ridge ($\lambda^*=0.60$) & 0.9824 & \textbf{0.1617} & \textbf{0.149} & [$0.317$, $0.172$, $0.016$, $0.341$, $0.151$] \\
+        Olympic (2 pred.) & OLS & 0.9740 & 0.1787 & 0.168 & [$0.555$, $0.444$] \\
+        Olympic (2 pred.) & Ridge ($\lambda^*=0.53$) & 0.9738 & \textbf{0.1767} & \textbf{0.166} & [$0.526$, $0.458$] \\
+        Individual (2 pred.) & OLS / Ridge ($\lambda^*=0.001$) & 0.9017 & 0.3475 & 0.395 & [$0.048$, $0.908$] \\
+        Individual (1 pred.) & OLS & 0.7199 & 0.5383 & 0.587 & [$0.848$] \\
+        \bottomrule
+    \end{tabularx}
+    \caption{Training fit ($R^2$) and Leave-One-Out error for OLS and Ridge.}
+    \label{tab:phase3_models}
+\end{table}
+
+\subsection{2D Fisher Confidence Ellipsoids}
+
+To visualize parameter uncertainty for a pair of coefficients $\theta = (\beta_i, \beta_j)^T$ under OLS, we estimate $\hat{\sigma}^2 = \|y - X\hat{\beta}\|^2 / (n - p)$ and $\widehat{\Sigma}_{\hat{\beta}} = \hat{\sigma}^2 (X^T X)^{-1}$~\cite{wasserman2004}. Extracting the $2\times 2$ covariance block $\Sigma_{2\times 2}$, the joint $(1-\alpha)$ Fisher confidence ellipsoid ($\alpha = 0.05$) is
+\begin{equation}
+    (\theta - \hat{\beta}_{[i,j]})^T \, \Sigma_{2\times 2}^{-1} \, (\theta - \hat{\beta}_{[i,j]}) \le 2 \, F_{2,\, n-p,\, 1-\alpha}.
+\end{equation}
+Diagonalizing $\Sigma_{2\times 2} = Q \Lambda Q^T$ gives orthogonal semi-axes $\sqrt{2 F_{2, n-p, 1-\alpha}\, \lambda_k}$. Because $\Sigma_{\hat{\beta}}$ is proportional to $(X^T X)^{-1}$, the ratio between the major and minor semi-axes of the 2D Fisher ellipse equals the condition number $\kappa_2(X) = \sigma_1 / \sigma_2$ ($6.46\times$ for the Olympic 2D pair, $3.73\times$ for the 14 individual swimmers).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{figures/phase3_fisher_ellipses.png}
+    \caption{Joint 95\% 2D Fisher confidence ellipsoids, marginal Student $t$-intervals (dashed boxes), and Ridge regularization paths for the 2D Olympic dataset (left, $n=18$) and individual sprint swimmers (right, $n=14$).}
+    \label{fig:phase3_fisher}
+\end{figure}
+
+Figure~\ref{fig:phase3_fisher} shows three main points:
+\begin{enumerate}
+    \item \textbf{Stretched ellipse along $-45^\circ$:} because the two predictors are positively correlated, the sum $\beta_1 + \beta_2$ (across the narrow width: semi-axis $0.078$ in Olympic, $0.185$ in Individual) is well estimated, while the difference $\beta_1 - \beta_2$ (along the long axis: $0.502$ and $0.688$) is much more uncertain.
+    \item \textbf{Joint ellipse vs.\ separate $t$-intervals:} the dashed rectangular 95\% Student $t$-boxes ($\pm 0.283$ in Olympic, $\pm 0.394$ in Individual) cut off the diagonal ends of the ellipse and include corners that are unlikely when both weights are tested together.
+    \item \textbf{Position of Ridge inside the ellipse:} all optimal Ridge estimates (as well as $\lambda = 2.0$ with balanced weights $[0.236, 0.652]$ on individuals) stay well inside the 95\% Fisher region. Also, on the individual swimmers, the vertical line $\beta_1 = 0$ crosses the ellipse: once \texttt{100m Fly} is in the model, \texttt{50m Free} looks individually non-significant, even though the two events together explain $90.2\%$ of the \texttt{100m} variance.
+\end{enumerate}
+
+\subsection{Individual Predictions in Seconds \& Sporting Interpretation}
+
+Figure~\ref{fig:phase3_preds} converts the LOO predictions of the 14 individual swimmers back into real race seconds ($\text{RMSE}_{\text{LOO}} = 0.395\,\text{s}$).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{figures/phase3_predictions_seconds.png}
+    \caption{Leave-One-Out \texttt{100m Freestyle} predictions vs.\ actual times (left) and per-swimmer residuals in seconds (right) for $n=14$ multi-event athletes.}
+    \label{fig:phase3_preds}
+\end{figure}
+
+\noindent Both Men ($46.96\text{ to }49.23\,\text{s}$) and Women ($51.71\text{ to }55.49\,\text{s}$) stay close to the $y = \hat{y}$ line, and the residuals match the profiles found in Section~\ref{sec:profiling}:
+\begin{itemize}
+    \item \textbf{Swimmers with strong speed endurance ($y - \hat{y} < 0$):} Sarah Sjoestroem ($-0.513\,\text{s}$), Matthew Biondi ($-0.474\,\text{s}$), Jenny Thompson ($-0.429\,\text{s}$), and Emma Mckeon ($-0.367\,\text{s}$) swim a faster 100\,m Freestyle than expected from their 50\,m Freestyle and 100\,m Butterfly times alone.
+    \item \textbf{Pure explosive sprinters ($y - \hat{y} > 0$):} Inge De Bruijn ($+0.785\,\text{s}$) and Duje Draganja ($+0.486\,\text{s}$) are stronger on the 50\,m and 100\,m Butterfly than on the second 50\,m of the 100\,m Freestyle, while balanced sprinter Caeleb Dressel is predicted within $0.034\,\text{s}$ ($46.99\,\text{s}$ predicted vs.\ $46.96\,\text{s}$ actual).
+\end{itemize}
+
+% ============================================================
+% SECTION 4: LIMITATIONS, EXTENSIONS, AND CONCLUSION
+% ============================================================
+\section{Limitations, Extensions, and Conclusion}
+\label{sec:limitations}
+
+\subsection{Data and Scope Limitations}
+
+A few dataset constraints limit how far these results can be generalized:
+\begin{itemize}
+    \item \textbf{Small complete samples:} because the World Aquatics Top~200 file does not include the 50\,m Freestyle and most elite swimmers focus on one or two distances, only $n=14$ athletes (3 Men, 11 Women) have observed times in all three of \texttt{50m Free}, \texttt{100m Fly}, and \texttt{100m Free}, and only $6$ cover \texttt{50m}, \texttt{100m}, and \texttt{200m Free} together. Our multi-predictor individual models therefore describe swimmers who compete in several events rather than pure 100\,m specialists.
+
+    \item \textbf{Olympic averages vs.\ individual swimmers:} on the complete $18 \times 5$ Olympic matrix, every pair of events correlates above $0.90$, largely because all events improved together between 1988 and 2020 (captured by PC1 in Section~\ref{sec:profiling}, $95.8\%$ of variance). Regressions on Olympic edition averages therefore reflect this shared progress over time rather than individual swimmer differences.
+
+    \item \textbf{Mixing eras and name matching:} grouping personal bests from 1988 to 2022 mixes different training and equipment eras, including the 2008-2009 polyurethane swimsuit peak. During cleaning, 35 verified spelling, transliteration, punctuation, and middle-name variants were merged with an alias dictionary, though surname changes after marriage are not matched automatically.
+\end{itemize}
+
+\subsection{Statistical and Modelling Limitations}
+
+\begin{itemize}
+    \item \textbf{Repeated swimmers in the longitudinal Top~200:} as shown in Section~\ref{sec:intro}, the 200 men's entries in the 100\,m longitudinal table come from only 49 unique swimmers (for example, Caeleb Dressel has 16 entries and David Popovici has 15). Treating these 400 rows as independent observations would violate the i.i.d.\ error assumption of standard OLS and Fisher inference.
+
+    \item \textbf{Pre-LOO standardization and linear assumptions:} within-gender means and standard deviations ($\mu_{g,j}, \sigma_{g,j}$) were computed once on each dataset before running Leave-One-Out cross-validation, and OLS residual degrees of freedom use $n - p$ without adjusting for the two subtracted gender means. Also, a simple linear model cannot capture nonlinear effects at top speed.
+\end{itemize}
+
+\subsection{Future Extensions}
+
+Three possible extensions to this work are:
+\begin{enumerate}
+    \item \textbf{Split times and race mechanics:} adding first-50\,m and second-50\,m splits, reaction times, underwater distances, and stroke rate or length would help explain why swimmers like Sarah Sjoestroem ($-0.513\,\text{s}$) beat their 50\,m/100\,m Fly prediction while explosive sprinters like Inge De Bruijn ($+0.785\,\text{s}$) lose time on the second lap.
+
+    \item \textbf{Mixed-effects longitudinal model:} modelling the 400-row 100\,m Top~200 table with per-athlete random intercepts, nonlinear age curves, and swimsuit-era indicators would let us study career trajectories without breaking independence.
+
+    \item \textbf{Leakage-free imputation on predictors:} applying iterative imputation or Bayesian regression strictly on the predictor matrix $X$ (without touching $y$) would make it possible to include more of the $121$ swimmers who have an observed 100\,m time and at least one other sprint event.
+\end{enumerate}
+
+\subsection{Conclusion}
+
+To conclude, this study gives two main results, coded directly with NumPy and SciPy:
+\begin{itemize}
+    \item \textbf{Sprint profiles via SVD/PCA:} across 128 multi-event sprinters, PC1 ($82.2\%$ of variance) captures overall sprint speed, while PC2 ($17.0\%$) separates 100\,m/200\,m speed-endurance swimmers from pure 100\,m sprinters. On the complete 1988 to 2020 Olympic matrix, a rank-2 approximation keeps $98.12\%$ of variance ($\rho_2 = 1.88\%$) while showing strong collinearity ($\kappa_2(X^T X) = 816.86$).
+
+    \item \textbf{Predicting 100\,m times under collinearity (OLS, Ridge, Fisher):} the 50\,m Freestyle alone predicts 100\,m times with a LOO RMSE of $0.587\,\text{s}$ ($R^2 = 0.7199$), and adding the 100\,m Butterfly drops the error to $0.395\,\text{s}$ ($R^2 = 0.9017$) with clear per-swimmer residuals. When collinearity is severe ($\kappa_2(X^T X) = 587.27$), OLS assigns negative weights ($-0.070$ on 400\,m Free, $-0.077$ on 200\,m IM) and produces stretched 2D Fisher ellipses whose axis ratio equals $\kappa_2(X)$. Ridge regularization ($\lambda^* = 0.5995$) brings all weights back to positive values and lowers LOO error from $0.162\,\text{s}$ to $0.149\,\text{s}$.
+\end{itemize}
+
+\noindent Finally, the upcoming World Aquatics Swimming Championships (25\,m) in Beijing (December 1 to 6, 2026)~\cite{wa_beijing2026} could be used to compare these 50\,m long-course results with 25\,m short-course races, where turns and underwater swimming count much more.
 
 % ============================================================
 % REFERENCES
@@ -295,7 +509,7 @@ Their sporting meaning is clear:
 \bibitem{kaggle_top200}
 \texttt{romaniandatatribe},
 \textit{Swimming: Top In The World In Each Category},
-Kaggle dataset, World Aquatics top-200 historical long-course times (1980--2022).
+Kaggle dataset, World Aquatics top-200 historical long-course times (1980-2022).
 Available at: \url{https://www.kaggle.com/datasets/romaniandatatribe/swimming-top-in-the-world-in-each-category}.
 
 \bibitem{kaggle_olympics}
@@ -314,7 +528,7 @@ Official open-access edition: \url{https://hastie.su.domains/ElemStatLearn/}.
 \bibitem{deisenroth2020}
 M.~P.~Deisenroth, A.~A.~Faisal, and C.~S.~Ong,
 \textit{Mathematics for Machine Learning},
-Cambridge University Press, 2020 (Secs.~4.5--4.6: SVD and Matrix Approximation).
+Cambridge University Press, 2020 (Secs.~4.5-4.6: SVD and Matrix Approximation).
 ISBN 978-1-108-45514-5.
 Official open-access PDF: \url{https://mml-book.github.io/}.
 
@@ -324,6 +538,12 @@ L.~Wasserman,
 Springer Texts in Statistics, Springer, 2004.
 ISBN 978-0-387-40272-7, DOI: \url{https://doi.org/10.1007/978-0-387-21736-9}.
 Official book resource page: \url{https://www.stat.cmu.edu/~larry/all-of-statistics/}.
+
+\bibitem{wa_beijing2026}
+World Aquatics,
+\textit{World Aquatics Swimming Championships (25m) 2026, Beijing (December 1 to 6, 2026)},
+Official competition page.
+Available at: \url{https://www.worldaquatics.com/competitions/5052/world-aquatics-swimming-championships-25m-2026}.
 
 \end{thebibliography}
 
