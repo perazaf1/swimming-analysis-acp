@@ -15,7 +15,8 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.stats import f as f_dist, t as t_dist
+from scipy.stats import f as f_dist
+from scipy.stats import t as t_dist
 
 from sports_analytics_l3.spectral_pca import (
     FIGURES_DIR,
@@ -29,7 +30,7 @@ from sports_analytics_l3.spectral_pca import (
 
 @dataclass(frozen=True)
 class RegressionDataset:
-    """Complete gender-standardized regression dataset without target leakage."""
+    """Complete gender-standardized regression dataset (observed rows only, no SVD-imputed values)."""
 
     name: str
     X_raw: np.ndarray  # shape (n, p) in seconds
@@ -232,7 +233,7 @@ def select_ridge_lambda(
         "train_rmses": train_rmses,
         "cv_rmses": cv_rmses,
         "best_lam": best_lam,
-        "best_cv_rmses": best_cv_rmse,
+        "best_cv_rmse": best_cv_rmse,
     }
 
 
@@ -303,7 +304,7 @@ def plot_ridge_path_and_cv(
     train_rmses = np.asarray(cv_info["train_rmses"], dtype=float)
     cv_rmses = np.asarray(cv_info["cv_rmses"], dtype=float)
     best_lam = float(cv_info["best_lam"])  # type: ignore[arg-type]
-    best_cv = float(cv_info["best_cv_rmses"])  # type: ignore[arg-type]
+    best_cv = float(cv_info["best_cv_rmse"])  # type: ignore[arg-type]
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11.0, 4.3), dpi=150)
     fig.patch.set_facecolor("white")
@@ -502,6 +503,28 @@ def plot_predictions_in_seconds(
     fig.savefig(out_path, bbox_inches="tight")
     plt.close(fig)
     return out_path
+
+
+def run_phase3_pipeline() -> dict[str, object]:
+    """Run the full Phase 3 regression modelling analysis and export all three figures."""
+    ds_sprint = load_individual_dataset(("50m Freestyle", "100m Butterfly"))
+    ds_50 = load_individual_dataset(("50m Freestyle",))
+    ds_oly_5 = load_olympic_regression_dataset()
+    ds_oly_2 = load_olympic_regression_dataset(predictors=("50m Freestyle", "200m Freestyle"))
+
+    fig1 = plot_ridge_path_and_cv(ds_oly_5)
+    fig2 = plot_fisher_ellipses((ds_oly_2, ds_sprint))
+    fig3 = plot_predictions_in_seconds(ds_sprint, lam=0.0)
+
+    return {
+        "datasets": {
+            "individual_sprint": ds_sprint,
+            "individual_50m": ds_50,
+            "olympic_5": ds_oly_5,
+            "olympic_2": ds_oly_2,
+        },
+        "figures": [fig1, fig2, fig3],
+    }
 
 
 if __name__ == "__main__":

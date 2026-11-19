@@ -59,7 +59,7 @@ def parse_two_digit_date(series: pd.Series, pivot_year: int = 25) -> pd.Series:
 
 
 ATHLETE_NAME_ALIASES: dict[str, str] = {
-    # Orthographe, translittération, ponctuation et fautes de frappe
+    # Spelling, transliteration, punctuation, and typo variants
     "Sarah Sjostrom": "Sarah Sjoestroem",
     "Jörg Hoffmann": "Joerg Hoffmann",
     "Anke Möhring": "Anke Mohring",
@@ -80,7 +80,7 @@ ATHLETE_NAME_ALIASES: dict[str, str] = {
     "Fran Halsall": "Francesca Halsall",
     "Magdalena Veldhuis": "Marleen Veldhuis",
     "Kristof Kristof Milak": "Kristof Milak",
-    # Prénoms intermédiaires / formes partielles du même athlète
+    # Middle names and partial name forms of the same athlete
     "Jack Alan Mcloughlin": "Jack Mcloughlin",
     "Kieren John Perkins": "Kieren Perkins",
     "Viktor B Bromer": "Viktor Bromer",
@@ -214,6 +214,7 @@ def clean_olympic_results(
     )
 
     df_olympic["event"] = df_olympic["Distance (in meters)"].astype(str).str.strip() + " " + stroke
+    # Note: raw 'Rank' encodes podium outcome (1=Gold, 2=Silver, 3=Bronze, 4=non-medalist finalist).
     df_olympic["rank"] = pd.to_numeric(df_olympic["Rank"], errors="coerce")
 
     df_olympic = df_olympic.rename(

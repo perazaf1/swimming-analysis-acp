@@ -39,7 +39,7 @@
 \titlespacing*{\subsection}{0pt}{14pt}{5pt}
 
 % Running headers on continuation pages; clean plain style on section openers
-\setlength{\headheight}{14pt}
+\setlength{\headheight}{22pt}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\footnotesize\itshape\color{black!60}\nouppercase{\leftmark}}
@@ -77,6 +77,7 @@
 % ============================================================
 % COVER PAGE
 % ============================================================
+\hypersetup{pageanchor=false}
 \begin{titlepage}
     \centering
     \thispagestyle{empty}
@@ -147,6 +148,7 @@
     \vspace*{0.4cm}
 
 \end{titlepage}
+\hypersetup{pageanchor=true}
 
 % ============================================================
 % CONTENTS
@@ -182,10 +184,10 @@ This project is an independent personal study written for publication. For trans
 % ============================================================
 % SECTION 1: INTRODUCTION & DATA PIPELINE
 % ============================================================
-\section{Introduction \& Data Pipeline}
+\section{Introduction \texorpdfstring{\&}{and} Data Pipeline}
 \label{sec:intro}
 
-\subsection{Context \& Research Question}
+\subsection{Context \texorpdfstring{\&}{and} Research Question}
 
 The 100\,m Freestyle (50\,m long-course pool) is one of the most competitive events in swimming. At the elite level, a race lasts around 46 to 55 seconds and relies on two main physical qualities:
 \begin{itemize}
@@ -219,10 +221,10 @@ Both raw files are cleaned in Python with simple rules:
 
     \item \textbf{Name and event normalization:} \texttt{"LAST, First"} strings are unified to \texttt{"First Last"}, 35 verified spelling, transliteration, punctuation, and middle-name variants across sources (such as \textit{Sarah Sjostrom} $\to$ \textit{Sarah Sjoestroem} and \textit{Francesca}/\textit{Fran Halsall}) are merged using an alias dictionary, and event labels are standardized across both datasets (e.g.\ \texttt{"200m Individual Medley"}).
 
-    \item \textbf{Olympic filtering:} from 4{,}359 raw Olympic rows, we keep individual events (3{,}619 rows) with valid times (3{,}511 rows) from \textbf{1988 to 2020} (when the 50\,m Freestyle became a permanent Olympic event), and remove duplicates, leaving \textbf{1{,}869} clean records across 959 athletes (943 Men, 926 Women; zero missing values).
+    \item \textbf{Olympic filtering:} from 4{,}359 raw Olympic rows, we keep individual events (3{,}619 rows) with valid times (3{,}511 rows) from \textbf{1988 to 2020} (when the 50\,m Freestyle became a permanent Olympic event), and remove duplicates, leaving \textbf{1{,}869} clean records (943 men's and 926 women's entries; zero missing values) across \textbf{959} unique athletes.
 \end{itemize}
 
-\subsection{Processed Tables \& Limitations}
+\subsection{Processed Tables \texorpdfstring{\&}{and} Limitations}
 
 The cleaning step produces four analysis tables summarized in Table~\ref{tab:phase1_datasets}.
 
@@ -256,7 +258,7 @@ The cleaning step produces four analysis tables summarized in Table~\ref{tab:pha
 % ============================================================
 % SECTION 2: PROFILING 100M SWIMMERS VIA SVD / PCA
 % ============================================================
-\section{Profiling 100\,m Swimmers via SVD / PCA}
+\section{Profiling \texorpdfstring{100\,m}{100m} Swimmers via SVD / PCA}
 \label{sec:profiling}
 
 \subsection{SVD, PCA, and Definition of PC1 and PC2}
@@ -321,7 +323,7 @@ Figure~\ref{fig:biplot_sprint} plots the 128 swimmers in the $(\text{PC1}, \text
 \end{align}
 In swimming terms:
 \begin{itemize}
-    \item \textbf{PC1 (82.2\% of variance): overall sprint level.} All four event times have negative weights of similar size. Because a fast time corresponds to a negative standardized value $z$, faster swimmers get positive PC1 scores and sit on the right of the biplot (e.g.\ Caeleb Dressel at $\text{PC1}=+2.99$, Sarah Sjoestroem, David Popovici, and Emma McKeon at $+2.26$, Michael Phelps at $+1.81$), while slower or older-era swimmers sit on the left.
+    \item \textbf{PC1 (82.2\% of variance): overall sprint level.} All four event times have negative weights of similar size. Because a fast time corresponds to a negative standardized value $z$, faster swimmers get positive PC1 scores and sit on the right of the biplot (e.g.\ Caeleb Dressel at $\text{PC1}=+2.99$, Sarah Sjoestroem, David Popovici, and Emma Mckeon at $+2.26$, Michael Phelps at $+1.81$), while slower or older-era swimmers sit on the left.
 
     \item \textbf{PC2 (17.0\% of variance): 100\,m vs.\ 200\,m balance.} PC2 contrasts \texttt{100m Free} ($+0.635$) and \texttt{100m Fly} ($+0.268$) with \texttt{200m Free} ($-0.683$) and \texttt{50m Free} ($-0.240$). Because faster times are negative after standardization, negative PC2 scores correspond to swimmers who are relatively stronger on the 100\,m than on the 200\,m Freestyle (such as Sarah Sjoestroem at $\text{PC2}=-1.15$ or Kyle Chalmers at $-1.13$ with 47.08\,s vs.\ 105.48\,s), while balanced 100\,m/200\,m swimmers like Michael Phelps ($\text{PC2}=-0.10$, 47.51\,s vs.\ 102.96\,s) sit near zero.
 \end{itemize}
@@ -331,10 +333,10 @@ In swimming terms:
 % ============================================================
 % SECTION 3: 100M PERFORMANCE MODELLING UNDER COLLINEARITY
 % ============================================================
-\section{100\,m Performance Modelling under Collinearity}
+\section{\texorpdfstring{100\,m}{100m} Performance Modelling under Collinearity}
 \label{sec:modelling}
 
-\subsection{Modelling Matrices \& Collinearity Diagnostics}
+\subsection{Modelling Matrices \texorpdfstring{\&}{and} Collinearity Diagnostics}
 
 To model \texttt{100m Freestyle} times ($y$) without missing values on the target and without leaking information from the rank-2 SVD completion of Section~\ref{sec:profiling}, we build four complete, gender-standardized datasets from our cleaned tables:
 \begin{itemize}
@@ -434,7 +436,7 @@ Figure~\ref{fig:phase3_fisher} shows three main points:
     \item \textbf{Position of Ridge inside the ellipse:} all optimal Ridge estimates (as well as $\lambda = 2.0$ with balanced weights $[0.236, 0.652]$ on individuals) stay well inside the 95\% Fisher region. Also, on the individual swimmers, the vertical line $\beta_1 = 0$ crosses the ellipse: once \texttt{100m Fly} is in the model, \texttt{50m Free} looks individually non-significant, even though the two events together explain $90.2\%$ of the \texttt{100m} variance.
 \end{enumerate}
 
-\subsection{Individual Predictions in Seconds \& Sporting Interpretation}
+\subsection{Individual Predictions in Seconds \texorpdfstring{\&}{and} Sporting Interpretation}
 
 Figure~\ref{fig:phase3_preds} converts the LOO predictions of the 14 individual swimmers back into real race seconds ($\text{RMSE}_{\text{LOO}} = 0.395\,\text{s}$).
 
@@ -448,7 +450,7 @@ Figure~\ref{fig:phase3_preds} converts the LOO predictions of the 14 individual 
 \noindent Both Men ($46.96\text{ to }49.23\,\text{s}$) and Women ($51.71\text{ to }55.49\,\text{s}$) stay close to the $y = \hat{y}$ line, and the residuals match the profiles found in Section~\ref{sec:profiling}:
 \begin{itemize}
     \item \textbf{Swimmers with strong speed endurance ($y - \hat{y} < 0$):} Sarah Sjoestroem ($-0.513\,\text{s}$), Matthew Biondi ($-0.474\,\text{s}$), Jenny Thompson ($-0.429\,\text{s}$), and Emma Mckeon ($-0.367\,\text{s}$) swim a faster 100\,m Freestyle than expected from their 50\,m Freestyle and 100\,m Butterfly times alone.
-    \item \textbf{Pure explosive sprinters ($y - \hat{y} > 0$):} Inge De Bruijn ($+0.785\,\text{s}$) and Duje Draganja ($+0.486\,\text{s}$) are stronger on the 50\,m and 100\,m Butterfly than on the second 50\,m of the 100\,m Freestyle, while balanced sprinter Caeleb Dressel is predicted within $0.034\,\text{s}$ ($46.99\,\text{s}$ predicted vs.\ $46.96\,\text{s}$ actual).
+    \item \textbf{Pure explosive sprinters ($y - \hat{y} > 0$):} Inge De Bruijn ($+0.785\,\text{s}$), Duje Draganja ($+0.486\,\text{s}$), and Catherine Plewinski ($+0.458\,\text{s}$) are stronger on the 50\,m and 100\,m Butterfly than on the second 50\,m of the 100\,m Freestyle, while balanced sprinter Caeleb Dressel is predicted within $0.034\,\text{s}$ ($46.99\,\text{s}$ predicted vs.\ $46.96\,\text{s}$ actual).
 \end{itemize}
 
 % ============================================================
