@@ -9,7 +9,6 @@ Quantitative sports analytics study of elite 100m Freestyle swimming performance
 ├── data/
 │   ├── raw/                  # Raw CSV datasets (top_perf_categories.csv, Results_1912to2020.csv)
 │   └── processed/            # Cleaned tables and multi-event swimmer matrices
-├── notebooks/                # Exploratory Jupyter notebook
 ├── notes/                    # Step-by-step technical summaries (Phases 1 to 3)
 ├── paper/                    # LaTeX report (paper.tex, paper.pdf) and generated figures/
 ├── src/
