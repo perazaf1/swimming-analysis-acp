@@ -126,7 +126,7 @@
             {\footnotesize\scshape\textls[110]{Abstract}\par}
         \end{center}
         \vspace{-0.2cm}
-        \noindent Using World Aquatics Top~200 records (1980 to 2022) and Olympic Games results (1988 to 2020), this report analyses elite 100\,m Freestyle performances directly in \texttt{NumPy} and \texttt{SciPy}. First, we use reduced SVD and PCA to describe sprint profiles across 128 multi-event swimmers and 18 Olympic finals averages. Then, we compare OLS, Moore-Penrose, and Ridge regression with Leave-One-Out cross-validation and 95\% confidence intervals derived from Fisher information to see how collinearity between events affects 100\,m regression weights and prediction error.
+        \noindent This report studies elite 100\,m Freestyle swimming through World Aquatics Top~200 records and Olympic Games results. Using PCA, we distinguish swimmers' overall speed from their sprint-versus-endurance profile across multiple events. We then model 100\,m times from neighbouring distances and show how Ridge regression stabilizes coefficient estimates and improves prediction when strong collinearity breaks ordinary least squares.
     \end{minipage}
 
     \vspace*{\stretch{1.1}}
