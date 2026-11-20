@@ -3,8 +3,8 @@ Phase 3: 100m Freestyle performance modelling under collinearity.
 
 Implements collinearity diagnostics (condition numbers, VIF), linear regression
 estimators (OLS, Moore-Penrose pseudoinverse, Ridge regularization), analytical
-and explicit Leave-One-Out cross-validation, and 2D Fisher confidence ellipsoids
-directly from NumPy and SciPy linear algebra primitives.
+and explicit Leave-One-Out cross-validation, and Fisher information 95%
+confidence intervals directly from NumPy and SciPy linear algebra primitives.
 """
 
 from __future__ import annotations
@@ -15,7 +15,6 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.stats import f as f_dist
 from scipy.stats import t as t_dist
 
 from sports_analytics_l3.spectral_pca import (
@@ -252,38 +251,34 @@ def errors_std_to_seconds(
     return rmse_sec, errors_sec
 
 
-def compute_fisher_ellipse_2d(
+def compute_fisher_confidence_intervals(
     X: np.ndarray,
     y: np.ndarray,
-    idx: tuple[int, int] = (0, 1),
     alpha: float = 0.05,
-    n_points: int = 200,
 ) -> dict[str, object]:
-    """Compute the joint (1 - alpha) 2D Fisher confidence ellipsoid and marginal t-intervals."""
+    """Compute Fisher information matrix, inverse covariance, standard errors, and (1 - alpha) CIs."""
     res = fit_ols(X, y)
     n, p = X.shape
     df_resid = n - p
-    i, j = idx
     sigma2 = float(np.sum(res.residuals**2) / df_resid)
-    cov_beta = sigma2 * np.linalg.inv(X.T @ X)
-    center = res.beta[[i, j]]
-    cov_2d = cov_beta[np.ix_([i, j], [i, j])]
-    f_crit = float(f_dist.ppf(1.0 - alpha, 2, df_resid))
-    radius_sq = 2.0 * f_crit
-    eigvals, eigvecs = np.linalg.eigh(cov_2d)
-    theta = np.linspace(0.0, 2.0 * np.pi, n_points)
-    unit_circle = np.vstack([np.cos(theta), np.sin(theta)])
-    axes = eigvecs * np.sqrt(radius_sq * eigvals)
-    ellipse_pts = center[:, None] + axes @ unit_circle  # shape (2, n_points)
+    XtX = X.T @ X
+    fisher_info = XtX / sigma2
+    cov_beta = sigma2 * np.linalg.inv(XtX)
+    se_beta = np.sqrt(np.diag(cov_beta))
     t_crit = float(t_dist.ppf(1.0 - alpha / 2.0, df_resid))
-    marginal_half_widths = t_crit * np.sqrt(np.diag(cov_2d))
+    half_widths = t_crit * se_beta
+    ci_low = res.beta - half_widths
+    ci_high = res.beta + half_widths
 
     return {
-        "center": center,
-        "cov_2d": cov_2d,
-        "radius_sq": radius_sq,
-        "ellipse_pts": ellipse_pts,
-        "marginal_half_widths": marginal_half_widths,
+        "beta": res.beta,
+        "fisher_info": fisher_info,
+        "cov_beta": cov_beta,
+        "se_beta": se_beta,
+        "t_crit": t_crit,
+        "half_widths": half_widths,
+        "ci_low": ci_low,
+        "ci_high": ci_high,
         "sigma2": sigma2,
         "df_resid": df_resid,
     }
@@ -342,95 +337,88 @@ def plot_ridge_path_and_cv(
     return out_path
 
 
-def plot_fisher_ellipses(
+def plot_fisher_confidence_intervals(
     datasets: tuple[RegressionDataset, RegressionDataset],
-    out_path: Path = FIGURES_DIR / "phase3_fisher_ellipses.png",
+    out_path: Path = FIGURES_DIR / "phase3_fisher_ci.png",
 ) -> Path:
-    """Plot 95% 2D Fisher confidence ellipsoids, marginal boxes, and Ridge paths."""
+    """Plot 95% confidence intervals from inverse Fisher information vs. Ridge weights."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    fig, axes = plt.subplots(1, 2, figsize=(11.2, 4.8), dpi=150)
+    fig, axes = plt.subplots(1, 2, figsize=(11.2, 4.6), dpi=150)
     fig.patch.set_facecolor("white")
 
     for ax, ds in zip(axes, datasets):
-        ell = compute_fisher_ellipse_2d(ds.X_std, ds.y_std, idx=(0, 1), alpha=0.05)
-        center = np.asarray(ell["center"], dtype=float)
-        pts = np.asarray(ell["ellipse_pts"], dtype=float)
-        hw = np.asarray(ell["marginal_half_widths"], dtype=float)
-        cov_2d = np.asarray(ell["cov_2d"], dtype=float)
-
-        eigvals = np.linalg.eigvalsh(cov_2d)
-        ratio = float(np.sqrt(eigvals[1] / eigvals[0]))
+        ci_info = compute_fisher_confidence_intervals(ds.X_std, ds.y_std, alpha=0.05)
+        beta_ols = np.asarray(ci_info["beta"], dtype=float)
+        hw = np.asarray(ci_info["half_widths"], dtype=float)
+        diag = diagnose_collinearity(ds.X_std)
+        vifs = np.asarray(diag["vif"], dtype=float)
 
         cv_info = select_ridge_lambda(ds.X_std, ds.y_std)
-        betas_path = np.asarray(cv_info["betas"], dtype=float)
         best_lam = float(cv_info["best_lam"])  # type: ignore[arg-type]
         beta_r_best = fit_ridge(ds.X_std, ds.y_std, lam=best_lam).beta
         beta_r2 = fit_ridge(ds.X_std, ds.y_std, lam=2.0).beta
 
-        # 1. Joint 95% Fisher confidence ellipse
-        ax.fill(pts[0], pts[1], color="#0077B6", alpha=0.14)
-        ax.plot(pts[0], pts[1], color="#0077B6", lw=2.0, label="95% Fisher ellipse")
-
-        # 2. Marginal 95% Student t-interval box
-        rect_x = [
-            center[0] - hw[0],
-            center[0] + hw[0],
-            center[0] + hw[0],
-            center[0] - hw[0],
-            center[0] - hw[0],
+        p = len(ds.feature_names)
+        y_pos = np.arange(p)[::-1]
+        labels = [
+            f"{SHORT_EVENT_LABELS.get(f, f)}\n(VIF={vifs[j]:.1f})"
+            for j, f in enumerate(ds.feature_names)
         ]
-        rect_y = [
-            center[1] - hw[1],
-            center[1] - hw[1],
-            center[1] + hw[1],
-            center[1] + hw[1],
-            center[1] - hw[1],
-        ]
-        ax.plot(rect_x, rect_y, color="#64748B", lw=1.1, ls="--", label="95% marginal t-CI")
 
-        # 3. Ridge regularization trajectory and key estimators
-        ax.plot(betas_path[:, 0], betas_path[:, 1], color="#0A2540", lw=1.4, ls=":", label="Ridge path")
-        ax.scatter(center[0], center[1], color="#EE334E", s=60, zorder=5, label="OLS")
+        ax.axvline(0.0, color="#94A3B8", lw=1.1, ls="--")
+
+        # 1. 95% OLS / MLE confidence intervals from inverse Fisher information
+        ax.errorbar(
+            beta_ols,
+            y_pos + 0.10,
+            xerr=hw,
+            fmt="o",
+            color="#0077B6",
+            ecolor="#0077B6",
+            elinewidth=2.0,
+            capsize=4.5,
+            markersize=6.0,
+            label="OLS / MLE ± 95% Fisher CI",
+            zorder=4,
+        )
+
+        # 2. Optimal Ridge and Ridge(lambda=2.0) weights
         ax.scatter(
-            beta_r_best[0],
-            beta_r_best[1],
+            beta_r_best,
+            y_pos - 0.08,
             color="#0A2540",
             marker="D",
-            s=50,
-            zorder=6,
-            label=rf"Ridge ($\lambda^*={best_lam:.2f}$)",
+            s=48,
+            zorder=5,
+            label=rf"Ridge ($\lambda^*={best_lam:.3g}$)",
         )
         ax.scatter(
-            beta_r2[0],
-            beta_r2[1],
-            color="#F59E0B",
+            beta_r2,
+            y_pos - 0.22,
+            color="#EE334E",
             marker="^",
-            s=55,
-            zorder=6,
+            s=52,
+            zorder=5,
             label=r"Ridge ($\lambda=2.0$)",
         )
 
-        ax.axhline(0.0, color="#CBD5E1", lw=0.9)
-        ax.axvline(0.0, color="#CBD5E1", lw=0.9)
-        ax.set_aspect("equal", adjustable="datalim")
-
-        f0 = SHORT_EVENT_LABELS.get(ds.feature_names[0], ds.feature_names[0])
-        f1 = SHORT_EVENT_LABELS.get(ds.feature_names[1], ds.feature_names[1])
-        kind = "Olympic" if ds.name.startswith("olympic") else "Individual"
+        kind = "Olympic 5-Event" if ds.name.startswith("olympic") else "Individual Sprint"
+        ax.set_yticks(y_pos)
+        ax.set_yticklabels(labels, fontsize=8.5)
+        ax.set_ylim(-0.95, p - 0.35)
         ax.set_title(
-            f"{kind} (n={ds.X_std.shape[0]}, axis ratio={ratio:.2f}x)",
+            f"{kind} (n={ds.X_std.shape[0]}, df={ci_info['df_resid']})",
             fontsize=10.5,
             fontweight="bold",
         )
-        ax.set_xlabel(rf"Weight on {f0} ($\beta_1$)")
-        ax.set_ylabel(rf"Weight on {f1} ($\beta_2$)")
-        ax.grid(True, linestyle=":", alpha=0.4)
+        ax.set_xlabel(r"Standardized weight $\beta_j$ and 95% confidence interval")
+        ax.grid(True, axis="x", linestyle=":", alpha=0.45)
         ax.legend(
             frameon=True,
             facecolor="white",
             edgecolor="#CBD5E1",
-            fontsize=7.6,
-            loc="upper right",
+            fontsize=7.8,
+            loc="lower right",
         )
 
     fig.tight_layout()
@@ -513,7 +501,7 @@ def run_phase3_pipeline() -> dict[str, object]:
     ds_oly_2 = load_olympic_regression_dataset(predictors=("50m Freestyle", "200m Freestyle"))
 
     fig1 = plot_ridge_path_and_cv(ds_oly_5)
-    fig2 = plot_fisher_ellipses((ds_oly_2, ds_sprint))
+    fig2 = plot_fisher_confidence_intervals((ds_oly_5, ds_sprint))
     fig3 = plot_predictions_in_seconds(ds_sprint, lam=0.0)
 
     return {
@@ -617,30 +605,33 @@ if __name__ == "__main__":
             f"| beta={np.round(res_best.beta, 3)}"
         )
 
-    print("\n=== Step 4: 2D Fisher Confidence Ellipsoids ===")
-    for ds in (ds_oly_2, ds_sprint):
-        ell = compute_fisher_ellipse_2d(ds.X_std, ds.y_std, idx=(0, 1), alpha=0.05)
-        center = ell["center"]
-        cov_2d = ell["cov_2d"]
-        pts = ell["ellipse_pts"]
-        # Verify contour points satisfy (x - c)^T Sigma^-1 (x - c) == radius_sq
-        diff = pts - center[:, None]
-        inv_cov = np.linalg.inv(cov_2d)
-        quad_forms = np.sum(diff * (inv_cov @ diff), axis=0)
-        assert np.allclose(quad_forms, ell["radius_sq"], atol=1e-10)
+    print("\n=== Step 4: Fisher Information and 95% Confidence Intervals ===")
+    for ds in (ds_oly_5, ds_oly_2, ds_sprint):
+        ci = compute_fisher_confidence_intervals(ds.X_std, ds.y_std, alpha=0.05)
+        n, p = ds.X_std.shape
+        diag = diagnose_collinearity(ds.X_std)
+        fisher_info = np.asarray(ci["fisher_info"], dtype=float)
+        cov_beta = np.asarray(ci["cov_beta"], dtype=float)
+        se_beta = np.asarray(ci["se_beta"], dtype=float)
+        hw = np.asarray(ci["half_widths"], dtype=float)
 
-        eigvals = np.linalg.eigvalsh(cov_2d)
-        semi_axes = np.sqrt(ell["radius_sq"] * eigvals)
+        # Verify I_n(beta) * Sigma_beta == I_p and SE(beta_j) == sigma_hat * sqrt(VIF_j / n)
+        assert np.allclose(fisher_info @ cov_beta, np.eye(p), atol=1e-10)
+        assert np.allclose(
+            se_beta,
+            np.sqrt(float(ci["sigma2"]) * np.asarray(diag["vif"], dtype=float) / n),
+            atol=1e-10,
+        )
         print(
-            f"[{ds.name}] center={np.round(center, 3)} "
-            f"| semi_axes={np.round(semi_axes, 3)} (ratio={semi_axes[1] / semi_axes[0]:.2f}x)"
+            f"[{ds.name}] beta={np.round(ci['beta'], 3)} "
+            f"| SE={np.round(se_beta, 3)} | 95% CI half-width=±{np.round(hw, 3)}"
         )
 
     fig1 = plot_ridge_path_and_cv(ds_oly_5)
     assert fig1.exists() and fig1.stat().st_size > 0
     print("\nGenerated figure:", fig1)
 
-    fig2 = plot_fisher_ellipses((ds_oly_2, ds_sprint))
+    fig2 = plot_fisher_confidence_intervals((ds_oly_5, ds_sprint))
     assert fig2.exists() and fig2.stat().st_size > 0
     print("Generated figure:", fig2)
 

@@ -19,7 +19,7 @@ def main() -> None:
     p2 = run_phase2_pipeline()
     print("  Generated figures:", ", ".join(str(p.name) for p in p2["figures"]))  # type: ignore[attr-defined]
 
-    print("[Phase 3] Running collinearity diagnostics, Ridge LOO CV, and Fisher ellipsoids...")
+    print("[Phase 3] Running collinearity diagnostics, Ridge LOO CV, and Fisher 95% CIs...")
     p3 = run_phase3_pipeline()
     print("  Generated figures:", ", ".join(str(p.name) for p in p3["figures"]))  # type: ignore[attr-defined]
     print("All three phases completed successfully.")

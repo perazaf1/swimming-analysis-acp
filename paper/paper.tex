@@ -126,7 +126,7 @@
             {\footnotesize\scshape\textls[110]{Abstract}\par}
         \end{center}
         \vspace{-0.2cm}
-        \noindent Using World Aquatics Top~200 records (1980 to 2022) and Olympic Games results (1988 to 2020), this report analyses elite 100\,m Freestyle performances directly in \texttt{NumPy} and \texttt{SciPy}. First, we use reduced SVD and PCA to describe sprint profiles across 128 multi-event swimmers and 18 Olympic finals averages. Then, we compare OLS, Moore-Penrose, and Ridge regression with Leave-One-Out cross-validation and 2D Fisher confidence ellipsoids to see how collinearity between events affects 100\,m regression weights and prediction error.
+        \noindent Using World Aquatics Top~200 records (1980 to 2022) and Olympic Games results (1988 to 2020), this report analyses elite 100\,m Freestyle performances directly in \texttt{NumPy} and \texttt{SciPy}. First, we use reduced SVD and PCA to describe sprint profiles across 128 multi-event swimmers and 18 Olympic finals averages. Then, we compare OLS, Moore-Penrose, and Ridge regression with Leave-One-Out cross-validation and 95\% confidence intervals derived from Fisher information to see how collinearity between events affects 100\,m regression weights and prediction error.
     \end{minipage}
 
     \vspace*{\stretch{1.1}}
@@ -414,26 +414,25 @@ Figure~\ref{fig:phase3_ridge_cv} and Table~\ref{tab:phase3_models} show what col
     \label{tab:phase3_models}
 \end{table}
 
-\subsection{2D Fisher Confidence Ellipsoids}
+\subsection{Fisher Information and 95\% Confidence Intervals}
 
-To visualize parameter uncertainty for a pair of coefficients $\theta = (\beta_i, \beta_j)^T$ under OLS, we estimate $\hat{\sigma}^2 = \|y - X\hat{\beta}\|^2 / (n - p)$ and $\widehat{\Sigma}_{\hat{\beta}} = \hat{\sigma}^2 (X^T X)^{-1}$~\cite{wasserman2004}. Extracting the $2\times 2$ covariance block $\Sigma_{2\times 2}$, the joint $(1-\alpha)$ Fisher confidence ellipsoid ($\alpha = 0.05$) is
+Under the Gaussian linear model $y = X\beta + \varepsilon$ with $\varepsilon \sim \mathcal{N}(0, \sigma^2 I_n)$, the OLS estimator $\hat{\beta}$ is the Maximum Likelihood Estimator (MLE), and the Fisher information matrix for $\beta$ is $I_n(\beta) = -\mathbb{E}[D^2_\beta \ell_n(\beta)] = \frac{1}{\sigma^2} X^T X$~\cite{wasserman2004}. Estimating $\hat{\sigma}^2 = \|y - X\hat{\beta}\|^2 / (n - p)$ gives the covariance matrix $\widehat{\Sigma}_{\hat{\beta}} = \widehat{I_n(\beta)}^{-1} = \hat{\sigma}^2 (X^T X)^{-1}$, the standard errors $\widehat{\text{SE}}(\hat{\beta}_j) = \sqrt{(\widehat{\Sigma}_{\hat{\beta}})_{jj}} = \hat{\sigma}\sqrt{\text{VIF}_j / n}$, and the 95\% confidence intervals ($\alpha = 0.05$):
 \begin{equation}
-    (\theta - \hat{\beta}_{[i,j]})^T \, \Sigma_{2\times 2}^{-1} \, (\theta - \hat{\beta}_{[i,j]}) \le 2 \, F_{2,\, n-p,\, 1-\alpha}.
+    \text{CI}_{1-\alpha}(\beta_j) = \Bigl[\hat{\beta}_j - t_{n-p,\, 1-\alpha/2}\,\widehat{\text{SE}}(\hat{\beta}_j),\;\; \hat{\beta}_j + t_{n-p,\, 1-\alpha/2}\,\widehat{\text{SE}}(\hat{\beta}_j)\Bigr].
 \end{equation}
-Diagonalizing $\Sigma_{2\times 2} = Q \Lambda Q^T$ gives orthogonal semi-axes $\sqrt{2 F_{2, n-p, 1-\alpha}\, \lambda_k}$. Because $\Sigma_{\hat{\beta}}$ is proportional to $(X^T X)^{-1}$, the ratio between the major and minor semi-axes of the 2D Fisher ellipse equals the condition number $\kappa_2(X) = \sigma_1 / \sigma_2$ ($6.46\times$ for the Olympic 2D pair, $3.73\times$ for the 14 individual swimmers).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.98\textwidth]{figures/phase3_fisher_ellipses.png}
-    \caption{Joint 95\% 2D Fisher confidence ellipsoids, marginal Student $t$-intervals (dashed boxes), and Ridge regularization paths for the 2D Olympic dataset (left, $n=18$) and individual sprint swimmers (right, $n=14$).}
+    \includegraphics[width=0.98\textwidth]{figures/phase3_fisher_ci.png}
+    \caption{OLS / MLE estimates with 95\% confidence intervals from inverse Fisher information $\widehat{I_n(\beta)}^{-1}$, compared with Ridge weights ($\lambda^*$ and $\lambda = 2.0$) on the 5-event Olympic dataset (left, $n=18$) and individual sprint swimmers (right, $n=14$).}
     \label{fig:phase3_fisher}
 \end{figure}
 
 Figure~\ref{fig:phase3_fisher} shows three main points:
 \begin{enumerate}
-    \item \textbf{Stretched ellipse along $-45^\circ$:} because the two predictors are positively correlated, the sum $\beta_1 + \beta_2$ (across the narrow width: semi-axis $0.078$ in Olympic, $0.185$ in Individual) is well estimated, while the difference $\beta_1 - \beta_2$ (along the long axis: $0.502$ and $0.688$) is much more uncertain.
-    \item \textbf{Joint ellipse vs.\ separate $t$-intervals:} the dashed rectangular 95\% Student $t$-boxes ($\pm 0.283$ in Olympic, $\pm 0.394$ in Individual) cut off the diagonal ends of the ellipse and include corners that are unlikely when both weights are tested together.
-    \item \textbf{Position of Ridge inside the ellipse:} all optimal Ridge estimates (as well as $\lambda = 2.0$ with balanced weights $[0.236, 0.652]$ on individuals) stay well inside the 95\% Fisher region. Also, on the individual swimmers, the vertical line $\beta_1 = 0$ crosses the ellipse: once \texttt{100m Fly} is in the model, \texttt{50m Free} looks individually non-significant, even though the two events together explain $90.2\%$ of the \texttt{100m} variance.
+    \item \textbf{Larger VIF means wider intervals:} because $\widehat{\text{SE}}(\hat{\beta}_j) = \hat{\sigma}\sqrt{\text{VIF}_j / n}$, events with high VIFs in the Olympic model (\texttt{200m Free} at $\text{VIF} = 61.67$, \texttt{200m IM} at $\text{VIF} = 57.34$) have large standard errors ($0.275$ and $0.265$) and wide 95\% confidence intervals ($\pm 0.594$ and $\pm 0.573$).
+    \item \textbf{Intervals crossing zero:} in the 5-event Olympic OLS fit, three of the five 95\% confidence intervals cross zero (\texttt{200m Free}: $[-0.311, +0.877]$; \texttt{400m Free}: $[-0.334, +0.194]$; \texttt{200m IM}: $[-0.650, +0.496]$). On the 14 individual swimmers ($\widehat{\text{SE}} = 0.181$, half-width $\pm 0.394$), once \texttt{100m Fly} ($[+0.514, +1.302]$) is in the model, the 95\% interval for \texttt{50m Free} ($[-0.346, +0.442]$) also crosses zero, even though the two events together explain $90.2\%$ of the \texttt{100m} variance.
+    \item \textbf{Ridge stays inside the 95\% intervals:} all optimal Ridge estimates ($\lambda^* = 0.60$ on Olympic, $\lambda^* = 0.001$ and $\lambda = 2.0$ with balanced weights $[0.236, 0.652]$ on individuals) stay well inside the 95\% OLS confidence intervals while removing the negative weights.
 \end{enumerate}
 
 \subsection{Individual Predictions in Seconds \texorpdfstring{\&}{and} Sporting Interpretation}
@@ -495,7 +494,7 @@ To conclude, this study gives two main results, coded directly with NumPy and Sc
 \begin{itemize}
     \item \textbf{Sprint profiles via SVD/PCA:} across 128 multi-event sprinters, PC1 ($82.2\%$ of variance) captures overall sprint speed, while PC2 ($17.0\%$) separates 100\,m/200\,m speed-endurance swimmers from pure 100\,m sprinters. On the complete 1988 to 2020 Olympic matrix, a rank-2 approximation keeps $98.12\%$ of variance ($\rho_2 = 1.88\%$) while showing strong collinearity ($\kappa_2(X^T X) = 816.86$).
 
-    \item \textbf{Predicting 100\,m times under collinearity (OLS, Ridge, Fisher):} the 50\,m Freestyle alone predicts 100\,m times with a LOO RMSE of $0.587\,\text{s}$ ($R^2 = 0.7199$), and adding the 100\,m Butterfly drops the error to $0.395\,\text{s}$ ($R^2 = 0.9017$) with clear per-swimmer residuals. When collinearity is severe ($\kappa_2(X^T X) = 587.27$), OLS assigns negative weights ($-0.070$ on 400\,m Free, $-0.077$ on 200\,m IM) and produces stretched 2D Fisher ellipses whose axis ratio equals $\kappa_2(X)$. Ridge regularization ($\lambda^* = 0.5995$) brings all weights back to positive values and lowers LOO error from $0.162\,\text{s}$ to $0.149\,\text{s}$.
+    \item \textbf{Predicting 100\,m times under collinearity (OLS, Ridge, Fisher CIs):} the 50\,m Freestyle alone predicts 100\,m times with a LOO RMSE of $0.587\,\text{s}$ ($R^2 = 0.7199$), and adding the 100\,m Butterfly drops the error to $0.395\,\text{s}$ ($R^2 = 0.9017$) with clear per-swimmer residuals. When collinearity is severe ($\kappa_2(X^T X) = 587.27$), OLS assigns negative weights ($-0.070$ on 400\,m Free, $-0.077$ on 200\,m IM) and gives wide 95\% confidence intervals (up to $\pm 0.594$). Ridge regularization ($\lambda^* = 0.5995$) brings all weights back to positive values inside the 95\% confidence intervals and lowers LOO error from $0.162\,\text{s}$ to $0.149\,\text{s}$.
 \end{itemize}
 
 \noindent Finally, the upcoming World Aquatics Swimming Championships (25\,m) in Beijing (December 1 to 6, 2026)~\cite{wa_beijing2026} could be used to compare these 50\,m long-course results with 25\,m short-course races, where turns and underwater swimming count much more.

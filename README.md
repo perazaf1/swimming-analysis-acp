@@ -18,7 +18,7 @@ The full report is available in [`paper/paper.pdf`](paper/paper.pdf).
 └── src/sports_analytics_l3/
     ├── data_cleaning.py      # Phase 1: time/date parsing, alias resolution, processed CSVs
     ├── spectral_pca.py       # Phase 2: gender standardization, reduced SVD/PCA, rank-2 completion
-    └── modelling.py          # Phase 3: collinearity (VIF, cond), OLS/MP/Ridge, LOO CV, Fisher ellipses
+    └── modelling.py          # Phase 3: collinearity (VIF, cond), OLS/MP/Ridge, LOO CV, Fisher 95% CIs
 ```
 
 ## Data Sources
